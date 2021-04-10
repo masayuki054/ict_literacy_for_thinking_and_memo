@@ -1,0 +1,1 @@
+# ict_literacy_for_thinking_and_memo
