@@ -69,8 +69,8 @@ def deploy(file, dir)
     target.write(all)
   end
 
-#  sh "git add #{dir}/#{file}"
-#  sh "git commit -m deploy_#{NOW} #{dir}/#{file}"
+  sh "git add #{dir}/#{file}"
+  sh "git commit -m deploy_#{NOW} #{dir}/#{file}"
 
 end
 

@@ -5,7 +5,7 @@ EXCLUDES = [
 ]
 
 ORGS = [
-  "story.org",
+  "index.org",
   "link.org"
 ]
 
