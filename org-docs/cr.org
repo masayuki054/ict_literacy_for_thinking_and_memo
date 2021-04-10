@@ -1,0 +1,932 @@
+* クリティカルシンキング（批判的思考）とは？具体例とトレーニング方法
+
+  [[https://twitter.com/sugimuratakashi][@sugimuratakashi]]
+
+** なぜクリティカルシンキングが重要視されているか
+
+   - 今までの時代は組織の中で*「決まったことを正確にできる人間」*が求
+     められていたわけですが、
+
+   - これからの時代は真逆で、*「自分の頭で考え、最適解を出せる人間」*
+     が必要だからです。
+
+  「人生を変える勉強をしよう」と重なる。
+
+** 反批評的思考
+
+   思考法は重要なわけです。
+   にも関わらず、いまだにこういう考えをしている大人がいるんですよね。
+
+- *自分の考えは正しい*
+- *批判をするのは良くないこと*
+- *すごい人が言ってるから正解だ*
+- *みんなが言っていれば正解だ*
+- *常識的に考えると〜*
+
+分析ができなければ、軌道修正ができないということなので、基本的に何をやっ
+てもうまくいく可能性は低いわけです。
+
+誤った論理、誤った信念を信じているから現実が失敗、あるいは問題があると
+いうことに気がつかなければ、問題は解決できません。
+
+実践的に使えるクリティカルシンキングをコンサルの立場でお伝えしていきま
+す。
+
+*一生物のスキル*ですから、読んで「へー」で終わらずに実践をしましょう。
+
+** ■クリティカルシンキング（批判的思考）の意味とは？
+
+*** ・クリティカルシンキングとは？
+
+クリティカルシンキングとは、物事の前提を疑うことで最適解を導き出すため
+の思考法です。
+
+ロジカルシンキング（論理的思考）が有名ですが、ロジカルシンキングだけで
+は*前提条件が間違っていれば、間違った結論になる*ことが問題なんですね。
+
+例えば、「最近、売上が落ちている。競合店が増えたからだ。ならば、他店に
+ないサービスを実施しよう」と言った論理。一見して、正しく聞こえるかもし
+れません。
+
+まず事実の把握として「売上減少」という事象を見て、次に解釈として「競合
+店が増えている」という事象を理由として上げ、結論として「競合店にないサー
+ビスの実施」と言った具合です。
+
+しかし、問題と結論の因果関係が曖昧です。これが論理的思考だけを使った場
+合に限界があるということ。
+
+前提が正しいという中で思考を進めていくと本質を見失ったり、誤った条件を
+加えてしまったりと、うまく論理展開ができないわけです。
+
+そこで必要なのが、*クリティカルシンキング（批判的思考）*なのです。
+
+売上が落ちた要因は、競合店の出現のような外部要因だけではなく内部要因も
+あるでしょうし、競合店にないサービスや付加価値が必ずしも売上上昇に貢献
+するとは限りません。もっといえば、何をすればどの程度の売り上げ上昇がで
+きるのか？売上の改善とは、いくらを指すのか？そもそも売り上げではなく、
+利益を上げたいのではないでしょうか？
+
+といった具合に、出た結論に対して、様々な角度で検証をすること、前提を疑
+うこと、目的を意識することなどによって、問題の本質をクリアにしていくこ
+とができるわけです。
+
+*** ・批判の本質とは？
+
+「批判的」というと、ネガティブなイメージを持つ人が多いですが、本来の批
+判とは客観的な視点を持つために、
+
+- *不足している「モレ」*
+- *重複している「ダブり」*
+- *結論に当てはまらない「例外」*
+- *別の「可能性」*
+- *別の「根拠」*
+- *目的との「整合性」*
+
+と言った、矛盾点を様々な角度で検証することで、論理を確実なものにするた
+めに必要な要素なのです。
+
+根拠や論理がなく、他人の悪口を言ったり、口汚い言葉で罵る、*責めるよう
+なことは批判ではなく非難と言います。*
+
+*** ・論理とは？
+
+「それは論理的だ」「論理にかなってない」などと言いますが、そもそも「論理」ってなんだ？ことですよね。
+
+批判的思考は、最適解である論理を導くためにあるわけですが、なぜ論理的にしなければいけないのか？
+
+論理とは、調べるとこうですね。
+
+#+BEGIN_QUOTE
+  *考えや議論などを進めていく筋道。思考や論証の組み立て。思考の妥当性が保証される法則や形式。*
+#+END_QUOTE
+
+つまり、*思考の「組み立て方」「やり方」のことを論理と言います。*
+
+論理というのは、*「こうだったら、こうなる」「こういう条件であれば、こ
+のような結果が得られる」*という妥当性のあるものです。
+
+一方で「理屈」という言葉がありますが、理屈はこうあります。
+
+#+BEGIN_QUOTE
+  *無理につじつまを合わせた論理。こじつけの理論。*
+#+END_QUOTE
+
+この意味で使われることが多いかと思いますが、つまり、「理屈」の「屈」と
+いう漢字は、折れ曲がるという意味になりますが、無理に捻じ曲げたというこ
+とですね。
+
+ビジネスシーンにおいては、すべては科学でなければいけないわけです。*科
+学とは再現性が必要*ということ。自分の都合で捻じ曲げた理屈を持っていて
+も、うまくいかなくて当然なのです。
+
+なので、「論理的」でなければいけない。そのために、本質まで行くようにク
+リティカルに思考をして行く必要性もあるということです。
+
+** ■クリティカルシンキング（批判的思考）の3つの基本
+
+クリティカルシンキングのテクニックを学ぶ前に、基本的な姿勢として以下の３つが必要になります。
+
+*** （１）そもそも目的は？
+
+思考している最中に目的を見失うことが多々あります。それが最大の問題なのです。\\
+*目の前の問題を解決しようとするあまり、根本的な目的を見失ってしまう。*
+
+あるいは、希望的観測や、願望が入ってしまうという非論理的な思考展開をす
+ると、目的はどこかへ消え去りますよね。
+
+なので、クリティカルシンキングでは常に*「そもそも」*という思考を使い、
+当初の目的を意識しながら思考をしていく姿勢が大切です。
+
+*** （２）誰もが思い込みがある前提
+
+大前提として、*自分自身も、議論する相手も、誰もが思い込みや思考グセが
+ある*ということを常に念頭におくことが大事です。
+
+コンサルタントならば情報を集める際に、様々な関係者に質問をしますが、そ
+の回答をそのまま鵜呑みにすることは絶対にありません。あくまで、人は色眼
+鏡をかけて解釈をしているわけなので、「この人はそう見えているのだな」と
+いうことであり、*客観的事実である数字など以外は、そのまま鵜呑みにして
+はいけないのです。*数字ですら解釈が間違うこともありますから。鵜呑みに
+はできません。
+
+もちろんそれは、他者の解釈だけではなく、常識などに対してもそうですし、
+自分自身に対してもそうです。自分が思い込みにハマっていないか？という視
+点はとても重要になります。
+
+*** （３）問い続ける
+
+最後に、*「問いをやめない」*ということです。
+
+考えきれない人は、少し考えて壁にぶち当たるとすぐ思考をやめてしまったり、
+結論が出た時点で思考を止めてしまいます。
+
+そうではなく、それでなんなのか？その答えにどういう意味があるのか？なぜ
+そうなるのか？本当にそうなのか？と言った問いをやめずに、本質に行き着く
+必要があります。
+
+** ■クリティカルシンキングができない人の特徴
+
+ここまで聞けばわかるように、頭が硬い人はこう言った思考法ができないわけ
+ですが、一番、向いていないのは、*課題中心的ではなく、自己中心的に物事
+を考えがちの人*です。
+
+課題を中心に考えていれば、その問題が解決すること、その課題が良くなるこ
+とに対して、思考し、議論することができます。
+
+しかし、課題中心ではない人、つまり、自己中心的な状態というのは、課題と
+自分を分離できないので、人に意見を言われたら*「カチン」*と来てしまった
+りするわけです。
+
+*自分が非難されていると思い込んで擁護に回ったりすると、もう議論どころ
+ではなくなります。*
+
+あくまで課題解決について話し合わないといけない、考えないといけないわけ
+なので、自分のことは置いておかないといけないわけです。
+
+この段階の人は、ビジネス以前に、７つの習慣など基本的な人としてのあり方
+から学んだほうがいいでしょうね。その考えで万が一、成功してしまったら、
+暴君と化してしまいますから（笑）
+
+** ■クリティカルシンキングとロジカルシンキング（論理的思考）の違いと使い方の具体例
+
+では具体的な使い方です。
+
+今回の例では、あなたがお店を経営していて、売上が減少していることに困っ
+ているという課題を設定して考えて行きましょう。
+
+*** STEP1：ロジカルシンキングで情報を整理・分類する
+
+
+**** ・MECE
+     :PROPERTIES:
+     :CUSTOM_ID: mece
+     :CLASS: style5a
+     :END:
+
+まず最初に必要なのは現状の把握です。\\
+この際、MECEで考えます。MECE（ミーシー）とは、*「もれなく・ダブりなく」*という意味です。\\
+考えるべき要素が漏れていた場合、結論に誤りが出ますし、同じ要素が複数あった場合も、話がややこしくなってしまうため、「もれなく・ダブりなく」要素を出すことが先決になります。
+
+**** ・ロジックツリー
+     :PROPERTIES:
+     :CUSTOM_ID: ロジックツリー
+     :CLASS: style5a
+     :END:
+
+MECEで情報整理をする際に便利なツールとして、ロジックツリーがあります。\\
+頭の中で考えていても、漏れやダブりを発見しにくいため、実際にツリー状にして書き出すのです。
+
+[[https://sugimuratakashi.com/wp-content/uploads/2017/05/logic.001.png]]
+
+この場合、課題として「売上減少」という項目を最初に書き出します。
+
+次に、その要因となる要素を書き出します。
+
+この際、「売上」を構成している要素に沿って書き出すことが大事です。\\
+この話では「売上」の話をしているので、数字の話です。\\
+その数字を構成する要素は「お客さんの人数」と「顧客単価」と「利用回数」と言ったことになるはずです。
+
+新規のお客さんが減ってるのか？\\
+それとも客単価が減っているのか？\\
+リピーターついていないのか？\\
+それとも、すべての要因に当てはまるのか？\\
+「売上減少」の要素を書き出して行きます。
+
+そこからさらに細分化して、「お客さんが減っている」という要素の、さらに要素は何か？細分化して情報を集めます。
+
+この場合、「宣伝効果が悪くなってきた」「リピーターが増えていかない」「競合店が近所にできた」と言った要素としました。
+
+
+*** STEP2：ロジカルシンキングで仮説を立てる
+
+情報が出揃ったら、各項目ごとに結論（対処法）を導き出して行きます。\\
+結論に対して課題が出てきたら、またそれも検討します。
+
+その際にどのように思考して行くのかというと、演繹法と帰納法というのがポピュラーです。
+
+**** ・演繹法の例
+     :PROPERTIES:
+     :CUSTOM_ID: 演繹法の例
+     :CLASS: style5a
+     :END:
+
+演繹法とは、「〇〇だから、△△である」という論理をつなげて行って、結論を導き出します。普遍的な大前提・原理原則と、観察した普遍的な事実の２つから考えます。
+
+*「スギムーは人間である→人間はお腹が空く→スギムーはお腹が空く」*
+
+と言った具合ですね。
+
+例えば「客数が減っている」という事象の結論を導き出すのに対して、以下の絶対的な事実を使うとします。
+
+*1.「新規顧客を獲得するのにコストを支払っていては利益が出ない（新規客だけで客数を増やすことは不可能である）」*\\
+*2.「当店のリピート率は昨年対比でマイナス30%である」*
+
+であれば、客数が減っている要因は
+
+*結論＝リピーターが減っているから売上減少につながる客数現象が生じている*
+
+という仮説が立ちます。
+
+次は「なぜリピーターが増えないのか？」と、論理を掘り下げて行きます。\\
+例えば、その際に以下の２つの絶対的な事実を使うとします。
+
+*1.「顧客満足度が極端に低ければ、顧客はリピートしない」*\\
+*2.「アンケート調査で、顧客満足度が作対比で低下していることが分かった」*
+
+*結論＝「当店のリピーター低下の問題は顧客満足度低下にある」*
+
+ここで重要なのは絶対的に事実を使うことです。論理とは、例外があってはいけません。\\
+なので、「ビジネスの原理原則」「数字」と言ったものを使用します。*主観では「理屈」になってしまいます*からね。
+
+**** ・帰納法の例
+     :PROPERTIES:
+     :CUSTOM_ID: 帰納法の例
+     :CLASS: style5a
+     :END:
+
+次に帰納法です。帰納法とは、様々な事例や傾向をまとめて結論に導きます。
+
+*「スギムーはお腹が空いた。壇蜜もお腹が空いた。あなたもお腹が空いた。つまり、人間はお腹が空く」*
+
+と言った具合です。
+
+*事例が少ないと、間違った結論に行きがち*ですから注意しましょう。
+
+例えば、「売上減少」という問題に対して、リピートも増えず、集客も悪くなっていて、あらゆる問題が出ているので、思い切ってコンセプトをリニューアルをしよう、という方向性で考えるとします。
+
+その際、顧客にアンケートをとって情報を集めたとします。すると
+
+*1.優良顧客Aさん、Bさん、Cさんは、Dという商品を毎週買っている*\\
+*2.よって、当社の主力商品はDを主軸に店舗リニューアルをすべきである*
+
+という仮説が立ちますね。
+
+帰納法は、様々な事例の共通項をもとにして思考をしますので、事例を多く、
+そして*共通点は何か*ということが大事です。
+
+演繹法と帰納法、どちらが良いということはなく、ケースに応じて使い分けて、
+*演繹法と帰納法を繰り返し使っていく*というのが実際のところです。
+
+*** STEP3：クリティカルシンキングで前提を疑う
+
+そして出てきた結論に対して、クリティカルシンキングで前提を疑って行きます。
+
+*・So what?（で、なんなの？）*\\
+*・Why?（なんで？）*\\
+*・True？（本当に？）*
+
+と言った疑問を投げかけます。
+
+*「顧客満足度の低下はスタッフのレベルの低下である。よって、スタッフ教育を徹底的に行う」*
+
+と言った結論に対して、
+
+- *そもそも、利益を上げるのが目的だよね？*
+- *そもそも、スタッフ教育がどう利益向上に直結するの？*
+- *アンケートを見ると来たい時間帯に予約が取れないという不満が多いけど、本当にスタッフの問題なの？*
+
+などの疑問を投げかけることで、結論を客観的に見ていくことができるわけです。
+
+** ■クリティカルシンキングの３つのトレーニング方法
+
+では最後に、クリティカルシンキングを鍛えるとっておきの方法を教えましょう。
+
+*** ・アウトプットの前にインプットをする
+    :PROPERTIES:
+    :CUSTOM_ID: アウトプットの前にインプットをする
+    :CLASS: style4a
+    :END:
+
+自分の意見が持てないであるとか、人の意見に流されてしまう、考えきれない
+と言う問題は、インプット不足に他なりません。
+
+考えると言うことの本質は、*「集めた情報を組み立てる」*と言うことです。
+
+先ほどの演繹法や帰納法についても*、ビジネスの原理原則という情報、その
+情報がどの局面で使えるかという知恵、他社への質問、数値的データの収集と
+いった、情報収集によって成り立っている*ことに注目してください。
+
+それらの情報をいかに組み立てるかということに他ならないのです。
+
+なので、正しい意見を導けないのは、正しいインプットがないから。あるいは
+インプット不足のために起きていることです。\\
+考える前に命題に対しての、情報を集めることが重要です。
+
+*** ・主張に対して批判をする
+
+まず、何かの主張を聞いたら、批判をする癖をつけます。
+
+批判というのは、何度もいうように文句をいうことではありません。矛盾点に対して客観的事実を投げかけることです。やんややんや言っても説得力がないですからね。
+
+例えば、ニュースを見て意見を言う人がいたら、その意見に対して、「本当に？」「なんで？」そもそもこう言うことじゃ？」と言った反論をして見ることです。書籍やブログなどでもいいですね。\\
+その際、自分にインプットが足りなければ、情報収集をすることになります。それが思考力がつく要因です。
+
+例えば、「ブランディングを先行してしてしまえば、どんなものでも売れる」と言う主張をしている本があったとします。それに対して、「そもそも顧客は商品価値を買っているのだから、最初に必要なのはイメージより価値でしょ」と反論ができます。
+
+*「批判をする人ってよくないよね」*
+
+と言う主張に対して、*「あなたは批判をしている人を批判しているよね？」*\\
+と言う矛盾点をつくことができます。
+
+そんな具合で、常に矛盾を見つけることです。
+
+*** ・常にフレームワークで仮説を立てる
+    :PROPERTIES:
+    :CUSTOM_ID: 常にフレームワークで仮説を立てる
+    :CLASS: style4a
+    :END:
+
+次に、自分の頭で情報を組み立てるのではなく、フレームワークを用いる癖をつけましょう。
+
+例えば、プレゼンテーションならばPREPの法則を使って話すこと。
+
+*・Point（結論）*\\
+*・Reason（理由）*\\
+*・Evidence（証拠）*\\
+*・Point（結論）*
+
+結論はこうです。なぜなら〜\\
+と言う言い方をする。
+
+文章を書くならば、「PASONA」\\
+戦略を考えるなら「3C」\\
+マーケティングを考えるなら「4P/4C」\\
+ビジネスモデルを作るなら「ビジネスモデルキャンバス」
+
+他にも多くのフレームワークがあります。\\
+そうしたものを使うようにしてください。このブログでも色々と紹介しています。
+
+** ■クリティカルシンキングの本
+
+学校の教科書にも使われているのがこちら。
+
+[[https://www.amazon.co.jp/%E8%AA%B0%E3%81%A7%E3%82%82%E3%82%8F%E3%81%8B%E3%82%8B%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%E2%80%95%E3%81%9D%E3%82%8C%E3%81%A3%E3%81%A6%E3%80%81%E3%83%9B%E3%83%B3%E3%83%88-%E8%8B%A5%E5%B1%B1%E6%98%87/dp/4779303745?SubscriptionId=AKIAJGWYOXIUJ7VJRDBA&tag=samuraioffici-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4779303745][誰でもわかるクリティカルシンキング―それって、ホント?]]
+
+元祖。コンサルタントの教科書はこちら。
+
+[[https://www.amazon.co.jp/%E6%94%B9%E8%A8%823%E7%89%88-%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%93%E3%82%B9MBA%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0-%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%93%E3%82%B9MBA%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%93%E3%82%B9%E7%B5%8C%E5%96%B6%E5%A4%A7%E5%AD%A6%E9%99%A2/dp/4478020582?SubscriptionId=AKIAJGWYOXIUJ7VJRDBA&tag=samuraioffici-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478020582][改訂3版
+グロービスMBAクリティカル・シンキング (グロービスMBAシリーズ)]]
+
+** ■クリティカルシンキングのまとめ
+
+というわけで少し長くなりましたが、一生物のスキルであるクリティカルシンキングについてざっとお話ししました。
+
+僕がクリティカルシンキングに出会ったときには、ひねくれた子供時代を過ごしたため（笑）普段からやっていることに過ぎなかったので全く驚きはありませんでしたが。
+
+素直な人ほど、情報を疑わず、盲信し、結果が悪くなってしまうケースが多いです。
+
+真実を生きる覚悟があるならば、
+
+前提を疑う。\\
+ニュースを疑う。\\
+教科書を疑う。\\
+理想を疑う。\\
+先生を、有名人を、常識を、業界の当たり前を、自分の中の信念を。\\
+徹底的に疑えるようになってください。
+
+真実の世界のために、信念すら捨てられる者だけが、光を見ることができます。
+
+ 
+
+<<single_banner_area2>>
+
+*無料メルマガは[[https://sugimuratakashi.com/mailmagazine/][こちら]]*\\
+\\
+*サービスは[[https://sugimuratakashi.com/service/][こちら]]*\\
+\\
+\\
+\\
+
+人気の記事
+[[https://sugimuratakashi.com/sainou/][■才能診断テスト！自分の才能の見つけ方]]
+
+[[https://sugimuratakashi.com/wp_homepage/][■自分で集客できるホームページをワードプレスで作る無料講座]]
+
+[[https://sugimuratakashi.com/entertainment/][■仕事に役立つ戦略アニメ・映画・ドラマ18選]]
+
+\\
+
+\\
+*良い記事だったので投げ銭する*
+
+【1枚】いいね! ¥100 JPY 【3枚】役に立った! ¥300 JPY 【10枚】結果が出た!
+¥1,000 JPY
+
+[[https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif]]
+
+\\
+
+ビジネスまとめ記事
+
+*＜起業＞*\\
+[[https://sugimuratakashi.com/kigyou01/][■起業の6つのステップ]]\\
+[[https://sugimuratakashi.com/market001/][■市場調査のやり方]]\\
+[[https://sugimuratakashi.com/jiten/][■ビジネス用語辞典40選]]\\
+\\
+*＜戦略＞*\\
+[[https://sugimuratakashi.com/kasen/][■寡占化とは？]]\\
+[[https://sugimuratakashi.com/genri/][■ビジネスの原理原則とは？]]\\
+[[https://sugimuratakashi.com/kaizen/][■改善・改革・革新]]\\
+[[https://sugimuratakashi.com/strategy/][■戦略と戦術の違い]]\\
+[[https://sugimuratakashi.com/vision/][■ビジョン・ミッション・バリュー]]\\
+[[https://sugimuratakashi.com/blue_ocean/][■ブルー・オーシャン戦略]]\\
+[[https://sugimuratakashi.com/different/][■差別化はしてはいけない]]\\
+[[https://sugimuratakashi.com/businessmodel/][■ビジネスモデル一覧]]\\
+[[https://sugimuratakashi.com/businessmodel_work/][■ビジネスモデルの作り方]]\\
+[[https://sugimuratakashi.com/positioning/][■ポジショニングとは？]]\\
+[[https://sugimuratakashi.com/segment/][■セグメンテーションとは？]]
+
+*＜商品＞*\\
+[[https://sugimuratakashi.com/inovation/][■イノベーションの意味と事例]]\\
+[[https://sugimuratakashi.com/biz_concept/][■コンセプトの31個の事例]]\\
+[[https://sugimuratakashi.com/product_power/][■商品力を上げる方法]]\\
+[[https://sugimuratakashi.com/product/][■商品企画のプロセス]]\\
+[[https://sugimuratakashi.com/tpos/][■TPOSとは何か？]]\\
+[[https://sugimuratakashi.com/checklist/][■アイデアを出す方法]]\\
+[[https://sugimuratakashi.com/cash_point/][■キャッシュポイントを増やす方法]]\\
+\\
+*＜集客・売上アップ＞*\\
+[[https://sugimuratakashi.com/2research/][■優良顧客リサーチのやり方]]\\
+[[https://sugimuratakashi.com/promotion/][■プロモーションの方法]]\\
+[[https://sugimuratakashi.com/wp_homepage/][■ワードプレスでホームページを作る方法]]\\
+[[https://sugimuratakashi.com/seo/][■SEO対策の基本2018]]\\
+[[https://sugimuratakashi.com/repeat4/][■リピーターを増やす方法]]\\
+[[https://sugimuratakashi.com/顧客単価を上げる6つの方法/][■顧客単価をアップする方法]]\\
+[[https://sugimuratakashi.com/kuchikomi/][■紹介を増やす方法]]
+
+[[][[[]]]]
+
+いいね！をして\\
+更新情報を受け取る
+
+[[https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsugimuratakashi.com%2Fgiron][//シェアする]]
+
+[[https://twitter.com/share?url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron&text=%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%EF%BC%88%E6%89%B9%E5%88%A4%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%89%E3%81%A8%E3%81%AF%EF%BC%9F%E5%85%B7%E4%BD%93%E4%BE%8B%E3%81%A8%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%96%B9%E6%B3%95%20%E2%80%93%20Soul%20Work%20%E8%B5%B7%E6%A5%AD%E5%AE%B6%E3%83%BB%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8B%E3%82%BD%E3%82%A6%E3%83%AB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%A7%8B%E7%AF%89%E8%A1%93][//つぶやく]]
+
+Twitter でTakashi Sugimuraを
+[[https://twitter.com/sugimuratakashi][Follow sugimuratakashi]]
+
+[[//b.hatena.ne.jp/entry/https://sugimuratakashi.com/giron/][[[//b.hatena.ne.jp/images/entry-button/button-only@2x.png]]]]
+
+<<fb-root>>
+
+[[https://twitter.com/share][Tweet]]
+
+\\
+
+<<wp_cta_187_container>>
+
+<<wp_cta_187_variation_0>>
+
+<<flat-cta-wrapper>>
+
+<<inbound_cta_header>>
+＜無料メール講座＞
+
+<<inbound-content>>
+<<>>
+*新世界へ向かう起業家・アーティスト・店舗経営者のための*
+*『魂から世界観を作って熱狂的なファンを作る方法』*
+*〜ソウルビジネス構築術〜*
+
+[[https://sugimuratakashi.com/inbound/eu20on5][詳細を見る]]
+
+<<single_share>>
+
+<<share_btm2>>
+
+- [[http://twitter.com/share?text=%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%EF%BC%88%E6%89%B9%E5%88%A4%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%89%E3%81%A8%E3%81%AF%EF%BC%9F%E5%85%B7%E4%BD%93%E4%BE%8B%E3%81%A8%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%96%B9%E6%B3%95&url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron%2F&via=sugimuratakashi&tw_p=tweetbutton&related=sugimuratakashi][//Tweet14]]
+- [[//www.facebook.com/sharer/sharer.php?u=https://sugimuratakashi.com/giron/&t=%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%EF%BC%88%E6%89%B9%E5%88%A4%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%89%E3%81%A8%E3%81%AF%EF%BC%9F%E5%85%B7%E4%BD%93%E4%BE%8B%E3%81%A8%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%96%B9%E6%B3%95][//Share]]
+- [[https://plus.google.com/share?url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron%2F][//+1]]
+- [[http://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron%2F][//Hatena]]
+- [[http://getpocket.com/edit?url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron%2F&title=%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%EF%BC%88%E6%89%B9%E5%88%A4%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%89%E3%81%A8%E3%81%AF%EF%BC%9F%E5%85%B7%E4%BD%93%E4%BE%8B%E3%81%A8%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%96%B9%E6%B3%95][//Pocket]]
+- [[https://sugimuratakashi.com/feed/][//RSS]]
+- [[http://feedly.com/index.html#subscription%2Ffeed%2Fhttps://sugimuratakashi.com/feed/][//feedly46]]
+- [[https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fsugimuratakashi.com%2Fgiron%2F&media=https://sugimuratakashi.com/wp-content/uploads/2017/05/sunset-850873_1920.jpg&description=%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B7%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%EF%BC%88%E6%89%B9%E5%88%A4%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%89%E3%81%A8%E3%81%AF%EF%BC%9F%E5%85%B7%E4%BD%93%E4%BE%8B%E3%81%A8%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%96%B9%E6%B3%95][//Pin it]]
+
+- 投稿者: [[https://sugimuratakashi.com/author/arumigus/][sugimu]]
+- [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+- [[https://sugimuratakashi.com/tag/%e3%82%b3%e3%83%b3%e3%82%b5%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%88/][コンサルタント]]
+
+<<previous_next_post>>
+[[https://sugimuratakashi.com/eigyou/][]]
+[[https://sugimuratakashi.com/wp-content/uploads/2018/03/boot-1992136_1920-200x200.jpg]]営業が辛い・辞めたい・向いてない｜理由は人間関係と誇張で売る風潮
+
+[[https://sugimuratakashi.com/food2/][]]
+[[https://sugimuratakashi.com/wp-content/uploads/2018/04/desktop-3249926_1920-200x200.jpg]]飲食店を開業してからでは遅い！開業前に確認すべき4つの基本
+
+<<related_post>>
+*** 関連記事
+    :PROPERTIES:
+    :CUSTOM_ID: 関連記事
+    :CLASS: headline
+    :END:
+
+1. [[https://sugimuratakashi.com/sunkcost/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/field-533541_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/sunkcost/][サンクコストと機会費用｜サンクコストの呪縛が人生を無駄にする]]
+        :PROPERTIES:
+        :CUSTOM_ID: サンクコストと機会費用サンクコストの呪縛が人生を無駄にする
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）「今...
+
+2. [[https://sugimuratakashi.com/meeting/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/heart-1213481_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/meeting/][打ち合わせとは？本当の意味と進め方。実力が一瞬でバレる理由]]
+        :PROPERTIES:
+        :CUSTOM_ID: 打ち合わせとは本当の意味と進め方実力が一瞬でバレる理由
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）...
+
+3. [[https://sugimuratakashi.com/2ritsu/][[[https://sugimuratakashi.com/wp-content/uploads/2017/09/tree-2284690_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/2ritsu/][二律背反とは？意味を簡単に事例で解説｜人生とビジネスを逆転させる方法]]
+        :PROPERTIES:
+        :CUSTOM_ID: 二律背反とは意味を簡単に事例で解説人生とビジネスを逆転させる方法
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）...
+
+4. [[https://sugimuratakashi.com/back_think/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/winter-20234_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/back_think/][逆算思考のやり方｜目標設定の意味がない理由と「10倍思考」のススメ]]
+        :PROPERTIES:
+        :CUSTOM_ID: 逆算思考のやり方目標設定の意味がない理由と10倍思考のススメ
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）...
+
+5. [[https://sugimuratakashi.com/think_stop/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/flowers-260897_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/think_stop/][思考放棄すればうまくいく理由。もう考えるのやめようぜ。]]
+        :PROPERTIES:
+        :CUSTOM_ID: 思考放棄すればうまくいく理由もう考えるのやめようぜ
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）...
+
+6. [[https://sugimuratakashi.com/decision/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/sunset-208356_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   **** [[https://sugimuratakashi.com/decision/][決断力がない人が失うもの。決断できない理由と鍛え方]]
+        :PROPERTIES:
+        :CUSTOM_ID: 決断力がない人が失うもの決断できない理由と鍛え方
+        :CLASS: title
+        :END:
+
+   こんにちは。スギムーです。（@sugimuratakashi）...
+
+<<comments>>
+
+<<side_col>>
+
+<<ml_ad_widget-15>>
+
+<<tcdw_user_profile_widget-4>>
+*** PROFILE
+    :PROPERTIES:
+    :CUSTOM_ID: profile
+    :CLASS: side_headline
+    :END:
+
+[[https://sugimuratakashi.com/profile/][[[https://sugimuratakashi.com/wp-content/uploads/2018/11/IMG_1396-1-200x200.jpg]]]]
+**** [[https://sugimuratakashi.com/profile/][Takashi Sugimura]]
+     :PROPERTIES:
+     :CUSTOM_ID: takashi-sugimura
+     :CLASS: user_name
+     :END:
+
+通称スギムー。ビジネスプロデューサー歴13年。2004年から年商数千万円〜1000億円規模の企業までマーケティングプロデュースを経験。音楽業界・中小企業・店舗・コンサル系個人ビジネスまで幅広くサポート。経営コンサルティング・マーケティングコンサル・ウェブ制作など実施してます。ブログ月間10万pv。2児の父。魂から世界観を作り熱狂的ファンを生むSoulWork主宰。胸ポケに熊猫を飼っている。\\
+\\
+*[[https://sugimuratakashi.com/profile/][＞＞詳しいプロフィール]]*\\
+*[[https://sugimuratakashi.com/category/実績報告/][＞＞コンサル実践報告]]*\\
+
+\\
+
+- [[https://twitter.com/sugimuratakashi][Twitter]]
+- [[https://www.facebook.com/sugimura1][Facebook]]
+- [[https://www.instagram.com/sugimu331/][Instagram]]
+
+<<tcdw_category_list_widget-6>>
+*** CONTENTS
+    :PROPERTIES:
+    :CUSTOM_ID: contents
+    :CLASS: side_headline
+    :END:
+
+- [[https://sugimuratakashi.com/category/mind/][マインドセット50]]
+- [[https://sugimuratakashi.com/category/businessmodel/][戦略・ビジネスモデル43]]
+- [[https://sugimuratakashi.com/category/marketing/][マーケティング43]]
+- [[https://sugimuratakashi.com/category/kids/][教育・子育て9]]
+- [[https://sugimuratakashi.com/category/business/][業績アップ9]]
+- [[https://sugimuratakashi.com/category/startup/][起業26]]
+- [[https://sugimuratakashi.com/category/artist/][アーティストビジネス13]]
+- [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法17]]
+- [[https://sugimuratakashi.com/category/%e3%83%8d%e3%82%bf/][ネタ・雑記4]]
+- [[https://sugimuratakashi.com/category/%e5%ae%9f%e7%b8%be%e5%a0%b1%e5%91%8a/][実績報告10]]
+
+<<search-3>>
+
+検索:
+
+<<text-20>>
+*** PROJECT
+    :PROPERTIES:
+    :CUSTOM_ID: project
+    :CLASS: side_headline
+    :END:
+
+[[https://bizmu.net][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/bizmu_bn02.jpg]]]]
+
+ 
+
+[[https://kurupos.com][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/kurupos_bn02.jpg]]]]
+
+<<custom_html-4>>
+*** BOOK
+    :PROPERTIES:
+    :CUSTOM_ID: book
+    :CLASS: side_headline
+    :END:
+
+[[https://www.amazon.co.jp/%E9%AD%82%E3%81%AE%E9%9F%B3%E6%A5%BD%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%A7%8B%E7%AF%89%E8%A1%93-%E4%B8%96%E7%95%8C%E8%A6%B3%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E7%86%B1%E7%8B%82%E7%9A%84%E3%83%95%E3%82%A1%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8B%E9%9F%B3%E6%A5%BD%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%81%AE%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9-%E6%9D%89%E6%9D%91%E9%9A%86-ebook/dp/B06ZZM3VYC?SubscriptionId=AKIAJGWYOXIUJ7VJRDBA&tag=samuraioffici-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B06ZZM3VYC][[[https://images-fe.ssl-images-amazon.com/images/I/41L79FeLNiL.jpg]]]]
+
+<<custom_html-6>>
+*** おすすめWPテンプレート20選
+    :PROPERTIES:
+    :CUSTOM_ID: おすすめwpテンプレート20選
+    :CLASS: side_headline
+    :END:
+
+[[https://sugimuratakashi.com/wp_template/][[[https://sugimuratakashi.com/wp-content/uploads/2018/01/300_250-300x250.jpg]]]]
+
+<<styled_post_list1_widget-5>>
+*** NEW ENTRY
+    :PROPERTIES:
+    :CUSTOM_ID: new-entry
+    :CLASS: side_headline
+    :END:
+
+1. [[https://sugimuratakashi.com/design-2/][[[https://sugimuratakashi.com/wp-content/uploads/2018/05/background-3062011_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/design-2/][デザインの意味とは？商業デザインとアートの勘違いで...]]
+   [[https://sugimuratakashi.com/design-2/][こんにちは。スギムーです。ビジネスをすると、いわゆる販促に関わるデザイン...]]
+
+2. [[https://sugimuratakashi.com/consul_line/][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/desert-2340326_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/consul_line/][コンサルティングを受けるかどうかを決める６つの基準...]]
+   [[https://sugimuratakashi.com/consul_line/][こんにちは。スギムーです。コンサルタントへ転身希望の社長さんや、起業希望...]]
+
+3. [[https://sugimuratakashi.com/human_eigyou/][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/beach-2179624_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/human_eigyou/][紹介と口コミに頼ったビジネスほど危険なものはない４...]]
+   [[https://sugimuratakashi.com/human_eigyou/][こんにちは。スギムーです。（@sugimuratakashi）よく、こん...]]
+
+4. [[https://sugimuratakashi.com/signal/][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/landscape-3155182_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/signal/][シグナリング理論とスクリーニング｜情報の非対称性を...]]
+   [[https://sugimuratakashi.com/signal/][こんにちは。スギムーです。（@sugimuratakashi）
+   良い顧...]]
+
+5. [[https://sugimuratakashi.com/chikaku/][[[https://sugimuratakashi.com/wp-content/uploads/2018/12/nature-3044755_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/chikaku/][知覚価値の意味とは？商品価値を高めても意味がない｜...]]
+   [[https://sugimuratakashi.com/chikaku/][こんにちは。スギムーです。（@sugimuratakashi）ビジネスに...]]
+
+<<styled_post_list1_widget-3>>
+*** RECOMMEND
+    :PROPERTIES:
+    :CUSTOM_ID: recommend
+    :CLASS: side_headline
+    :END:
+
+1. [[https://sugimuratakashi.com/shindan/][[[https://sugimuratakashi.com/wp-content/uploads/2018/05/away-3408119_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/shindan/][【決定版】ビジネス診断
+   全10問｜「売れない・集ま...]]
+   [[https://sugimuratakashi.com/shindan/][こんにちは。スギムーです。（@sugimuratakashi）ビジネスの...]]
+
+2. [[https://sugimuratakashi.com/change/][[[https://sugimuratakashi.com/wp-content/uploads/2018/03/iceland-2111810_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/change/][これからの時代の仕事・人生の変化｜中小企業・個人を...]]
+   [[https://sugimuratakashi.com/change/][こんにちは。スギムーです。（@sugimuratakashi）今、世界で...]]
+
+3. [[https://sugimuratakashi.com/wp_homepage/][[[https://sugimuratakashi.com/wp-content/uploads/2017/12/chrysanthemum-2896746_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/wp_homepage/][ワードプレスで自分で集客できる自社ホームページを最...]]
+   [[https://sugimuratakashi.com/wp_homepage/][こんにちは。スギムーです。（@sugimuratakashi）ホームペー...]]
+
+4. [[https://sugimuratakashi.com/wp_template/][[[https://sugimuratakashi.com/wp-content/uploads/2017/11/paris-2869657_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/wp_template/][ワードプレス有料テンプレート22選｜SEOもデザイ...]]
+   [[https://sugimuratakashi.com/wp_template/][こんにちは。スギムーです。（@sugimuratakashi）ブログやホ...]]
+
+5. [[https://sugimuratakashi.com/sainou/][[[https://sugimuratakashi.com/wp-content/uploads/2017/10/morning-2550628_1920-200x200.jpg]]]]
+
+   [[https://sugimuratakashi.com/sainou/][才能診断テスト｜自分の才能の見つけ方とは？起業・人...]]
+   [[https://sugimuratakashi.com/sainou/][こんにちは。スギムーです。（@sugimuratakashi）「自分には特別...]]
+
+<<text-10>>
+
+<<fb-root>>
+
+#+BEGIN_QUOTE
+  [[https://www.facebook.com/SoulWorkLabo/][Soul Work]]
+#+END_QUOTE
+
+<<custom_html-7>>
+
+[[https://twitter.com/sugimuratakashi?ref_src=twsrc%5Etfw][Tweets by
+sugimuratakashi]]
+
+<<tag_cloud-5>>
+*** TAG
+    :PROPERTIES:
+    :CUSTOM_ID: tag
+    :CLASS: side_headline
+    :END:
+
+[[https://sugimuratakashi.com/tag/usj/][USJ]]
+[[https://sugimuratakashi.com/tag/%e3%82%a2%e3%83%83%e3%83%97%e3%82%bb%e3%83%ab/][アップセル]]
+[[https://sugimuratakashi.com/tag/%e3%82%a2%e3%83%83%e3%83%97%e3%83%ab/][アップル]]
+[[https://sugimuratakashi.com/tag/%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%82%b9%e3%83%88/][アーティスト]]
+[[https://sugimuratakashi.com/tag/%e3%82%a4%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3/][イノベーション]]
+[[https://sugimuratakashi.com/tag/%e3%82%a4%e3%83%8e%e3%83%99%e3%83%bc%e3%82%bf%e3%83%bc%e7%90%86%e8%ab%96/][イノベーター理論]]
+[[https://sugimuratakashi.com/tag/%e3%82%a4%e3%83%b3%e3%83%97%e3%83%83%e3%83%88/][インプット]]
+[[https://sugimuratakashi.com/tag/%e3%82%aa%e3%83%bc%e3%83%87%e3%82%a3%e3%82%b7%e3%83%a7%e3%83%b3/][オーディション]]
+[[https://sugimuratakashi.com/tag/%e3%82%af%e3%83%ad%e3%82%b9%e3%82%bb%e3%83%ab/][クロスセル]]
+[[https://sugimuratakashi.com/tag/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%93%e3%82%b8%e3%83%8d%e3%82%b9/][コミュニティビジネス]]
+[[https://sugimuratakashi.com/tag/%e3%82%b3%e3%83%b3%e3%82%b5%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%88/][コンサルタント]]
+[[https://sugimuratakashi.com/tag/%e3%82%b3%e3%83%b3%e3%82%bb%e3%83%97%e3%83%88/][コンセプト]]
+[[https://sugimuratakashi.com/tag/%e3%82%b9%e3%83%88%e3%83%bc%e3%83%aa%e3%83%bc/][ストーリー]]
+[[https://sugimuratakashi.com/tag/%e3%83%8f%e3%83%a0%e3%82%b9%e3%82%bf%e3%83%bc/][ハムスター]]
+[[https://sugimuratakashi.com/tag/%e3%83%90%e3%83%b3%e3%83%89%e9%9b%86%e5%ae%a2/][バンド集客]]
+[[https://sugimuratakashi.com/tag/%e3%83%93%e3%82%b8%e3%83%8d%e3%82%b9%e3%83%a2%e3%83%87%e3%83%ab/][ビジネスモデル]]
+[[https://sugimuratakashi.com/tag/%e3%83%96%e3%83%a9%e3%83%b3%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0/][ブランディング]]
+[[https://sugimuratakashi.com/tag/%e3%83%97%e3%83%ad%e3%83%87%e3%83%a5%e3%83%bc%e3%82%b9/][プロデュース]]
+[[https://sugimuratakashi.com/tag/%e3%83%9d%e3%82%b8%e3%82%b7%e3%83%a7%e3%83%8b%e3%83%b3%e3%82%b0/][ポジショニング]]
+[[https://sugimuratakashi.com/tag/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0/][マーケティング]]
+[[https://sugimuratakashi.com/tag/%e3%83%a1%e3%83%b3%e3%82%bf%e3%83%bc/][メンター]]
+[[https://sugimuratakashi.com/tag/%e3%83%a9%e3%83%b3%e3%83%81%e3%82%a7%e3%82%b9%e3%82%bf%e3%83%bc%e6%88%a6%e7%95%a5/][ランチェスター戦略]]
+[[https://sugimuratakashi.com/tag/%e3%83%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%82%b7%e3%83%83%e3%83%97/][リーダーシップ]]
+[[https://sugimuratakashi.com/tag/%e4%b8%96%e7%95%8c%e8%a6%b3/][世界観]]
+[[https://sugimuratakashi.com/tag/%e4%ba%8b%e4%be%8b/][事例]]
+[[https://sugimuratakashi.com/tag/%e4%ba%8b%e6%a5%ad%e6%8b%a1%e5%a4%a7/][事業拡大]]
+[[https://sugimuratakashi.com/tag/%e4%bb%98%e5%8a%a0%e4%be%a1%e5%80%a4/][付加価値]]
+[[https://sugimuratakashi.com/tag/%e4%be%a1%e5%80%a4/][価値]]
+[[https://sugimuratakashi.com/tag/%e5%80%a4%e4%b8%8a%e3%81%92/][値上げ]]
+[[https://sugimuratakashi.com/tag/%e5%95%8f%e9%a1%8c%e8%a7%a3%e6%b1%ba/][問題解決]]
+[[https://sugimuratakashi.com/tag/%e5%a3%87%e8%9c%9c/][壇蜜]]
+[[https://sugimuratakashi.com/tag/%e5%a4%a2/][夢]]
+[[https://sugimuratakashi.com/tag/%e5%a5%b3%e6%80%a7%e8%b5%b7%e6%a5%ad%e5%ae%b6/][女性起業家]]
+[[https://sugimuratakashi.com/tag/%e5%ad%a6%e7%bf%92%e6%b3%95/][学習法]]
+[[https://sugimuratakashi.com/tag/%e6%81%8b%e6%84%9b/][恋愛]]
+[[https://sugimuratakashi.com/tag/%e6%88%90%e5%8a%9f%e4%ba%8b%e4%be%8b/][成功事例]]
+[[https://sugimuratakashi.com/tag/%e6%88%90%e5%8a%9f%e6%b3%95%e5%89%87/][成功法則]]
+[[https://sugimuratakashi.com/tag/%e6%88%a6%e7%95%a5/][戦略]]
+[[https://sugimuratakashi.com/tag/%e6%a9%9f%e8%83%bd%e7%9a%84%e4%be%a1%e5%80%a4/][機能的価値]]
+[[https://sugimuratakashi.com/tag/%e6%b4%97%e8%84%b3/][洗脳]]
+[[https://sugimuratakashi.com/tag/%e7%84%a1%e7%90%86%e3%82%b2%e3%83%bc/][無理ゲー]]
+[[https://sugimuratakashi.com/tag/%e8%b5%b7%e6%a5%ad/][起業]]
+[[https://sugimuratakashi.com/tag/%e9%9b%86%e5%ae%a2/][集客]]
+[[https://sugimuratakashi.com/tag/%e9%9f%b3%e6%a5%bd%e3%83%93%e3%82%b8%e3%83%8d%e3%82%b9/][音楽ビジネス]]
+[[https://sugimuratakashi.com/tag/%e9%9f%b3%e6%a5%bd%e6%a5%ad%e7%95%8c/][音楽業界]]
+
+<<ml_fixed_ad_widget-2>>
+
+1. [[https://sugimuratakashi.com/%e3%83%a1%e3%83%b3%e3%82%bf%e3%83%bc%e9%81%b8%e3%81%b3/][[[https://sugimuratakashi.com/wp-content/uploads/2017/04/road-220058_1280-500x300.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/mind/][マインドセット]]
+
+   [[https://sugimuratakashi.com/%e3%83%a1%e3%83%b3%e3%82%bf%e3%83%bc%e9%81%b8%e3%81%b3/][先生がいくら稼いでいてもその顧客に結果が出ていなければ意味がない]]
+
+2. [[https://sugimuratakashi.com/%e6%88%90%e5%8a%9f%e3%81%af%e6%b4%97%e8%84%b3%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6%e4%bd%9c%e3%82%89%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b/][[[https://sugimuratakashi.com/wp-content/uploads/2017/04/mountain-road-1556177_1920-500x300.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/mind/][マインドセット]]
+
+   [[https://sugimuratakashi.com/%e6%88%90%e5%8a%9f%e3%81%af%e6%b4%97%e8%84%b3%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6%e4%bd%9c%e3%82%89%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b/][「成功」は洗脳によって作られている]]
+
+3. [[https://sugimuratakashi.com/freedom/][[[https://sugimuratakashi.com/wp-content/uploads/2017/08/tree-2435269_1920-500x300.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/mind/][マインドセット]]
+
+   [[https://sugimuratakashi.com/freedom/][生きる意味がないと感じるのは何故か？「人間は自由の刑に処せられている」]]
+
+4. [[https://sugimuratakashi.com/study/][[[https://sugimuratakashi.com/wp-content/uploads/2017/08/forest-1950402_1920-500x300.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/startup/][起業]]
+
+   [[https://sugimuratakashi.com/study/][起業の正しい勉強方法とは？普遍的な学習方法を伝授]]
+
+5. [[https://sugimuratakashi.com/2ritsu/][[[https://sugimuratakashi.com/wp-content/uploads/2017/09/tree-2284690_1920-500x300.jpg]]]]
+
+   [[https://sugimuratakashi.com/category/%e6%80%9d%e8%80%83%e6%b3%95/][思考法]]
+
+   [[https://sugimuratakashi.com/2ritsu/][二律背反とは？意味を簡単に事例で解説｜人生とビジネスを逆転させる方法]]
+
+<<footer>>
+
+<<footer_inner>>
+
+<<footer_widget_left>>
+
+<<ml_ad_widget-7>>
+[[https://sugimuratakashi.com/wp_template/][[[https://sugimuratakashi.com/wp-content/uploads/2017/11/300_250-300x250.jpg]]]]
+
+<<footer_widget_right>>
+
+<<styled_post_list2_widget-4>>
+*** PICK UP
+    :PROPERTIES:
+    :CUSTOM_ID: pick-up
+    :CLASS: footer_headline
+    :END:
+
+1. [[https://sugimuratakashi.com/wp_homepage/][ワードプレスで自分で集客できる自社ホームページを最短で作る方...]]
+2. [[https://sugimuratakashi.com/wp_template/][ワードプレス有料テンプレート22選｜SEOもデザインも優れた...]]
+3. [[https://sugimuratakashi.com/sainou/][才能診断テスト｜自分の才能の見つけ方とは？起業・人材育成に使...]]
+4. [[https://sugimuratakashi.com/jiten/][ビジネス用語辞典44選ー全ては言葉の定義でできている]]
+5. [[https://sugimuratakashi.com/artinstband_webpromotion/][アーティスト・バンド集客のためのWEBマーケティングプロモー...]]
+
+<<footer_menu_area>>
+
+<<footer_menu_left>>
+*** MENU
+    :PROPERTIES:
+    :CUSTOM_ID: menu
+    :END:
+
+- [[https://sugimuratakashi.com/concept/][Concept]]
+- [[https://sugimuratakashi.com/mailmagazine/][Mail Magazine]]
+- [[https://sugimuratakashi.com/profile/][Profile]]
+- [[https://sugimuratakashi.com/service/][Service]]
+- [[https://sugimuratakashi.com/contact/][Contact]]
+- [[https://sugimuratakashi.com/policy/][Privacy Policy]]
+- [[https://sugimuratakashi.com/%e7%89%b9%e5%ae%9a%e5%95%86%e5%8f%96%e5%bc%95%e6%b3%95%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e8%a1%a8%e7%a4%ba/][特定商取引法に基づく表示]]
+
+Copyright ©  [[https://sugimuratakashi.com/][Soul Work
+起業家・アーティストのファンを作るソウルビジネス構築術]] All rights
+reserved.
+
+<<return_top>>
+[[#header_top][PAGE TOP]]
+
+<<fb-root>>

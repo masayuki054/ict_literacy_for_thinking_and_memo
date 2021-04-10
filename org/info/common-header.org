@@ -1,0 +1,7 @@
+#+OPTIONS:   H:6 toc:nil num:nil
+#+OPTIONS: ^:{}
+#+PROPERTY:  header-args :padline no
+#+title: メモと思考のためのICTの活用
+
+#+author: suzuki@iwate-u.ac.jp
+#+HTML_MATHJAX:  path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js"

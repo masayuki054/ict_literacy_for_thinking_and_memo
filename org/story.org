@@ -1,0 +1,354 @@
+#+setupfile: info/index-bigblow-header.setup
+#+include: info/common-header.org
+#+AUTHOR: 鈴木正幸，非常勤講師
+
+[[http://masayuki054.hatenablog.com/entry/2019/12/09/102219][放送大学 面接講義 (岩手 2020, 2019, 2018) - masayuki054's diary]]
+
+* 1-序 
+
+** 配布資料
+   - 2018年度の面接講義内容
+   - USB メモリの ict フォルダに以下のものが入っています：
+
+     - この文書 (story.html) 
+     - Maps フォルダにマインドマップ
+
+     ご自分のUSBメモリをお持ちでしたら，コピーして，コピーを
+
+** 参考サイト
+   - 2018のこと 思考技術とメモ
+
+     -  [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] (Webページ)
+       - 全て折り畳むをクリックしてみてください
+
+     - [[./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind]]
+       - 講義の概要を見える化した，マインドマップです。
+       - 折り畳んだり，展開することができます。
+
+   - 2019のこと クラウドと知的情報処理 
+     - [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 
+     - [[./Maps/crowdと情報リテラシー.xmind]]
+
+** 講義の概要
+
+   [[./Maps/メモと思考のためのICTの活用.xmind]]
+
+*** ねらい 
+
+    知的な 情報の 処理の 実践的な 演習 
+
+*** ICT技術
+    - 人とコンピュータとインターネットが協調するためのデジタル技術
+  
+*** 思考技術
+
+    考えるためのフレームワーク
+
+    - 考えるための幾つかの態度がある
+
+    - 考えるための7つのステップがある
+
+    - 考え続けるための方法がある
+
+*** 情報リテラシ
+
+    情報リテラシとは，ICT技術と協調した思考技術のこと
+
+
+** 聴講のし方
+
+  講義の前半で、メモと思考のためのツールを紹介します。講義内容をメモ
+  し、考えながら受講してください。
+
+  講義を通して，いろいろな考え方を紹介し，私の理解や参考資料をお見せ
+  します。 一緒に考え，自分の理解や考えをメモにまとめてください。
+
+  - 自分流でかまいません，できれば，章ごとに一枚の紙を使って，
+    マインドマップ形式のメモを描いてほしいです。
+
+    最初は紙と色鉛筆で手描きで，なれてくれば XMind 2020 を使ってみま
+    しょう。
+
+    講師のXMindマップをダウンロードして，それに追加や編集を加えるの
+    も推奨します。
+
+  - アウトライナー を使うのもお勧めです。後で，Web アプリの
+    Dynalistについて紹介します。
+
+    参照資料をコピペして，構造化して，自分のメモを作成する方法
+    はお勧めです。
+
+  - マップとアウトラインの変換も可能です。後で説明します。
+
+  講義の最後に，自分の講義メモを振り返り，見直し・修正し，自分の意見・
+  感想を書いて，レポートとして提出してください。
+
+** 確認事項 インターネット関連
+
+   [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] の受講の準備を参考にしてください：
+
+*** ブラウザ
+
+     [[https://support.google.com/chrome/?hl=ja][Google Chrome ヘルプ]] 
+
+     [[https://www.atmarkit.co.jp/ait/articles/1711/20/news029.html][初めてのChrome：インストールと初期設定、基本的な使い方]]
+
+     - Google Chrome を動かしましょう
+     - Google にログインしましょう: https://google.com 
+
+*** Googleアカウントの確認
+
+    学生番号@campus.ouj.ac.jp  があなたの Google ID です。
+
+    Googleにログインし，メールを確認しましょう:
+
+*** Google ドライブを使ってみよう
+
+    自分のマイドライブ (https://drive.google.com/drive/my-drive) に
+
+     - 「メモと思考のためICTの活用」という名前のフォルダを新規作成
+
+     - そのフォルダの共有設定する
+       - フォルダを右クリックして，メニューから，「共有」を選ぶ
+       - 講師 (msyk054@gmail.com) を招待してください
+
+    このフォルダをレポート提出に使います。
+
+*** 講義での共有フォルダ
+
+    - 共有フォルダ [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][メモのための思考とICTの活用 - Google ドライブ]]
+
+*** Web アウトライナーへの登録
+  
+    https://dynalist.io を開いて，Googleアカウントでログインしましょ
+    う。
+
+    - [[https://316-jp.com/dynalist-signup][クラウドアウトライナー「Dynalist」の新規登録方法│G-NOTE]]
+
+
+* 2-アプリ
+
+** ブラウザ
+
+   - Google, mail, drive, ...
+   - ブラウザ login/sync
+   - 情報共有場所 [[https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c][放送大学 - Google ドライブ]]
+   - 講義資料配布 [[https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821][00ーせんせい - Google ドライブ]]
+
+     [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
+
+** XMind 2020 
+
+   下記の動画を見てXMind 2020 を使ってみましょう：
+
+  - [[https://www.youtube.com/watch?v=dxQs3yWXdNo][(106) おすすめのマインドマップアプリ（Xmind2020）の使い方 - YouTube]]　15分
+
+  下記のサイトを読んで，使い方を確認しましょう：
+
+  - [[https://iiv.ne.jp/xmind-zen-howto/][【使い方まとめ】XMind 2020（エックスマインド2020）は情報整理のアルテマウェポン！マインドマップの作り方から仕事に活かす整理術 - ウェブ仕事術イーブイ]]
+
+  XMindをアウトライナーとして使うことも可能です:
+
+** dynalist
+
+   ブラウザで Dynalist を動かして，下記サイトを見ながら，Dynalist を
+   使ってみましょう。
+    
+   - [[https://pouhon.net/dynalist-start/4796/][[Dynalist]はじめに覚えたい基本的な使い方]]
+   - [[https://pouhon.net/dynalist-looks/4878/][[Dynalist]見た目を整えて楽しいリストを作ろう！]]
+
+  使い方をDynalist でまとめましょう:
+
+
+
+  下記のサイトも参考にしてください：
+  - [[https://316-jp.com/dynalist-manual][【Web版・日本語訳】Dynalistの使い方・機能・ショートカットキー一覧│G-NOTE]]
+
+
+* 3-関係を見る
+
+** 抽象化と詳細化
+
+  [[https://www.youtube.com/watch?v=RROOmvwUZMo][(104) 抽象思考を身に着けるための簡単な2つのトレーニング - YouTube]]
+
+  - これはだめな説明の例
+
+  [[http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1][suzuki@cis.iwate-u.ac.jp 抽象化のための手続き]]
+
+** 図的思考
+
+   - [[https://books.google.co.jp/books/about/%E5%9B%B3%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E3%81%AA%E3%82%8B.html?id=DSY6DwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false][図で考える。シンプルになる｡ - 櫻田潤 - Google ブックス]]
+   - [[https://www.youtube.com/watch?v=SWsS_sF3EDw][(105) 【図解思考】思考を整理しまとめる「９つの基本形」 - YouTube]]
+
+** マインドマップ
+   - [[https://www.youtube.com/watch?v=RPKuF0g6UTY][(105) 【仕事術】凡人でも「一流の仕事」が出来る魔法のツール - YouTube]]
+
+** マインドマッの学校
+   [[https://www.mindmap-school.jp/][考える力と創造する力を楽しく分かりやすく学ぶ - マインドマップの学校]]
+   - ここの about MindMap の マインドマップの分類がいい
+   - [[https://www.mindmap-school.jp/mindmap/what/][マインドマップとは? - マインドマップの学校]]  
+   - [[https://www.mindmap-school.jp/mindmap/head/][脳の特性を活用する頭の使い方 - マインドマップの学校]]  
+     わかるとはと共通することが多い
+
+** アウトライナー
+
+  文章の関係を見る・作る
+
+  - [[https://www.youtube.com/watch?v=y6WpHdxpLT0][(105) #Udemy 資料作成を効率化! アウトライナー(Dynalist)を使った知的生産術 - YouTube]]
+
+  - [[https://www.youtube.com/watch?v=5IUJ-xXOEsI][(104) 【3分で分かる】アウトライナーを使うメリット #Udemy #無料体験 - YouTube]]
+
+
+* 4-情報リテラシーと思考とメモ
+
+** メモ
+
+   下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
+   自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
+
+   - [[https://studyhacker.net/how-to-take-notes][わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア]]
+
+   [[./Maps/メモ.xmind]] も参考にしてください。
+
+** 「わかるとは」について考える
+
+   [[https://www.chikumashobo.co.jp/product/9784480059390/][筑摩書房 「わかる」とはどういうことか ─認識の脳科学 / 山鳥 重 著]]
+   の読書メモです：
+     
+   - [[./Maps/わかるとは.xmind]] 読書ノート
+
+  このマップと読んで，下記のマップに自分の考えをまとめてみてください。
+
+   - [[./Maps/わかるとはどういうことか.xmind]] 記入用マップ
+
+
+** 思考とは  [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 参照
+
+  - 抽象化と詳細化が基本
+
+  - 読み解くための思考
+
+    - 論理的思考
+
+    - 批判的思考    
+
+      批判的に考えるとは [[https://yumenavi.info/lecture.aspx?GNKCD=g004227][夢ナビ 大学教授がキミを学問の世界へナビゲート]]
+
+  - 生み出すための思考
+
+    - 発想するとは
+
+    - 発想法
+
+
+** 思考態度
+
+  - 垂直思考
+  - 水平思考
+
+
+** 思考技術 (思考過程)  [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] 参照
+
+   思考の過程は，次の7つののステップからなります：
+   
+  - 目的の探索
+    - 抽象化と詳細化
+  - 情報収集
+    - もれなくダブリなく収集
+    - 関連性による収集
+  - 発想
+    - 抽象化
+    - 詳細化
+    - 関係
+  - グループ化
+  - 構造
+    - 理解するということ
+  - 決定
+    - 理解したことを知識として取り入れること
+  - 表現
+    - 第三者
+
+  7つのステップのマップを作成し，自分の理解を書き込んでください。
+
+
+* 5-アウトライナと批判的思考演習
+
+  下記のサイトを批判的に読んでまとめを作り，批判的思考について自分の理
+  解をつくりましょう：
+  
+  -  [[https://xn--tcke8gsdh0c7c.com/criticalthinking][４.【具体例で解説】クリティカルシンキングとは？批判的思考の意味と実践方法 | フリーコンサル.com]]
+  - [[https://masayuki054.github.io/cloud_and_information_literacy/docs/critical_thinking.html][クラウドと情報リテラシー 批判的思考]]    
+
+  読み解く，自分の知識とできるかの批判的思考の実践
+
+* 6-継続のための技術の批判的思考演習
+
+  継続のための技術について，批判的に読み，自分の知識をアウトライナーか
+  マインドマップにまとめましょう。
+
+** ストレス対処法
+
+   下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
+   う:
+
+   [[https://www.lifehacker.jp/2013/02/130214overcome_stress.html][成功する人の｢9のストレス対処法｣ | ライフハッカー［日本版］]]
+
+** ストレスを貯めない
+
+   下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
+   う:
+
+  [[https://www.youtube.com/watch?v=nSlVRjGGpH4][(104) 【５分】はじめてのGTDストレスフリーの整理術を学ぼう！（最も
+  優れたタスク管理のひとつ） - YouTube]]
+   
+  [[https://www.youtube.com/watch?v=vrcsQLpCbIE][(104) 【超入門】マインドマップでタスク管理ができる簡単な手順 -
+  YouTube]]  GTDとマインドマップ
+
+* 7-新情報リテラシー
+
+  ビデオを視聴しメモをとりましょう。
+
+  紙と鉛筆でメモし，後で，マップにしましょう。
+
+  - [[https://globis.jp/article/3576][たった一度の人生を変える勉強をしよう～藤原和博氏 | GLOBIS 知見録]]
+
+* 8-講義のまとめとレポート作成
+
+  下記のものを Google Drive に提出してください
+
+  - [[https://honto.jp/cp/hybrid/writers-interview/004-fujiharakazuhiro.html][藤原和博 honto+インタビュー - honto+]] のまとめ (dynalist または mindmap)
+
+  - 講義の感想 (dynalist または mindmap)
+
+  - 作成した資料一覧
+
+
+* その他の資料
+
+** レポートの書き方
+
+*** 京大 紅
+
+    - [[https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/250143][Kyoto University Research Information Repository: レポートの書き方 --アカデミック・ライティングのポイント--]]
+      - [[https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/250143/1/writing.pdf][writing.pdf]]
+
+*** 2. 「大学生らしいレポートの書き方」のレポート
+
+    - [[https://www.report.gusoku.net/kihon/][大学レポートの書き方：基本編]] 1~5, 7~8を読んで，
+      要約をアウトラインにまとめる。
+
+    - 要約から，「大学生らしいレポートの書き方」のレポートを作成する。
+     
+
+** 思考方法
+
+   - [[https://sugimuratakashi.com/giron/][クリティカルシンキング（批判的思考）とは？具体例とトレーニング方法]]
+
+   - [[http://www.nikkei.com/article/DGXNASFK2602U_W2A221C1000000/][知識にだまされない　「思考の技術」の身に付け方　ちきりんさんインタビュー　：日本経済新聞]]
+
+   - [[https://xn--tcke8gsdh0c7c.com/mece][【MECE完全理解】フレームワーク10選と具体例で徹底解説 | フリーコンサル.com]]
+
+   - [[https://www.kaonavi.jp/dictionary/mece/][【ロジカルシンキング】MECE（ミーシー）とは？ 基本概念とフレームワーク活用法 - カオナビ人事用語集]]
+
+
+    
