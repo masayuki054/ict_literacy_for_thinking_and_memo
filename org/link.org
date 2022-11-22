@@ -7,10 +7,14 @@
 
 ** 講義と内容
    - [[http://masayuki054.hatenablog.com/entry/2019/12/09/102219][放送大学 面接講義 (岩手 2020, 2019, 2018) - masayuki054's diary]]
-   - 2018 [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] (Webページ)
+   - 2022 [[https://masayuki054.github.io/ict_literacy_for_thinking_and_memo/][メモと思考のためのICTの活用]]
    - 2019 [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]]  
+   - 2018 [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] (Webページ)
 
 ** 共有資料
+
+   - [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
+
    - [[https://dynalist.io/d/CBNzT1M1WuIm5zfY29bJyDLc][2020 suzuki's 面接講義 - Dynalist]]
    - [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][思考とメモのためのICTの活用 - Google ドライブ]]
    - [[https://masayuki054.github.io/cloud_and_information_literacy/docs][クラウドと情報リテラシー ドキュメント一覧]]
