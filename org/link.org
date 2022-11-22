@@ -18,5 +18,26 @@
    - [[https://dynalist.io/d/CBNzT1M1WuIm5zfY29bJyDLc][2020 suzuki's 面接講義 - Dynalist]]
    - [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][思考とメモのためのICTの活用 - Google ドライブ]]
    - [[https://masayuki054.github.io/cloud_and_information_literacy/docs][クラウドと情報リテラシー ドキュメント一覧]]
-
-
+ 
+   - [[./Maps/06-メモ.xmind]]
+   - [[./Maps/07-ideaを生み出す技術.xmind]]
+   - [[./Maps/08-MindMapping.xmind]]
+   - [[./Maps/2019-x_maps]]
+   - [[./Maps/ICTの目的.xmind]]
+   - [[./Maps/Web進化論.xmind]]
+   - [[./Maps/crowdとは.xmind]]
+   - [[./Maps/crowdと情報リテラシー.xmind]]
+   - [[./Maps/ideaを生み出す技術.xmind]]
+   - [[./Maps/x_maps2018]]
+   - [[./Maps/わかるとは-テンプレート.xmind]]
+   - [[./Maps/わかるとは.xmind]]
+   - [[./Maps/わかるとはどういうことか.xmind]]
+   - [[./Maps/メモ.xmind]]
+   - [[./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind]]
+   - [[./Maps/メモと思考のためのICTの活用.xmind]]
+   - [[./Maps/思考とメモと情報処理とICT.xmind]]
+   - [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
+   - [[./Maps/思考とメモと文書のためのdigital・tool.xmind]]
+   - [[./Maps/放送大学のPCの使い方.xmind]]
+   - [[./Maps/新説情報リテラシー.xmind]]
+    
