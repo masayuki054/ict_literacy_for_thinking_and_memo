@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-04-10 土 21:30 -->
+<!-- 2022-11-22 火 10:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>メモと思考のためのICTの活用</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="suzuki@iwate-u.ac.jp 鈴木正幸，非常勤講師" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="author" content="suzuki@iwate-u.ac.jp 鈴木正幸，元岩手大学工学部准教授" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -41,21 +42,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,59 +191,35 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+  .org-svg { }
 </style>
-<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="http://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/bigblow/css/bigblow.css"/>
-<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
-<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">メモと思考のためのICTの活用</h1>
 <p>
-<a href="http://masayuki054.hatenablog.com/entry/2019/12/09/102219">放送大学 面接講義 (岩手 2020, 2019, 2018) - masayuki054's diary</a>
+<a href="http://masayuki054.hatenablog.com/entry/2019/12/09/102219">放送大学 面接講義 (岩手 2022，2020, 2019, 2018) - masayuki054's diary</a>
 </p>
 
-<div id="outline-container-org4dfb0cd" class="outline-2">
-<h2 id="org4dfb0cd">1-序</h2>
-<div class="outline-text-2" id="text-org4dfb0cd">
+<div id="outline-container-orgb171609" class="outline-2">
+<h2 id="orgb171609">1-序</h2>
+<div class="outline-text-2" id="text-orgb171609">
 </div>
-<div id="outline-container-org2aa0f7b" class="outline-3">
-<h3 id="org2aa0f7b">配布資料</h3>
-<div class="outline-text-3" id="text-org2aa0f7b">
+<div id="outline-container-org9d12bdf" class="outline-3">
+<h3 id="org9d12bdf">配布資料</h3>
+<div class="outline-text-3" id="text-org9d12bdf">
 <ul class="org-ul">
-<li>2018年度の面接講義内容</li>
 <li><p>
 USB メモリの ict フォルダに以下のものが入っています：
 </p>
@@ -253,15 +230,16 @@ USB メモリの ict フォルダに以下のものが入っています：
 </ul>
 
 <p>
-ご自分のUSBメモリをお持ちでしたら，コピーして，コピーを
+ご自分のUSBメモリをお持ちでしたら，コピーして，ご自分のものをお使
+いください。
 </p></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge9cc024" class="outline-3">
-<h3 id="orge9cc024">参考サイト</h3>
-<div class="outline-text-3" id="text-orge9cc024">
+<div id="outline-container-orgf92ecfc" class="outline-3">
+<h3 id="orgf92ecfc">参考サイト</h3>
+<div class="outline-text-3" id="text-orgf92ecfc">
 <ul class="org-ul">
 <li>2018のこと 思考技術とメモ
 
@@ -287,37 +265,37 @@ USB メモリの ict フォルダに以下のものが入っています：
 </div>
 </div>
 
-<div id="outline-container-org9fdf064" class="outline-3">
-<h3 id="org9fdf064">講義の概要</h3>
-<div class="outline-text-3" id="text-org9fdf064">
+<div id="outline-container-org759dfab" class="outline-3">
+<h3 id="org759dfab">講義の概要</h3>
+<div class="outline-text-3" id="text-org759dfab">
 <p>
 <a href="./Maps/メモと思考のためのICTの活用.xmind">./Maps/メモと思考のためのICTの活用.xmind</a>
 </p>
 </div>
 
-<div id="outline-container-org0102133" class="outline-4">
-<h4 id="org0102133">ねらい</h4>
-<div class="outline-text-4" id="text-org0102133">
+<div id="outline-container-orgbaec7f7" class="outline-4">
+<h4 id="orgbaec7f7">ねらい</h4>
+<div class="outline-text-4" id="text-orgbaec7f7">
 <p>
 知的な 情報の 処理の 実践的な 演習 
 </p>
 </div>
 </div>
 
-<div id="outline-container-org86baa5c" class="outline-4">
-<h4 id="org86baa5c">ICT技術</h4>
-<div class="outline-text-4" id="text-org86baa5c">
+<div id="outline-container-org1049e1c" class="outline-4">
+<h4 id="org1049e1c">ICT技術</h4>
+<div class="outline-text-4" id="text-org1049e1c">
 <ul class="org-ul">
 <li>人とコンピュータとインターネットが協調するためのデジタル技術</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc2c3435" class="outline-4">
-<h4 id="orgc2c3435">思考技術</h4>
-<div class="outline-text-4" id="text-orgc2c3435">
+<div id="outline-container-org1c6ef58" class="outline-4">
+<h4 id="org1c6ef58">思考技術</h4>
+<div class="outline-text-4" id="text-org1c6ef58">
 <p>
-考えるためのフレームワーク
+考えるためのフレームワーク(枠組み)
 </p>
 
 <ul class="org-ul">
@@ -330,9 +308,9 @@ USB メモリの ict フォルダに以下のものが入っています：
 </div>
 </div>
 
-<div id="outline-container-orgd3732e7" class="outline-4">
-<h4 id="orgd3732e7">情報リテラシ</h4>
-<div class="outline-text-4" id="text-orgd3732e7">
+<div id="outline-container-org1d142e0" class="outline-4">
+<h4 id="org1d142e0">情報リテラシ</h4>
+<div class="outline-text-4" id="text-org1d142e0">
 <p>
 情報リテラシとは，ICT技術と協調した思考技術のこと
 </p>
@@ -340,10 +318,9 @@ USB メモリの ict フォルダに以下のものが入っています：
 </div>
 </div>
 
-
-<div id="outline-container-org468b3d1" class="outline-3">
-<h3 id="org468b3d1">聴講のし方</h3>
-<div class="outline-text-3" id="text-org468b3d1">
+<div id="outline-container-org65aaf31" class="outline-3">
+<h3 id="org65aaf31">聴講のし方</h3>
+<div class="outline-text-3" id="text-org65aaf31">
 <p>
 講義の前半で、メモと思考のためのツールを紹介します。講義内容をメモ
 し、考えながら受講してください。
@@ -390,17 +367,17 @@ Dynalistについて紹介します。
 </div>
 </div>
 
-<div id="outline-container-orgd2b7860" class="outline-3">
-<h3 id="orgd2b7860">確認事項 インターネット関連</h3>
-<div class="outline-text-3" id="text-orgd2b7860">
+<div id="outline-container-org8bbcb9e" class="outline-3">
+<h3 id="org8bbcb9e">確認事項 インターネット関連</h3>
+<div class="outline-text-3" id="text-org8bbcb9e">
 <p>
 <a href="https://masayuki054.github.io/cloud_and_information_literacy/talk.html">クラウドと情報リテラシー</a> の受講の準備を参考にしてください：
 </p>
 </div>
 
-<div id="outline-container-orgabe1c4d" class="outline-4">
-<h4 id="orgabe1c4d">ブラウザ</h4>
-<div class="outline-text-4" id="text-orgabe1c4d">
+<div id="outline-container-orgbc464f3" class="outline-4">
+<h4 id="orgbc464f3">ブラウザ</h4>
+<div class="outline-text-4" id="text-orgbc464f3">
 <p>
 <a href="https://support.google.com/chrome/?hl=ja">Google Chrome ヘルプ</a> 
 </p>
@@ -416,9 +393,9 @@ Dynalistについて紹介します。
 </div>
 </div>
 
-<div id="outline-container-orgd952981" class="outline-4">
-<h4 id="orgd952981">Googleアカウントの確認</h4>
-<div class="outline-text-4" id="text-orgd952981">
+<div id="outline-container-orgcc66465" class="outline-4">
+<h4 id="orgcc66465">Googleアカウントの確認</h4>
+<div class="outline-text-4" id="text-orgcc66465">
 <p>
 学生番号@campus.ouj.ac.jp  があなたの Google ID です。
 </p>
@@ -429,9 +406,9 @@ Googleにログインし，メールを確認しましょう:
 </div>
 </div>
 
-<div id="outline-container-org7416245" class="outline-4">
-<h4 id="org7416245">Google ドライブを使ってみよう</h4>
-<div class="outline-text-4" id="text-org7416245">
+<div id="outline-container-org0a9991a" class="outline-4">
+<h4 id="org0a9991a">Google ドライブを使ってみよう</h4>
+<div class="outline-text-4" id="text-org0a9991a">
 <p>
 自分のマイドライブ (<a href="https://drive.google.com/drive/my-drive">https://drive.google.com/drive/my-drive</a>) に
 </p>
@@ -452,18 +429,20 @@ Googleにログインし，メールを確認しましょう:
 </div>
 </div>
 
-<div id="outline-container-orgb4cd5e8" class="outline-4">
-<h4 id="orgb4cd5e8">講義での共有フォルダ</h4>
-<div class="outline-text-4" id="text-orgb4cd5e8">
+<div id="outline-container-org67166da" class="outline-4">
+<h4 id="org67166da">講義での共有フォルダ</h4>
+<div class="outline-text-4" id="text-org67166da">
 <ul class="org-ul">
-<li>共有フォルダ <a href="https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c">メモのための思考とICTの活用 - Google ドライブ</a></li>
+<li>共有フォルダ2022 <a href="https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd">メモと思考のためのICTの活用2022 - Google ドライブ</a></li>
+
+<li>共有フォルダ2020 <a href="https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c">メモのための思考とICTの活用 - Google ドライブ</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org37d6ca6" class="outline-4">
-<h4 id="org37d6ca6">Web アウトライナーへの登録</h4>
-<div class="outline-text-4" id="text-org37d6ca6">
+<div id="outline-container-org07c2c3e" class="outline-4">
+<h4 id="org07c2c3e">Web アウトライナーへの登録</h4>
+<div class="outline-text-4" id="text-org07c2c3e">
 <p>
 <a href="https://dynalist.io">https://dynalist.io</a> を開いて，Googleアカウントでログインしましょ
 う。
@@ -478,19 +457,19 @@ Googleにログインし，メールを確認しましょう:
 </div>
 
 
-<div id="outline-container-org1862815" class="outline-2">
-<h2 id="org1862815">2-アプリ</h2>
-<div class="outline-text-2" id="text-org1862815">
+<div id="outline-container-org98f716e" class="outline-2">
+<h2 id="org98f716e">2-アプリ</h2>
+<div class="outline-text-2" id="text-org98f716e">
 </div>
-<div id="outline-container-orgbe031cc" class="outline-3">
-<h3 id="orgbe031cc">ブラウザ</h3>
-<div class="outline-text-3" id="text-orgbe031cc">
+<div id="outline-container-org4e649c7" class="outline-3">
+<h3 id="org4e649c7">ブラウザ</h3>
+<div class="outline-text-3" id="text-org4e649c7">
 <ul class="org-ul">
 <li>Google, mail, drive, &#x2026;</li>
 <li>ブラウザ login/sync</li>
-<li>情報共有場所 <a href="https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c">放送大学 - Google ドライブ</a></li>
+<li>情報共有場所 <a href="https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c">放送大学 - Google ドライブ</a> <a href="https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd">メモと思考のためのICTの活用2022 - Google ドライブ</a></li>
 <li><p>
-講義資料配布 <a href="https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821">00ーせんせい - Google ドライブ</a>
+講義資料配布 <a href="https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821">00ーせんせい - Google ドライブ</a> <a href="https://drive.google.com/drive/folders/18yM4_F7QwHjAfKLQjcUeOUPYLKeL7U71">00せんせい - Google ドライブ</a>
 </p>
 
 <p>
@@ -500,16 +479,20 @@ Googleにログインし，メールを確認しましょう:
 </div>
 </div>
 
-<div id="outline-container-org19c9876" class="outline-3">
-<h3 id="org19c9876">XMind 2020</h3>
-<div class="outline-text-3" id="text-org19c9876">
+<div id="outline-container-orgcbec66d" class="outline-3">
+<h3 id="orgcbec66d">XMind 2020</h3>
+<div class="outline-text-3" id="text-orgcbec66d">
 <p>
 下記の動画を見てXMind 2020 を使ってみましょう：
 </p>
 
 <ul class="org-ul">
-<li><a href="https://www.youtube.com/watch?v=dxQs3yWXdNo">(106) おすすめのマインドマップアプリ（Xmind2020）の使い方 - YouTube</a>　15分</li>
-</ul>
+<li><a href="https://www.youtube.com/watch?v=ulp8okn7kAQ">【超初心者でも大丈夫】Xmind概要と使い方（2倍速視聴がオススメ） -
+YouTube</a></li>
+
+<li><p>
+<a href="https://tcd-theme.com/2018/06/how-to-use-xmind.html?gclid=CjwKCAiAmuKbBhA2EiwAxQnt76oYq7f5RicMOoKOTwxJrQEsd1M8xZlSbjDxhPmzAIjamh58PdYPJxoC7McQAvD_BwE">思い浮かんだアイディアをその場で視覚化するマインドマップツール「XMind」</a>  
+</p>
 
 <p>
 下記のサイトを読んで，使い方を確認しましょう：
@@ -521,13 +504,14 @@ Googleにログインし，メールを確認しましょう:
 
 <p>
 XMindをアウトライナーとして使うことも可能です:
-</p>
+</p></li>
+</ul>
 </div>
 </div>
 
-<div id="outline-container-orga1ef44c" class="outline-3">
-<h3 id="orga1ef44c">dynalist</h3>
-<div class="outline-text-3" id="text-orga1ef44c">
+<div id="outline-container-orgb5f6882" class="outline-3">
+<h3 id="orgb5f6882">dynalist</h3>
+<div class="outline-text-3" id="text-orgb5f6882">
 <p>
 ブラウザで Dynalist を動かして，下記サイトを見ながら，Dynalist を
 使ってみましょう。
@@ -555,30 +539,41 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 
 
-<div id="outline-container-orgd239405" class="outline-2">
-<h2 id="orgd239405">3-関係を見る</h2>
-<div class="outline-text-2" id="text-orgd239405">
+<div id="outline-container-orga8067b8" class="outline-2">
+<h2 id="orga8067b8">3-関係を見る・作る</h2>
+<div class="outline-text-2" id="text-orga8067b8">
 </div>
-<div id="outline-container-orgccaa83c" class="outline-3">
-<h3 id="orgccaa83c">抽象化と詳細化</h3>
-<div class="outline-text-3" id="text-orgccaa83c">
+<div id="outline-container-org1d7dd33" class="outline-3">
+<h3 id="org1d7dd33">抽象化と詳細化</h3>
+<div class="outline-text-3" id="text-org1d7dd33">
+<p>
+<a href="https://www.youtube.com/watch?v=0PFHR3lXyQE">(1) 【本要約】「具体⇄抽象」トレーニング 思考力が飛躍的にアップする29問 - YouTube</a> (9：36)
+</p>
+
 <p>
 <a href="https://www.youtube.com/watch?v=RROOmvwUZMo">(104) 抽象思考を身に着けるための簡単な2つのトレーニング - YouTube</a>
 </p>
-
 <ul class="org-ul">
 <li>これはだめな説明の例</li>
 </ul>
 
 <p>
-<a href="http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1">suzuki@cis.iwate-u.ac.jp 抽象化のための手続き</a>
+<a href="http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1">suzuki@cis.iwate-u.ac.jp  抽象化のための手続き</a>
 </p>
+
+<ul class="org-ul">
+<li>複合</li>
+<li>関係</li>
+<li>抽象</li>
+</ul>
 </div>
 </div>
 
-<div id="outline-container-org4e20d5d" class="outline-3">
-<h3 id="org4e20d5d">図的思考</h3>
-<div class="outline-text-3" id="text-org4e20d5d">
+
+
+<div id="outline-container-org11106b9" class="outline-3">
+<h3 id="org11106b9">図的思考</h3>
+<div class="outline-text-3" id="text-org11106b9">
 <ul class="org-ul">
 <li><a href="https://books.google.co.jp/books/about/%E5%9B%B3%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E3%81%AA%E3%82%8B.html?id=DSY6DwAAQBAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;redir_esc=y#v=onepage&amp;q&amp;f=false">図で考える。シンプルになる｡ - 櫻田潤 - Google ブックス</a></li>
 <li><a href="https://www.youtube.com/watch?v=SWsS_sF3EDw">(105) 【図解思考】思考を整理しまとめる「９つの基本形」 - YouTube</a></li>
@@ -586,18 +581,18 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 </div>
 
-<div id="outline-container-org7291e31" class="outline-3">
-<h3 id="org7291e31">マインドマップ</h3>
-<div class="outline-text-3" id="text-org7291e31">
+<div id="outline-container-orgc485b98" class="outline-3">
+<h3 id="orgc485b98">マインドマップ</h3>
+<div class="outline-text-3" id="text-orgc485b98">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=RPKuF0g6UTY">(105) 【仕事術】凡人でも「一流の仕事」が出来る魔法のツール - YouTube</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2ac8b9e" class="outline-3">
-<h3 id="org2ac8b9e">マインドマッの学校</h3>
-<div class="outline-text-3" id="text-org2ac8b9e">
+<div id="outline-container-org6c6f79d" class="outline-3">
+<h3 id="org6c6f79d">マインドマッの学校</h3>
+<div class="outline-text-3" id="text-org6c6f79d">
 <p>
 <a href="https://www.mindmap-school.jp/">考える力と創造する力を楽しく分かりやすく学ぶ - マインドマップの学校</a>
 </p>
@@ -610,9 +605,9 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 </div>
 
-<div id="outline-container-org131ca63" class="outline-3">
-<h3 id="org131ca63">アウトライナー</h3>
-<div class="outline-text-3" id="text-org131ca63">
+<div id="outline-container-org4fe63f1" class="outline-3">
+<h3 id="org4fe63f1">アウトライナー</h3>
+<div class="outline-text-3" id="text-org4fe63f1">
 <p>
 文章の関係を見る・作る
 </p>
@@ -622,36 +617,29 @@ XMindをアウトライナーとして使うことも可能です:
 
 <li><a href="https://www.youtube.com/watch?v=5IUJ-xXOEsI">(104) 【3分で分かる】アウトライナーを使うメリット #Udemy #無料体験 - YouTube</a></li>
 </ul>
-</div>
-</div>
-</div>
 
 
-<div id="outline-container-org14d2a6f" class="outline-2">
-<h2 id="org14d2a6f">4-情報リテラシーと思考とメモ</h2>
-<div class="outline-text-2" id="text-org14d2a6f">
-</div>
-<div id="outline-container-orga61c2cc" class="outline-3">
-<h3 id="orga61c2cc">メモ</h3>
-<div class="outline-text-3" id="text-orga61c2cc">
+
 <p>
-下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
-自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
+<a href="https://www.youtube.com/watch?v=4G_FVAGZvgI">(1) 【論理学】入門 考える技術・書く技術（学校で教えてくれない論理的思考） - YouTube</a>
 </p>
+</div>
+</div>
+</div>
 
+<div id="outline-container-org9b26b9d" class="outline-2">
+<h2 id="org9b26b9d">4-情報リテラシーと思考とメモ</h2>
+<div class="outline-text-2" id="text-org9b26b9d">
 <ul class="org-ul">
-<li><a href="https://studyhacker.net/how-to-take-notes">わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア</a></li>
+<li>「わかる」ことは，思考の目的で，</li>
+<li>情報リテラシーは，ICTを利用して「思考する」ことで，</li>
+<li>メモは，思考の記憶です。</li>
 </ul>
-
-<p>
-<a href="./Maps/メモ.xmind">./Maps/メモ.xmind</a> も参考にしてください。
-</p>
-</div>
 </div>
 
-<div id="outline-container-orgf90fd81" class="outline-3">
-<h3 id="orgf90fd81">「わかるとは」について考える</h3>
-<div class="outline-text-3" id="text-orgf90fd81">
+<div id="outline-container-orgfe97a11" class="outline-3">
+<h3 id="orgfe97a11">「わかるとは」について考える</h3>
+<div class="outline-text-3" id="text-orgfe97a11">
 <p>
 <a href="https://www.chikumashobo.co.jp/product/9784480059390/">筑摩書房 「わかる」とはどういうことか ─認識の脳科学 / 山鳥 重 著</a>
 の読書メモです：
@@ -672,9 +660,28 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 
 
-<div id="outline-container-org49232ba" class="outline-3">
-<h3 id="org49232ba">思考とは  <a href="https://masayuki054.github.io/cloud_and_information_literacy/talk.html">クラウドと情報リテラシー</a> 参照</h3>
-<div class="outline-text-3" id="text-org49232ba">
+<div id="outline-container-orgc7e92ef" class="outline-3">
+<h3 id="orgc7e92ef">メモ</h3>
+<div class="outline-text-3" id="text-orgc7e92ef">
+<p>
+下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
+自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://studyhacker.net/how-to-take-notes">わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア</a></li>
+</ul>
+
+<p>
+<a href="./Maps/メモ.xmind">./Maps/メモ.xmind</a> も参考にしてください。
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgc807d85" class="outline-3">
+<h3 id="orgc807d85">思考とは  <a href="https://masayuki054.github.io/cloud_and_information_literacy/talk.html">クラウドと情報リテラシー</a> 参照</h3>
+<div class="outline-text-3" id="text-orgc807d85">
 <ul class="org-ul">
 <li>抽象化と詳細化が基本</li>
 
@@ -704,9 +711,9 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 
 
-<div id="outline-container-orga13253b" class="outline-3">
-<h3 id="orga13253b">思考態度</h3>
-<div class="outline-text-3" id="text-orga13253b">
+<div id="outline-container-org6296452" class="outline-3">
+<h3 id="org6296452">思考態度</h3>
+<div class="outline-text-3" id="text-org6296452">
 <ul class="org-ul">
 <li>垂直思考</li>
 <li>水平思考</li>
@@ -715,9 +722,9 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 
 
-<div id="outline-container-org0c3fb97" class="outline-3">
-<h3 id="org0c3fb97">思考技術 (思考過程)  <a href="https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html">メモと思考とデジタルツール</a> 参照</h3>
-<div class="outline-text-3" id="text-org0c3fb97">
+<div id="outline-container-org68a1999" class="outline-3">
+<h3 id="org68a1999">思考技術 (思考過程)  <a href="https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html">メモと思考とデジタルツール</a> 参照</h3>
+<div class="outline-text-3" id="text-org68a1999">
 <p>
 思考の過程は，次の7つののステップからなります：
 </p>
@@ -761,9 +768,9 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 
 
-<div id="outline-container-org0f8005a" class="outline-2">
-<h2 id="org0f8005a">5-アウトライナと批判的思考演習</h2>
-<div class="outline-text-2" id="text-org0f8005a">
+<div id="outline-container-org142841a" class="outline-2">
+<h2 id="org142841a">5-アウトライナと批判的思考演習</h2>
+<div class="outline-text-2" id="text-org142841a">
 <p>
 下記のサイトを批判的に読んでまとめを作り，批判的思考について自分の理
 解をつくりましょう：
@@ -780,18 +787,18 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 </div>
 
-<div id="outline-container-org0199e3f" class="outline-2">
-<h2 id="org0199e3f">6-継続のための技術の批判的思考演習</h2>
-<div class="outline-text-2" id="text-org0199e3f">
+<div id="outline-container-org329ff2e" class="outline-2">
+<h2 id="org329ff2e">6-継続のための技術の批判的思考演習</h2>
+<div class="outline-text-2" id="text-org329ff2e">
 <p>
 継続のための技術について，批判的に読み，自分の知識をアウトライナーか
 マインドマップにまとめましょう。
 </p>
 </div>
 
-<div id="outline-container-orgf656ae6" class="outline-3">
-<h3 id="orgf656ae6">ストレス対処法</h3>
-<div class="outline-text-3" id="text-orgf656ae6">
+<div id="outline-container-orgfa44c83" class="outline-3">
+<h3 id="orgfa44c83">ストレス対処法</h3>
+<div class="outline-text-3" id="text-orgfa44c83">
 <p>
 下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
 う:
@@ -803,9 +810,9 @@ XMindをアウトライナーとして使うことも可能です:
 </div>
 </div>
 
-<div id="outline-container-org4b59ff0" class="outline-3">
-<h3 id="org4b59ff0">ストレスを貯めない</h3>
-<div class="outline-text-3" id="text-org4b59ff0">
+<div id="outline-container-orgb8c96e7" class="outline-3">
+<h3 id="orgb8c96e7">ストレスを貯めない</h3>
+<div class="outline-text-3" id="text-orgb8c96e7">
 <p>
 下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
 う:
@@ -824,9 +831,9 @@ YouTube</a>  GTDとマインドマップ
 </div>
 </div>
 
-<div id="outline-container-orgbe27030" class="outline-2">
-<h2 id="orgbe27030">7-新情報リテラシー</h2>
-<div class="outline-text-2" id="text-orgbe27030">
+<div id="outline-container-org47463a5" class="outline-2">
+<h2 id="org47463a5">7-新情報リテラシー</h2>
+<div class="outline-text-2" id="text-org47463a5">
 <p>
 ビデオを視聴しメモをとりましょう。
 </p>
@@ -841,9 +848,9 @@ YouTube</a>  GTDとマインドマップ
 </div>
 </div>
 
-<div id="outline-container-org27c0333" class="outline-2">
-<h2 id="org27c0333">8-講義のまとめとレポート作成</h2>
-<div class="outline-text-2" id="text-org27c0333">
+<div id="outline-container-orgba05634" class="outline-2">
+<h2 id="orgba05634">8-講義のまとめとレポート作成</h2>
+<div class="outline-text-2" id="text-orgba05634">
 <p>
 下記のものを Google Drive に提出してください
 </p>
@@ -859,17 +866,17 @@ YouTube</a>  GTDとマインドマップ
 </div>
 
 
-<div id="outline-container-org9061198" class="outline-2">
-<h2 id="org9061198">その他の資料</h2>
-<div class="outline-text-2" id="text-org9061198">
+<div id="outline-container-orgbcf4fe8" class="outline-2">
+<h2 id="orgbcf4fe8">その他の資料</h2>
+<div class="outline-text-2" id="text-orgbcf4fe8">
 </div>
-<div id="outline-container-org6b61f93" class="outline-3">
-<h3 id="org6b61f93">レポートの書き方</h3>
-<div class="outline-text-3" id="text-org6b61f93">
+<div id="outline-container-orgdd1bf07" class="outline-3">
+<h3 id="orgdd1bf07">レポートの書き方</h3>
+<div class="outline-text-3" id="text-orgdd1bf07">
 </div>
-<div id="outline-container-orged8e642" class="outline-4">
-<h4 id="orged8e642">京大 紅</h4>
-<div class="outline-text-4" id="text-orged8e642">
+<div id="outline-container-orgd40bf65" class="outline-4">
+<h4 id="orgd40bf65">京大 紅</h4>
+<div class="outline-text-4" id="text-orgd40bf65">
 <ul class="org-ul">
 <li><a href="https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/250143">Kyoto University Research Information Repository: レポートの書き方 &#x2013;アカデミック・ライティングのポイント--</a>
 <ul class="org-ul">
@@ -879,9 +886,9 @@ YouTube</a>  GTDとマインドマップ
 </div>
 </div>
 
-<div id="outline-container-orged44660" class="outline-4">
-<h4 id="orged44660">2. 「大学生らしいレポートの書き方」のレポート</h4>
-<div class="outline-text-4" id="text-orged44660">
+<div id="outline-container-org527d952" class="outline-4">
+<h4 id="org527d952">2. 「大学生らしいレポートの書き方」のレポート</h4>
+<div class="outline-text-4" id="text-org527d952">
 <ul class="org-ul">
 <li><a href="https://www.report.gusoku.net/kihon/">大学レポートの書き方：基本編</a> 1~5, 7~8を読んで，
 要約をアウトラインにまとめる。</li>
@@ -893,9 +900,9 @@ YouTube</a>  GTDとマインドマップ
 </div>
 
 
-<div id="outline-container-orgb88c253" class="outline-3">
-<h3 id="orgb88c253">思考方法</h3>
-<div class="outline-text-3" id="text-orgb88c253">
+<div id="outline-container-org0a84f1b" class="outline-3">
+<h3 id="org0a84f1b">思考方法</h3>
+<div class="outline-text-3" id="text-org0a84f1b">
 <ul class="org-ul">
 <li><a href="https://sugimuratakashi.com/giron/">クリティカルシンキング（批判的思考）とは？具体例とトレーニング方法</a></li>
 
@@ -910,8 +917,8 @@ YouTube</a>  GTDとマインドマップ
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: suzuki@iwate-u.ac.jp 鈴木正幸，非常勤講師</p>
-<p class="date">Created: 2021-04-10 土 21:30</p>
+<p class="author">Author: suzuki@iwate-u.ac.jp 鈴木正幸，元岩手大学工学部准教授</p>
+<p class="date">Created: 2022-11-22 火 10:40</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

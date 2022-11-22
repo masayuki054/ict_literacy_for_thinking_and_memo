@@ -1,19 +1,20 @@
+
 #+setupfile: info/index-bigblow-header.setup
 #+include: info/common-header.org
-#+AUTHOR: 鈴木正幸，非常勤講師
+#+AUTHOR: 鈴木正幸，元岩手大学工学部准教授
 
-[[http://masayuki054.hatenablog.com/entry/2019/12/09/102219][放送大学 面接講義 (岩手 2020, 2019, 2018) - masayuki054's diary]]
+[[http://masayuki054.hatenablog.com/entry/2019/12/09/102219][放送大学 面接講義 (岩手 2022，2020, 2019, 2018) - masayuki054's diary]]
 
 * 1-序 
 
 ** 配布資料
-   - 2018年度の面接講義内容
    - USB メモリの ict フォルダに以下のものが入っています：
 
      - この文書 (story.html) 
      - Maps フォルダにマインドマップ
 
-     ご自分のUSBメモリをお持ちでしたら，コピーして，コピーを
+     ご自分のUSBメモリをお持ちでしたら，コピーして，ご自分のものをお使
+     いください。
 
 ** 参考サイト
    - 2018のこと 思考技術とメモ
@@ -42,7 +43,7 @@
   
 *** 思考技術
 
-    考えるためのフレームワーク
+    考えるためのフレームワーク(枠組み)
 
     - 考えるための幾つかの態度がある
 
@@ -53,7 +54,6 @@
 *** 情報リテラシ
 
     情報リテラシとは，ICT技術と協調した思考技術のこと
-
 
 ** 聴講のし方
 
@@ -116,7 +116,9 @@
 
 *** 講義での共有フォルダ
 
-    - 共有フォルダ [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][メモのための思考とICTの活用 - Google ドライブ]]
+    - 共有フォルダ2022 [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
+
+    - 共有フォルダ2020 [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][メモのための思考とICTの活用 - Google ドライブ]]
 
 *** Web アウトライナーへの登録
   
@@ -132,8 +134,8 @@
 
    - Google, mail, drive, ...
    - ブラウザ login/sync
-   - 情報共有場所 [[https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c][放送大学 - Google ドライブ]]
-   - 講義資料配布 [[https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821][00ーせんせい - Google ドライブ]]
+   - 情報共有場所 [[https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c][放送大学 - Google ドライブ]] [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
+   - 講義資料配布 [[https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821][00ーせんせい - Google ドライブ]] [[https://drive.google.com/drive/folders/18yM4_F7QwHjAfKLQjcUeOUPYLKeL7U71][00せんせい - Google ドライブ]]
 
      [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
 
@@ -141,7 +143,10 @@
 
    下記の動画を見てXMind 2020 を使ってみましょう：
 
-  - [[https://www.youtube.com/watch?v=dxQs3yWXdNo][(106) おすすめのマインドマップアプリ（Xmind2020）の使い方 - YouTube]]　15分
+- [[https://www.youtube.com/watch?v=ulp8okn7kAQ][【超初心者でも大丈夫】Xmind概要と使い方（2倍速視聴がオススメ） -
+  YouTube]]
+
+- [[https://tcd-theme.com/2018/06/how-to-use-xmind.html?gclid=CjwKCAiAmuKbBhA2EiwAxQnt76oYq7f5RicMOoKOTwxJrQEsd1M8xZlSbjDxhPmzAIjamh58PdYPJxoC7McQAvD_BwE][思い浮かんだアイディアをその場で視覚化するマインドマップツール「XMind」]]  
 
   下記のサイトを読んで，使い方を確認しましょう：
 
@@ -165,15 +170,22 @@
   - [[https://316-jp.com/dynalist-manual][【Web版・日本語訳】Dynalistの使い方・機能・ショートカットキー一覧│G-NOTE]]
 
 
-* 3-関係を見る
+* 3-関係を見る・作る
 
 ** 抽象化と詳細化
 
-  [[https://www.youtube.com/watch?v=RROOmvwUZMo][(104) 抽象思考を身に着けるための簡単な2つのトレーニング - YouTube]]
+[[https://www.youtube.com/watch?v=0PFHR3lXyQE][(1) 【本要約】「具体⇄抽象」トレーニング 思考力が飛躍的にアップする29問 - YouTube]] (9：36)
 
+[[https://www.youtube.com/watch?v=RROOmvwUZMo][(104) 抽象思考を身に着けるための簡単な2つのトレーニング - YouTube]]
   - これはだめな説明の例
 
-  [[http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1][suzuki@cis.iwate-u.ac.jp 抽象化のための手続き]]
+ [[http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1][suzuki@cis.iwate-u.ac.jp  抽象化のための手続き]]
+
+ - 複合
+ - 関係
+ - 抽象
+
+
 
 ** 図的思考
 
@@ -199,16 +211,14 @@
   - [[https://www.youtube.com/watch?v=5IUJ-xXOEsI][(104) 【3分で分かる】アウトライナーを使うメリット #Udemy #無料体験 - YouTube]]
 
 
+
+   [[https://www.youtube.com/watch?v=4G_FVAGZvgI][(1) 【論理学】入門 考える技術・書く技術（学校で教えてくれない論理的思考） - YouTube]]
+
 * 4-情報リテラシーと思考とメモ
 
-** メモ
-
-   下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
-   自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
-
-   - [[https://studyhacker.net/how-to-take-notes][わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア]]
-
-   [[./Maps/メモ.xmind]] も参考にしてください。
+- 「わかる」ことは，思考の目的で，
+- 情報リテラシーは，ICTを利用して「思考する」ことで，
+- メモは，思考の記憶です。
 
 ** 「わかるとは」について考える
 
@@ -220,6 +230,16 @@
   このマップと読んで，下記のマップに自分の考えをまとめてみてください。
 
    - [[./Maps/わかるとはどういうことか.xmind]] 記入用マップ
+
+
+** メモ
+
+   下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
+   自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
+
+   - [[https://studyhacker.net/how-to-take-notes][わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア]]
+
+   [[./Maps/メモ.xmind]] も参考にしてください。
 
 
 ** 思考とは  [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 参照
