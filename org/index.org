@@ -15,19 +15,21 @@
      ご自分のUSBメモリをお持ちでしたら，コピーして，ご自分のものをお使
      いください。
 
-** 参考サイト
-   - 2018のこと 思考技術とメモ
+   - [[https://drive.google.com/drive/u/0/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]] 
 
+** 参考サイト
+
+   - 2019のこと クラウドと知的情報処理 
+     - [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 
+     - [[./Maps/crowdと情報リテラシー.xmind]]
+
+   - 2018のこと 思考技術とメモ
      -  [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] (Webページ)
        - 全て折り畳むをクリックしてみてください
 
      - [[./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind]]
        - 講義の概要を見える化した，マインドマップです。
        - 折り畳んだり，展開することができます。
-
-   - 2019のこと クラウドと知的情報処理 
-     - [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 
-     - [[./Maps/crowdと情報リテラシー.xmind]]
 
 ** 講義の概要
 
@@ -184,8 +186,6 @@
  - 関係
  - 抽象
 
-
-
 ** 図的思考
 
    - [[https://books.google.co.jp/books/about/%E5%9B%B3%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E3%81%AA%E3%82%8B.html?id=DSY6DwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false][図で考える。シンプルになる｡ - 櫻田潤 - Google ブックス]]
@@ -193,7 +193,7 @@
 
 ** マインドマップ
    - [[https://www.youtube.com/watch?v=RPKuF0g6UTY][(105) 【仕事術】凡人でも「一流の仕事」が出来る魔法のツール - YouTube]]
-
+     
 ** マインドマッの学校
    [[https://www.mindmap-school.jp/][考える力と創造する力を楽しく分かりやすく学ぶ - マインドマップの学校]]
    - ここの about MindMap の マインドマップの分類がいい
