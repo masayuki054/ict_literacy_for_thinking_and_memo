@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-11-27 日 15:52 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>メモと思考のためのICTの活用 新説 情報リテラシー概要</title>
+<meta name="author" content="suzuki@iwate-u.ac.jp" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/css/sos.css">
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/js/hideshow.js"></script>
+<script type="text/javascript" src="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/js/sos.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">メモと思考のためのICTの活用 新説 情報リテラシー概要</h1>
+
+<div id="outline-container-org8d5c732" class="outline-2">
+<h2 id="org8d5c732">新説 情報リテラシー</h2>
+<div class="outline-text-2" id="text-org8d5c732">
+</div>
+<div id="outline-container-org67adb6e" class="outline-3">
+<h3 id="org67adb6e">序</h3>
+<div class="outline-text-3" id="text-org67adb6e">
+</div>
+<div id="outline-container-org5b9f1e0" class="outline-4">
+<h4 id="org5b9f1e0">情報を活用する創造的能力</h4>
+</div>
+</div>
+
+<div id="outline-container-org82062ae" class="outline-3">
+<h3 id="org82062ae">I部 情報リテラシの現状</h3>
+<div class="outline-text-3" id="text-org82062ae">
+</div>
+<div id="outline-container-org434643e" class="outline-4">
+<h4 id="org434643e">1章 ITへの過剰依存が招いた危惧すべき実情</h4>
+<div class="outline-text-4" id="text-org434643e">
+<ul class="org-ul">
+<li>安易なコピペで失う思考力という大きな代償</li>
+
+<li>統計学を知らずに ∑ （合計）関数を覚える危険性</li>
+
+<li>見た目だけでグラフの種類を選ぶ愚かしさ</li>
+
+<li>身内まで煙に巻いてしまう紙芝居プレゼンテーション</li>
+
+<li>自らの人格を破壊するモラル不在の匿名掲示板</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org360ff35" class="outline-4">
+<h4 id="org360ff35">2章 情報リテラシ教育をとりまく現状</h4>
+<div class="outline-text-4" id="text-org360ff35">
+<ul class="org-ul">
+<li>情報の洪水に流されて自主性をなくした人々</li>
+
+<li>IT 化の進展と引き換えに進む社員の能力低下</li>
+
+<li>ハウツー重視の知識教育が地アタマ力を使う思考力を失わせる</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3a85254" class="outline-4">
+<h4 id="org3a85254">3章 情報リテラシとは何か</h4>
+<div class="outline-text-4" id="text-org3a85254">
+<ul class="org-ul">
+<li>ITリテラシと情報リテラシとの違い</li>
+
+<li>メディア・リテラシと情報リテラシの違い</li>
+
+<li>「読み書き算盤」にみる情報リテラシの原点</li>
+
+<li>データと情報，知識の違いと関係を理解する</li>
+
+<li>情報リテラシにおける六つの能力領域</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5ca97ad" class="outline-3">
+<h3 id="org5ca97ad">II部 情報リテラシの体系</h3>
+<div class="outline-text-3" id="text-org5ca97ad">
+</div>
+<div id="outline-container-org74c6916" class="outline-4">
+<h4 id="org74c6916">4章 情報の収集 /</h4>
+<div class="outline-text-4" id="text-org74c6916">
+<p>
+必要となる情報の入手先を探しだし，利用可能なデータを選別する
+</p>
+
+<ul class="org-ul">
+<li>極端意見と中間意見を集めて情報収集源の偏りをなくす
+
+<ul class="org-ul">
+<li>反対意見がない主流意見は洗練不足</li>
+</ul></li>
+
+<li>情報の鮮度と品質を見極める</li>
+
+<li>表記ゆれと関連性を意識したキーワード検索</li>
+
+<li>プッシュ型とプル型，熟読型と速読型の使い分け</li>
+
+<li>質問と確認を駆使して「バカの壁」を突破する</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1637e71" class="outline-4">
+<h4 id="org1637e71">5章 情報の加工 / 情報を加工して意味のある情報に変換する</h4>
+<div class="outline-text-4" id="text-org1637e71">
+<ul class="org-ul">
+<li>下準備 客観的事実と主観的事実を区別する
+
+<ul class="org-ul">
+<li>客観的事実と主観的事実という二つの事実</li>
+
+<li>飾り付けをはずして客観的事実だけを取り出す</li>
+
+<li>極端な主観的事実を除去する</li>
+
+<li>客観的事実にみえる主観的事実も存在する</li>
+
+<li>主観的事実の方が客観的事実よりも意義があることも</li>
+</ul></li>
+
+<li>情報の 2S (整理整頓）
+
+<ul class="org-ul">
+<li>項目分けは情報整理のための不可欠作業</li>
+
+<li>並べ替えるだけで見えてくる全体の傾向</li>
+
+<li>着眼点で様変わりするランキング情報</li>
+
+<li>類似性，関連性をあぶり出す分類キーの切り替え</li>
+
+<li>顕著な傾向の背後に隠れた変化に注意する</li>
+
+<li>将来を左右する情報の勢いを見逃さない</li>
+</ul></li>
+
+<li>情報の切り捨て 不要な情報を見極める
+
+<ul class="org-ul">
+<li>情報は多ければ良いというものではない</li>
+
+<li>論理のすり替えやありえない根拠で煙に巻く「詭弁」</li>
+
+<li>正常な思考を妨げる権威というわな</li>
+
+<li>マインドマップによる情報の抽象化</li>
+</ul></li>
+
+<li>情報の埋め合わせ 抜けたピースを探し出す
+
+<ul class="org-ul">
+<li>一部分だけを切り出して見せる報道の危険性</li>
+
+<li>人の人生すら破壊しかねない片面情報</li>
+
+<li>5W1H で考える情報の完全性と中立立場で考える情報の妥当性</li>
+
+<li>主語と語尾が曖昧な日本語</li>
+
+<li>因果関係による欠損値の推測</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgab19513" class="outline-4">
+<h4 id="orgab19513">6章 情報の分析 / 情報がもつ本質を理解し，有用な知識を導出する</h4>
+<div class="outline-text-4" id="text-orgab19513">
+<ul class="org-ul">
+<li>見える化テクニックで見えてくる全体像
+
+<ul class="org-ul">
+<li>ごまかしや詭弁から身を守る見える化の技術</li>
+
+<li>図にして考えるのがモデリングの基本</li>
+
+<li>Wikiが証明するコメントの視点追加の意義</li>
+</ul></li>
+
+<li>スライス＆ダイス＆ドリルダウンによる視点の切り替えが気づきを与える
+
+<ul class="org-ul">
+<li>定形帳票だけを見ていても気づかない変化が起きている</li>
+
+<li>時間がかかるデータ分析では急速な状況変化についていけない</li>
+
+<li>ピボットテーブルのクロス集計機能を使いこなす</li>
+
+<li>瞬時に視点を切り替えることができる OLAP の魅力</li>
+
+<li>地図グラフも簡単な手間で作成できる</li>
+</ul></li>
+
+<li>データマイニングとテキストマイニングで浮かび上がる隠れたトレンド
+
+<ul class="org-ul">
+<li>傾向のアタリを見で確認できる Excel 散布図</li>
+
+<li>複雑で変化が早い現代社会の助けとなる多変量解析</li>
+
+<li>アンケートの回答者自身も知らない回答者に共通する人格と嗜好</li>
+
+<li>因子分析で見つける隠れた根本要因</li>
+
+<li>テキストマイニングで浮かび上がる用語間の類似性</li>
+</ul></li>
+
+<li>因果関係を追いかけて情報の本質を探りだす
+
+<ul class="org-ul">
+<li>書き手の意図が原因となって読み手に影響を及ぼす</li>
+
+<li>パレート図とフィッシュボーン図で探る主要な因果関係</li>
+
+<li>見せかけの因果関係，作り上げた因果関係にだまされない</li>
+</ul></li>
+
+<li>近視眼的な問題の見落としを防ぐシステム思考
+
+<ul class="org-ul">
+<li>窓枠を通して見える風景しか見ていないことに気づかない</li>
+
+<li>やぐら目線が知らせるピンチとチャンス</li>
+
+<li>抽象のはしごを使ってやぐらを上り下りする</li>
+
+<li>虫の目，鳥の目，魚の目を使い分ける自在の思考法</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf51ce90" class="outline-4">
+<h4 id="orgf51ce90">7章 情報の蓄積 /</h4>
+<div class="outline-text-4" id="text-orgf51ce90">
+<p>
+学習した知識と既存知識とを結びつけて新たな知識を蓄積する
+</p>
+
+<ul class="org-ul">
+<li>インターネット依存によって軽視される知識の定着
+
+<ul class="org-ul">
+<li>知識の断片だけで全体を知ったつもりになる危険性</li>
+
+<li>知識は本の中にもインターネットにもない</li>
+
+<li>学校で学んだ数学がなぜ役にたたないのか</li>
+
+<li>学歴や資格取得が知識そのものとは違う理由</li>
+
+<li>既存の知識と組み合わせることで新しい知識を修得する</li>
+</ul></li>
+
+<li>「分かる」ためには情報の整理整頓が不可欠
+
+<ul class="org-ul">
+<li>知っているのと分かっているのとでは意味が違う</li>
+
+<li>知識を定着させるために必要となる共感という感情</li>
+
+<li>情報の整理整頓の先に知識がある</li>
+</ul></li>
+
+<li>新たな知識によって既知の知識の意味も変わる
+
+<ul class="org-ul">
+<li>本を読み返す度に意味が変わってくるのはなぜか</li>
+
+<li>知識の組み合わせが上位の知識を創造する</li>
+
+<li>知識獲得において理系と文系のこだわりは不利になる</li>
+
+<li>知識ノートとしての EverNote, OneNote の利用価値</li>
+</ul></li>
+
+<li>関連知識の量で決まる未知の情報に対する推理力
+
+<ul class="org-ul">
+<li>一つの分野のマスターが他分野の知識習得をしやすくする</li>
+
+<li>反対意見，異論に対する傾聴が関連知識の量を増やす</li>
+
+<li>旅行や趣味，遊びで得られる知識にも意義がある</li>
+
+<li>知識を増やすための多読</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgca283ed" class="outline-4">
+<h4 id="orgca283ed">8章 情報の生成 / 得られた知識を説明するための情報を生成する</h4>
+<div class="outline-text-4" id="text-orgca283ed">
+<ul class="org-ul">
+<li>不要な装飾ばかりで大事な部分がわからない
+
+<ul class="org-ul">
+<li>読み手の時間を浪費する作文レポート</li>
+
+<li>形容詞は情報伝達における諸刃の刃</li>
+
+<li>ベン図で考える範囲の妥当性</li>
+
+<li>平安時代の吹き抜け屋台にみる省略の力</li>
+
+<li>Yahoo!ニュースや Google ニュースにみる15文字制限下での要約</li>
+</ul></li>
+
+<li>コピペではすぐにはがれるオリジナルのつなぎ目
+
+<ul class="org-ul">
+<li>論文の一部を切り出してつないでみても論文にはならない</li>
+
+<li>提案書に見るコピペの弊害</li>
+
+<li>不当なコピペと正当な引用との違い</li>
+
+<li>三段論法，起承転結から学ぶ論理の作り方</li>
+</ul></li>
+
+<li>100枚の論文にも一枚の要旨にまとめることができる論理性がある
+
+<ul class="org-ul">
+<li>なぜ長文をかけない，論文が苦手なのか</li>
+
+<li>モデル図で設計する長文</li>
+
+<li>論文は長文でなければいけないわけではない</li>
+</ul></li>
+
+<li>結論から組み立てるプレゼンテーション
+
+<ul class="org-ul">
+<li>読み手が迷子になる見えない迷路プレゼン</li>
+
+<li>最後のページまで我慢させる忍耐プレゼン</li>
+
+<li>話が進むにつれて論理がぶれていく船酔いプレゼン</li>
+
+<li>プレゼンテーションのデザインは結論ページから</li>
+
+<li>パンくずリストに学ぶ論理構成の見える化</li>
+</ul></li>
+
+<li>数式に置き換えられない文章構成は論理に欠陥がある
+
+<ul class="org-ul">
+<li>結論に関係のない無意味な情報が論理をあいまいにする</li>
+
+<li>多変量回帰式で設計し検証する論理構造</li>
+
+<li>アウトラインプロセッサによる構造設計</li>
+
+<li>演繹法と帰納法の違いと相互補完</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcd8179a" class="outline-4">
+<h4 id="orgcd8179a">9章 情報の発信 /</h4>
+<div class="outline-text-4" id="text-orgcd8179a">
+<p>
+情報を必要とする利用者を探しだし，生成した情報を発信する
+</p>
+
+<ul class="org-ul">
+<li>タイトルを見ても中身がわからず中身を読んでも結論がない文章の氾濫
+
+<ul class="org-ul">
+<li>キャッチフレーズとしてのタイトルを考える</li>
+
+<li>読み手の論理センスを狂わせる不親切な情報発信</li>
+
+<li>お友達感覚の携帯電話メールが電子メールマナーをなし崩しにする</li>
+
+<li>話し言葉で発信される電子メールの危険性</li>
+</ul></li>
+
+<li>この情報は誰に対するものなのかを考えることから始まる
+
+<ul class="org-ul">
+<li>口で言うほど簡単ではない顧客志向</li>
+
+<li>最大限の理解を得ようとするのではなく誤解を最小に防ぐ</li>
+
+<li>聞き手読み手のタイプと関係性によって発信の仕方を変える</li>
+
+<li>ドラマのあらすじに学ぶ途中参加者への気配り</li>
+</ul></li>
+
+<li>情報を伝えたい相手が認知してくれなければ意味がない
+
+<ul class="org-ul">
+<li>自分勝手な思い込みで相手の立場まで決め付ける人々</li>
+
+<li>主観だけでも客観だけでも伝わらない</li>
+
+<li>論文作成に必要となる論理展開力と課題設定力</li>
+</ul></li>
+
+<li>モラルとコンプライアンスを無視したコンテンツに発信資格なし
+
+<ul class="org-ul">
+<li>質問，反論を許さない独りよがりの無責任発言</li>
+
+<li>心の痛みがわからない者に差別用語禁止の理由はわからない</li>
+
+<li>無責任な情報連鎖が起きやすいソーシャルメディアの危険性</li>
+
+<li>コピペで飾られたあってはならない論文</li>
+</ul></li>
+
+<li>ソーシャルメディアのプライバシー保護は自己責任
+
+<ul class="org-ul">
+<li>情報共有が前提のソーシャルメディア</li>
+
+<li>デフォルト設定のままではプライバシーは保護されない</li>
+
+<li>画像逆検索で暴露されるプライバシー</li>
+
+<li>安易な友達連鎖が信頼崩壊を生み出す</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf96b7ec" class="outline-3">
+<h3 id="orgf96b7ec">III部 情報リテラシの今後</h3>
+<div class="outline-text-3" id="text-orgf96b7ec">
+</div>
+<div id="outline-container-orge41c678" class="outline-4">
+<h4 id="orge41c678">10章 IT 重視の情報リテラシーは何をのこしたのか</h4>
+<div class="outline-text-4" id="text-orge41c678">
+<ul class="org-ul">
+<li>対面，口頭でのコミュニケーションを避ける現代人
+
+<ul class="org-ul">
+<li>IT がなければ仕事ができない社員の急増</li>
+
+<li>入力の仕方だけ学んでも仕事はできない</li>
+
+<li>正しい日本語ができないままで外国語を使いこなすことはできない</li>
+
+<li>インターネットとオフィス中心の IT リテラシからの脱却</li>
+</ul></li>
+
+<li>陳腐化する情報技術を後追いするだけの情報リテラシ教育
+
+<ul class="org-ul">
+<li>バージョンアップのたびに仕事ができなくなる</li>
+
+<li>新機能も用途がわからなければ意味がない</li>
+
+<li>10年前, 20年前とさほど変わらないパソコン利用</li>
+
+<li>IT 弱者に必要なのは IT アレルギーの解消と原理教育</li>
+</ul></li>
+
+<li>教育の IT と IT の教育とが区別できていない教育現場
+
+<ul class="org-ul">
+<li>「教育のIT」で浮かび上がる「ITの教育」の重要性</li>
+
+<li>教育革命とともにコピペ論文を生み出す「教育のIT」の功罪</li>
+
+<li>「教育のIT」は教える側への「ITの教育」も必要とする</li>
+
+<li>「教育のIT」に必要なのは IT の使い方ではなく IT との付き合い方</li>
+</ul></li>
+
+<li>「読み書きそろばん」の力を落としかねない IT 教育のジレンマ
+
+<ul class="org-ul">
+<li>全世代に見られる読み書きそろばん能力の低下</li>
+
+<li>手書き機会現象によるボキャブラリの貧弱化</li>
+
+<li>電子メールに代表される書き言葉の話し言語化</li>
+
+<li>計算式との交換で失った筆算の計算プロセス</li>
+</ul></li>
+
+<li>IT重視の情報リテラシ教育がもたらしたもの
+
+<ul class="org-ul">
+<li>無から有を生み出す想像力の喪失</li>
+
+<li>意見衝突を通じて成長しあう対話力の喪失</li>
+
+<li>相手の立場になって考える想像力の喪失</li>
+
+<li>季節の変化や人情の機微を感じ取る感性の喪失</li>
+
+<li>アルファの存在に気づく分析力の喪失</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org312cc52" class="outline-4">
+<h4 id="org312cc52">11章 情報リテラシ教育のあるべき姿</h4>
+<div class="outline-text-4" id="text-org312cc52">
+<ul class="org-ul">
+<li>情報のマネジメント・サイクル（インプット，プロセッシング，アウトプット）から学ぶ
+
+<ul class="org-ul">
+<li>情報発信は形のないものづくり</li>
+
+<li>新鮮な素材と正しいレシピ，そして情報リテラシ</li>
+
+<li>わがままの押し付けか，思いやりのもてなしか</li>
+
+<li>アウトプットに対するフィードバックというインプット</li>
+
+<li>気づき合い，学び合いのマネジメント・サイクル</li>
+</ul></li>
+
+<li>情報が持つ意味を考える地アタマ力を養う
+
+<ul class="org-ul">
+<li>抽象的な言葉には無数の具体的な意味がこめられている</li>
+
+<li>具体的な言葉には共通する抽象的な意味が横たわっている</li>
+
+<li>一つ一つの言葉の意味を噛みしめるように確かめる</li>
+
+<li>考えてから話す，聞いた話を咀嚼する</li>
+</ul></li>
+
+<li>ITに偏らない多様な情報対応力を身につける
+
+<ul class="org-ul">
+<li>対面だからこそできる真摯に聞くこと</li>
+
+<li>体験してはじめてわかる人の喜びや悲しみ</li>
+
+<li>人間力にこだわるリッツカールトンとディズニーランドの凄味</li>
+
+<li>なんの偏見もなく自分の頭で答えを出すという難しさ</li>
+
+<li>限界を知っているからこそ使いこなせるIT</li>
+</ul></li>
+
+<li>情報発信における品質保証と文責意識を形成する
+
+<ul class="org-ul">
+<li>言いっぱなし，聞き流しがもたらす思考力の喪失</li>
+
+<li>いい加減な伝聞に振り回される人々</li>
+
+<li>極大と最大を区別しない予言予測のいい加減さ</li>
+
+<li>発生確率を表現する話し方</li>
+
+<li>自分の発信に責任を持つという意味</li>
+</ul></li>
+
+<li>ハウツーではなく考え方重視による陳腐化しない IT リテラシへ
+
+<ul class="org-ul">
+<li>ITリテラシ教育がITリテラシを低下させるという矛盾</li>
+
+<li>ハウツー重視の教育が抱える限界と問題</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: suzuki@iwate-u.ac.jp</p>
+<p class="date">Created: 2022-11-27 日 15:52</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
