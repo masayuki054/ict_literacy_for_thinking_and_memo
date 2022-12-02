@@ -1,1 +1,439 @@
-/Users/sss/COMM/Lects/BCUniv/2022/git/org/docs.html
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-12-02 金 20:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>メモと思考のためのICTの活用</title>
+<meta name="author" content="suzuki@iwate-u.ac.jp 鈴木正幸，非常勤講師" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">メモと思考のためのICTの活用</h1>
+
+
+<div id="outline-container-org33e0ed1" class="outline-2">
+<h2 id="org33e0ed1">メモと思考のためのICTの活用's 文書</h2>
+<div class="outline-text-2" id="text-org33e0ed1">
+</div>
+<div id="outline-container-org957f265" class="outline-3">
+<h3 id="org957f265">配布USB内のフォルダ</h3>
+<div class="outline-text-3" id="text-org957f265">
+<ul class="org-ul">
+<li><a href="./Maps">./Maps</a> Xmind マインドマップ</li>
+<li><a href="./docs">./docs</a> 用語やテーマについての説明</li>
+<li><a href="./i_maps">./i_maps</a> 手書きマップや画像</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0b8fe3a" class="outline-3">
+<h3 id="org0b8fe3a">これまでの面接講義内容</h3>
+<div class="outline-text-3" id="text-org0b8fe3a">
+<ul class="org-ul">
+<li><a href="./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind">./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind</a>
+<ul class="org-ul">
+<li><a href="./Maps/思考とメモと文書のためのdigital_tools.xmind">./Maps/思考とメモと文書のためのdigital_tools.xmind</a></li>
+</ul></li>
+
+<li><a href="./Maps/メモと思考のためのICTの活用.xmind">./Maps/メモと思考のためのICTの活用.xmind</a></li>
+<li><a href="./Maps/思考とメモと情報処理とICT.xmind">./Maps/思考とメモと情報処理とICT.xmind</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org0349b4b" class="outline-3">
+<h3 id="org0349b4b">わかるとは</h3>
+<div class="outline-text-3" id="text-org0349b4b">
+<ul class="org-ul">
+<li><a href="./Maps/わかるとは.xmind">./Maps/わかるとは.xmind</a> (本の章立て含む)</li>
+<li><a href="./Maps/わかるとはどういうことか.xmind">./Maps/わかるとはどういうことか.xmind</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org20aaed3" class="outline-3">
+<h3 id="org20aaed3">メモについて</h3>
+<div class="outline-text-3" id="text-org20aaed3">
+<ul class="org-ul">
+<li><a href="./Maps/メモ.xmind">./Maps/メモ.xmind</a></li>
+<li><a href="./i_maps/メモとは_imap.pdf">メモとは_imap.pdf</a></li>
+<li><a href="./i_maps/メモと思考について考えたこと_imap.pdf">メモと思考について考えたこと_imap.pdf</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd068bd6" class="outline-3">
+<h3 id="orgd068bd6">発想</h3>
+<div class="outline-text-3" id="text-orgd068bd6">
+<p>
+アイディアを生み出す <b>技術</b>
+</p>
+<ul class="org-ul">
+<li><a href="./i_maps/発想法_imap.pdf">発想法_imap.pdf</a></li>
+<li><a href="./Maps/ideaを生み出す技術.xmind">./Maps/ideaを生み出す技術.xmind</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org74353ac" class="outline-3">
+<h3 id="org74353ac">ICT</h3>
+<div class="outline-text-3" id="text-org74353ac">
+<ul class="org-ul">
+<li><a href="./Maps/ICTの目的.xmind">./Maps/ICTの目的.xmind</a></li>
+<li><a href="./Maps/Web進化論.xmind">./Maps/Web進化論.xmind</a></li>
+<li><a href="./Maps/cloudとは.xmind">./Maps/cloudとは.xmind</a></li>
+<li><a href="./Maps/cloudと情報リテラシー.xmind">./Maps/cloudと情報リテラシー.xmind</a></li>
+
+<li><a href="./Maps/放送大学のPCの使い方.xmind">./Maps/放送大学のPCの使い方.xmind</a></li>
+<li>放送大学の<a href="./docs/pc.html">パソコンについて</a></li>
+
+<li><a href="./docs/web.html">ウェブに関する用語ついて</a>
+<ul class="org-ul">
+<li><a href="./docs/markup.html">マークアップ</a></li>
+<li><a href="./docs/hyper_link.html">ハイパーリンク</a></li>
+</ul></li>
+<li><a href="./docs/internet.html">インターネット基盤について</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1d479fa" class="outline-3">
+<h3 id="org1d479fa">GTD</h3>
+<div class="outline-text-3" id="text-org1d479fa">
+<ul class="org-ul">
+<li><a href="./i_maps/僕にとってのGTD_imap.pdf">僕にとってのGTD_imap.pdf</a></li>
+<li><a href="./docs/gtd-related.html">GTD関連事項</a>のまとめ</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga860194" class="outline-3">
+<h3 id="orga860194">文書のアウトラ</h3>
+<div class="outline-text-3" id="text-orga860194">
+<ul class="org-ul">
+<li><a href="./docs/outline.html">アウトラインについて</a></li>
+<li><a href="./docs/ict_and_outline.html">アウトラインと情報処理</a></li>
+<li><a href="./docs/writing-by-outliner.html">アウトライナーで書く</a></li>
+</ul>
+</div>
+
+<div id="outline-container-org0fc93f4" class="outline-4">
+<h4 id="org0fc93f4">アウトライナー</h4>
+<div class="outline-text-4" id="text-org0fc93f4">
+<ul class="org-ul">
+<li><a href="./docs/workflowy.html">workflowy (ウェブ・アウトライナー)</a></li>
+<li><a href="./docs/dynalist.html">ダイナリスト (ウェブ・アウトライナー)</a></li>
+<li><a href="./docs/org-mode.html">org-mode (Emacs のアウトライン機能)</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4004754" class="outline-3">
+<h3 id="org4004754">Mindmap</h3>
+<div class="outline-text-3" id="text-org4004754">
+<ul class="org-ul">
+<li><a href="./docs/xmind.html">Xmindについて</a></li>
+<li><a href="./Maps/MindMapping.xmind">./Maps/MindMapping.xmind</a></li>
+<li><a href="./i_maps/Mindmap勉強ノート_imap.pdf">Mindmap勉強ノート_imap.pdf</a></li>
+
+<li><a href="./docs/mindmup.html">mindmup (ウェブ・アウトライナー)</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org41866d4" class="outline-3">
+<h3 id="org41866d4">思考法</h3>
+<div class="outline-text-3" id="text-org41866d4">
+<ul class="org-ul">
+<li><a href="./docs/thinking-wikipedia.html">思考法 (wikipediaのまとめ)</a></li>
+<li><a href="./docs/abstraction.html">抽象化</a></li>
+<li><a href="./docs/visual_thinking.html">図的思考</a>
+<ul class="org-ul">
+<li><a href="./i_maps/図で考える_imap.pdf">図で考える_imap.pdf</a></li>
+<li><a href="./i_maps/図で考えるの7つの図.pdf">図で考えるの7つの図.pdf</a></li>
+</ul></li>
+<li><a href="./docs/arts_of_thinking_resume.html">知的思考の技術</a>
+<ul class="org-ul">
+<li><a href="./i_maps/理解について考えた_imap.pdf">理解について考えた_imap.pdf</a></li>
+<li><a href="./i_maps/知的思考の技術勉強_imap.pdf">知的思考の技術勉強_imap.pdf</a></li>
+</ul></li>
+<li><a href="./docs/水平思考.html">水平思考</a></li>
+<li><a href="./docs/logical-thinking.html">論理的思考</a></li>
+<li><a href="./docs/critical_thinking.html">批判的思考</a></li>
+<li><a href="./docs/computational_thinking.html">計算的思考</a></li>
+<li><a href="#orgd068bd6">発想</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd80998c" class="outline-3">
+<h3 id="orgd80998c">情報リテラシーについて</h3>
+<div class="outline-text-3" id="text-orgd80998c">
+<ul class="org-ul">
+<li><a href="./Maps/新説情報リテラシー.xmind">./Maps/新説情報リテラシー.xmind</a></li>
+<li><a href="./i_maps/情報リテラシ_imap.pdf">情報リテラシ_imap.pdf</a></li>
+<li><a href="./docs/information-literacy.html">情報リテラシ</a> 新説 情報リテラシ(章建て)</li>
+<li><a href="./docs/新説情報リテラシー-概要.html">新説情報リテラシー概要</a>
+<ul class="org-ul">
+<li><a href="./docs/新説情報リテラシー-11.html">新説情報リテラシー(11章)</a></li>
+<li><a href="./docs/新説情報リテラシー-序.html">新説情報リテラシー序</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-org2ef5b3b" class="outline-2">
+<h2 id="org2ef5b3b"><a href="./docs/self-introduction.html">自己紹介</a></h2>
+<div class="outline-text-2" id="text-org2ef5b3b">
+<ul class="org-ul">
+<li><a href="./Maps/自己紹介.xmind">./Maps/自己紹介.xmind</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7225b50" class="outline-2">
+<h2 id="org7225b50">手書きマインドマップ一覧</h2>
+<div class="outline-text-2" id="text-org7225b50">
+<p>
+(メモと思考とデジタルツールの講義の時の手書きマインドマップ)
+</p>
+<ul class="org-ul">
+<li><a href="./i_maps/Mindmap勉強ノート_imap.pdf">Mindmap勉強ノート_imap.pdf</a></li>
+<li><a href="./i_maps/ideaの作り方_imap.pdf">ideaの作り方_imap.pdf</a></li>
+<li><a href="./i_maps/発想法_imap.pdf">発想法_imap.pdf</a></li>
+<li><a href="./i_maps/メモとは_imap.pdf">メモとは_imap.pdf</a></li>
+<li><a href="./i_maps/僕にとってのGTD_imap.pdf">僕にとってのGTD_imap.pdf</a></li>
+<li><a href="./i_maps/図で考える_imap.pdf">図で考える_imap.pdf</a></li>
+<li><a href="./i_maps/情報リテラシ_imap.pdf">情報リテラシ_imap.pdf</a></li>
+<li><a href="./i_maps/図で考えるの7つの図.pdf">図で考えるの7つの図.pdf</a></li>
+<li><a href="./i_maps/理解について考えた_imap.pdf">理解について考えた_imap.pdf</a></li>
+<li><a href="./i_maps/知的思考の技術勉強_imap.pdf">知的思考の技術勉強_imap.pdf</a></li>
+</ul>
+<p>
+<a href="./i_maps/メモと思考の演習問題_imap.pdf">メモと思考の演習問題_imap.pdf</a>
+<a href="./i_maps/講義内容検討のための_imap.pdf">講義内容検討のための_imap.pdf</a>
+</p>
+<ul class="org-ul">
+<li><a href="./i_maps/メモと思考について考えたこと_imap.pdf">メモと思考について考えたこと_imap.pdf</a></li>
+</ul>
+<p>
+<a href="./i_maps/関連するかもしれない事を検討_imap.pdf">関連するかもしれない事を検討_imap.pdf</a>
+</p>
+
+<p>
+<a href="./i_maps/all.pdf">all.pdf</a> 
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: suzuki@iwate-u.ac.jp 鈴木正幸，非常勤講師</p>
+<p class="date">Created: 2022-12-02 金 20:00</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
