@@ -1,0 +1,9 @@
+#+setupfile: ../info/index-sos-header.setup
+#+include: ../info/common-header.org
+#+title: Emacs + Org-mode
+
+* emacs + org-mode
+
+[[https://qiita.com/yynozk/items/8e45d97abc2d4fce8780][TODO リストとメモ書きにだけ Emacs を使ってみませんか？ - Qiita]]
+
+

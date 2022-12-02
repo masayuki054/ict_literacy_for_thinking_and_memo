@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-12-02 金 19:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>メモと思考のためのICTの活用 新説 情報リテラシ(章建て)</title>
+<meta name="author" content="suzuki@iwate-u.ac.jp" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/css/sos.css">
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/js/hideshow.js"></script>
+<script type="text/javascript" src="https://wiki.cis.iwate-u.ac.jp/~suzuki/org-html-theme/styles/sos/js/sos.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">メモと思考のためのICTの活用 新説 情報リテラシ(章建て)</h1>
+
+
+<div id="outline-container-orge190586" class="outline-2">
+<h2 id="orge190586">新説 情報リテラシの章建て</h2>
+<div class="outline-text-2" id="text-orge190586">
+<p>
+<a href="https://www.amazon.co.jp/%E6%96%B0%E8%AA%AC-%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%86%E3%83%A9%E3%82%B7%E3%83%BC%E2%80%95%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E6%99%82%E4%BB%A3%E3%82%92%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%B9%E3%82%AD%E3%83%AB-%E6%9D%89%E6%B5%A6-%E5%8F%B8/dp/4862831494">"新説 情報リテラシー―ソーシャル時代を生き抜くための情報スキル | 杉浦司"</a>
+</p>
+
+
+<p>
+ソーシャル時代を生き抜くための情報スキル
+杉浦司
+</p>
+</div>
+
+<div id="outline-container-org710c661" class="outline-3">
+<h3 id="org710c661">序</h3>
+<div class="outline-text-3" id="text-org710c661">
+</div>
+<div id="outline-container-org5e96387" class="outline-4">
+<h4 id="org5e96387">情報を活用する創造的能力</h4>
+<div class="outline-text-4" id="text-org5e96387">
+<ul class="org-ul">
+<li>情報の収集</li>
+<li>情報の加工</li>
+<li>情報の分析</li>
+<li>情報の獲得</li>
+<li>情報の生成</li>
+<li>情報の発信</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orged4c69f" class="outline-3">
+<h3 id="orged4c69f">I部 情報リテラシの現状</h3>
+<div class="outline-text-3" id="text-orged4c69f">
+</div>
+<div id="outline-container-org7d14e2b" class="outline-4">
+<h4 id="org7d14e2b">1章 ITへの過剰依存が招いた危惧すべき実情</h4>
+<div class="outline-text-4" id="text-org7d14e2b">
+</div>
+<div id="outline-container-orgaabb905" class="outline-5">
+<h5 id="orgaabb905">安易なコピペで失う思考力という大きな代償</h5>
+<div class="outline-text-5" id="text-orgaabb905">
+</div>
+<div id="outline-container-org78c4448" class="outline-6">
+<h6 id="org78c4448">便利さには落とし穴がある</h6>
+</div>
+
+<div id="outline-container-orgb0d601b" class="outline-6">
+<h6 id="orgb0d601b">単位と引き換えに学力を失うコピペ論文</h6>
+</div>
+
+<div id="outline-container-orgd389699" class="outline-6">
+<h6 id="orgd389699">生産性という名のもとで仕事の質を落す</h6>
+</div>
+
+<div id="outline-container-org9672f64" class="outline-6">
+<h6 id="org9672f64">オリジナリティとアイデンティティを失うな</h6>
+</div>
+</div>
+
+<div id="outline-container-org4b91431" class="outline-5">
+<h5 id="org4b91431">統計学を知らずに ∑ （合計）関数を覚える危険性</h5>
+<div class="outline-text-5" id="text-org4b91431">
+</div>
+<div id="outline-container-org529a9d5" class="outline-6">
+<h6 id="org529a9d5">外見の見栄えのよさばかりに気をとられる Excel 関数</h6>
+</div>
+
+<div id="outline-container-org67ce375" class="outline-6">
+<h6 id="org67ce375">重要な傾向を捨て去ってしまう安易な合計計算</h6>
+</div>
+
+<div id="outline-container-org8e75d70" class="outline-6">
+<h6 id="org8e75d70">集計すればよいというものではない</h6>
+</div>
+
+<div id="outline-container-orgb171a7d" class="outline-6">
+<h6 id="orgb171a7d">バラツキとカタヨリを無視する落とし穴</h6>
+</div>
+
+<div id="outline-container-org322f4d9" class="outline-6">
+<h6 id="org322f4d9">合計関数を使うまえに学ぶべき統計学</h6>
+</div>
+
+<div id="outline-container-org2b461e4" class="outline-6">
+<h6 id="org2b461e4">統計分布としての優位性を気にしない計算処理の危うさ</h6>
+</div>
+</div>
+
+<div id="outline-container-org3562d52" class="outline-5">
+<h5 id="org3562d52">見た目だけでグラフの種類を選ぶ愚かしさ</h5>
+<div class="outline-text-5" id="text-org3562d52">
+</div>
+<div id="outline-container-org9adbcd4" class="outline-6">
+<h6 id="org9adbcd4">見る者を煙に巻く誤ったグラフの利用方法</h6>
+</div>
+<div id="outline-container-org7230564" class="outline-6">
+<h6 id="org7230564">グラフを使わない愚かさと誤ったグラフを使う愚かさ</h6>
+</div>
+<div id="outline-container-org40a47fc" class="outline-6">
+<h6 id="org40a47fc">目的に応じて選ぶグラフの種類</h6>
+<div class="outline-text-6" id="text-org40a47fc">
+<ol class="org-ol">
+<li>大小を比較する棒グラフ</li>
+<li>時系列の変化をみる折れ線グラフ</li>
+<li>全体の中での構成比をみる円グラフ</li>
+<li>構成比を比較する帯グラフ</li>
+<li>データの散らばり具合をみるヒストグラム</li>
+<li>相関関係の有無を確かめる散布図</li>
+<li>重要なものだけに絞りこむパレート図</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org49f39a4" class="outline-5">
+<h5 id="org49f39a4">身内まで煙に巻いてしまう紙芝居プレゼンテーション</h5>
+<div class="outline-text-5" id="text-org49f39a4">
+</div>
+<div id="outline-container-orgc451346" class="outline-6">
+<h6 id="orgc451346">前後関係をうやむやにしやすり PowerPoint</h6>
+</div>
+<div id="outline-container-orgc5e9bfd" class="outline-6">
+<h6 id="orgc5e9bfd">あいまいな言葉が氾濫する自分勝手なプレゼンテーション</h6>
+</div>
+<div id="outline-container-org66003e3" class="outline-6">
+<h6 id="org66003e3">ストーリー性と図解が決め手の PowerPoint</h6>
+</div>
+<div id="outline-container-org32216be" class="outline-6">
+<h6 id="org32216be">起承転結や5W1Hを駆使して明晰で論理的な文章を書く</h6>
+</div>
+</div>
+<div id="outline-container-orga07a063" class="outline-5">
+<h5 id="orga07a063">自らの人格を破壊するモラル不在の匿名掲示板</h5>
+<div class="outline-text-5" id="text-orga07a063">
+</div>
+<div id="outline-container-org48d22be" class="outline-6">
+<h6 id="org48d22be">著作活動に求められるモラルとコンプライアンス</h6>
+</div>
+<div id="outline-container-org3f09eec" class="outline-6">
+<h6 id="org3f09eec">集団暴力と化す匿名掲示板の危険性</h6>
+</div>
+<div id="outline-container-org098c055" class="outline-6">
+<h6 id="org098c055">組織に対抗するための内部告発サイト</h6>
+</div>
+<div id="outline-container-orgcc31cf5" class="outline-6">
+<h6 id="orgcc31cf5">情報リテラシーからみた匿名掲示板</h6>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbba2ca4" class="outline-4">
+<h4 id="orgbba2ca4">2章 情報リテラシ教育をとりまく現状</h4>
+<div class="outline-text-4" id="text-orgbba2ca4">
+</div>
+<div id="outline-container-orgd8f2c68" class="outline-5">
+<h5 id="orgd8f2c68">情報の洪水に流されて自主性をなくした人々</h5>
+<div class="outline-text-5" id="text-orgd8f2c68">
+</div>
+<div id="outline-container-org972cd9a" class="outline-6">
+<h6 id="org972cd9a">客観的データを得にくい演出志向のマスメディア</h6>
+</div>
+<div id="outline-container-org2a6b52f" class="outline-6">
+<h6 id="org2a6b52f">携帯電話カンニング事件が残こした社会不安</h6>
+</div>
+<div id="outline-container-orgb93df2b" class="outline-6">
+<h6 id="orgb93df2b">ユーザ自身による目利きが求められるインターネット</h6>
+</div>
+</div>
+<div id="outline-container-org3c66842" class="outline-5">
+<h5 id="org3c66842">IT 化の進展と引き換えに進む社員の能力低下</h5>
+<div class="outline-text-5" id="text-org3c66842">
+</div>
+<div id="outline-container-org5be63d3" class="outline-6">
+<h6 id="org5be63d3">コンピュータなしではフリーズするマニュアル社員</h6>
+</div>
+<div id="outline-container-orgb6b4dc9" class="outline-6">
+<h6 id="orgb6b4dc9">省略表現，短縮入力と引き替えに失う言葉本来の意義</h6>
+</div>
+<div id="outline-container-org98c554b" class="outline-6">
+<h6 id="org98c554b">アタリをつける概算ができずに起きるあり得ないミス</h6>
+</div>
+<div id="outline-container-org2ae8a21" class="outline-6">
+<h6 id="org2ae8a21">手書きや手作業の方が優れていることはいくらでもある</h6>
+</div>
+</div>
+<div id="outline-container-org74752f8" class="outline-5">
+<h5 id="org74752f8">ハウツー重視の知識教育が地アタマ力を使う思考力を失わせる</h5>
+<div class="outline-text-5" id="text-org74752f8">
+</div>
+<div id="outline-container-org8e18908" class="outline-6">
+<h6 id="org8e18908">昔はよかった，昔に戻りたいだけでは発展しない</h6>
+</div>
+<div id="outline-container-org1ed06b6" class="outline-6">
+<h6 id="org1ed06b6">電子メールでの問合せに電話をかける滑稽さ</h6>
+</div>
+<div id="outline-container-orgabfc2a7" class="outline-6">
+<h6 id="orgabfc2a7">営業スタイルを変えずに SFA や CRM を導入しても失敗するだけ</h6>
+<div class="outline-text-6" id="text-orgabfc2a7">
+<p>
+Sales Force Automation, Customer Relationship Management
+</p>
+</div>
+</div>
+<div id="outline-container-org0728959" class="outline-6">
+<h6 id="org0728959">古い時代を知る人間こそ賢い IT 利用を考え出せるはず</h6>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff07749" class="outline-4">
+<h4 id="orgff07749">3章 情報リテラシとは何か</h4>
+<div class="outline-text-4" id="text-orgff07749">
+</div>
+<div id="outline-container-org4276cf4" class="outline-5">
+<h5 id="org4276cf4">ITリテラシと情報リテラシとの違い</h5>
+<div class="outline-text-5" id="text-org4276cf4">
+</div>
+<div id="outline-container-orgc7fa085" class="outline-6">
+<h6 id="orgc7fa085">パソコン操作を学ぶ前に文書作成の作法を学べ</h6>
+</div>
+
+<div id="outline-container-org731bdb6" class="outline-6">
+<h6 id="org731bdb6">ITを使いこなす能力と情報を使いこなす能力は別もの</h6>
+</div>
+<div id="outline-container-org5089561" class="outline-6">
+<h6 id="org5089561">加工道具としてのソフトウェアよりも分析対象としての情報が大事</h6>
+</div>
+</div>
+<div id="outline-container-org643bd0e" class="outline-5">
+<h5 id="org643bd0e">メディア・リテラシと情報リテラシの違い</h5>
+<div class="outline-text-5" id="text-org643bd0e">
+</div>
+<div id="outline-container-orgcaa6598" class="outline-6">
+<h6 id="orgcaa6598">世論に振り回されないためのメディアリテラシー</h6>
+</div>
+<div id="outline-container-orge479d6d" class="outline-6">
+<h6 id="orge479d6d">情報リテラシーの一部としてのメディアリテラシー</h6>
+</div>
+<div id="outline-container-org0f86457" class="outline-6">
+<h6 id="org0f86457">情報収集から情報発信までを考える情報リテラシー</h6>
+</div>
+</div>
+<div id="outline-container-org00a2bcf" class="outline-5">
+<h5 id="org00a2bcf">「読み書き算盤」にみる情報リテラシの原点</h5>
+<div class="outline-text-5" id="text-org00a2bcf">
+</div>
+<div id="outline-container-org1f0dada" class="outline-6">
+<h6 id="org1f0dada">江戸時代の「読み書きそろばん」に学ぶ</h6>
+</div>
+<div id="outline-container-org51c14b6" class="outline-6">
+<h6 id="org51c14b6">情報洪水の現代を生き抜くための「読み」の重要性</h6>
+</div>
+<div id="outline-container-org22cec07" class="outline-6">
+<h6 id="org22cec07">自分の身を守り，まわりを動かすための「書き」の重要性</h6>
+</div>
+<div id="outline-container-org63304fb" class="outline-6">
+<h6 id="org63304fb">断片的な情報に惑わされないための「そろばん」の重要性</h6>
+</div>
+<div id="outline-container-org5799bf0" class="outline-6">
+<h6 id="org5799bf0">「読み書きそろばん」から情報リテラシーへ</h6>
+</div>
+</div>
+<div id="outline-container-orgf315a03" class="outline-5">
+<h5 id="orgf315a03">データと情報，知識の違いと関係を理解する</h5>
+<div class="outline-text-5" id="text-orgf315a03">
+</div>
+<div id="outline-container-org8ad8534" class="outline-6">
+<h6 id="org8ad8534">データと情報，知識の違い</h6>
+</div>
+<div id="outline-container-org96108f4" class="outline-6">
+<h6 id="org96108f4">他人にとっての情報が自分にとっての情報になるとは限らない</h6>
+</div>
+<div id="outline-container-org2d632bb" class="outline-6">
+<h6 id="org2d632bb">得られた情報に普遍性を与えなければ将来に備えるための知識とはならない</h6>
+</div>
+<div id="outline-container-org2e0ff59" class="outline-6">
+<h6 id="org2e0ff59">ドラッカーが伝えたかったコミュニケーションの意義</h6>
+</div>
+</div>
+<div id="outline-container-org0d4081c" class="outline-5">
+<h5 id="org0d4081c">情報リテラシにおける六つの能力領域</h5>
+<div class="outline-text-5" id="text-org0d4081c">
+</div>
+<div id="outline-container-orgc788322" class="outline-6">
+<h6 id="orgc788322">情報の収集 / 必要となる情報の入手先を探し出し，利用可能な情報を選別する</h6>
+</div>
+<div id="outline-container-org41d49f2" class="outline-6">
+<h6 id="org41d49f2">情報の加工 / 情報を加工して意味のある情報を生成する</h6>
+</div>
+<div id="outline-container-org810e050" class="outline-6">
+<h6 id="org810e050">情報の分析 / 情報が持つ本質を解析し，有用な知識を導出する</h6>
+</div>
+<div id="outline-container-org03433fd" class="outline-6">
+<h6 id="org03433fd">情報の獲得 / 学習した知識と既存知識とを結び付けて新たな知識を得る</h6>
+</div>
+<div id="outline-container-orgb5bbad3" class="outline-6">
+<h6 id="orgb5bbad3">情報の生成 / 得られた知識を説明するための情報を生成する</h6>
+</div>
+<div id="outline-container-orgf921530" class="outline-6">
+<h6 id="orgf921530">情報の発信 / 情報を必要とする利用者を探し出し，生成した情報を発信する</h6>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org122ca7a" class="outline-3">
+<h3 id="org122ca7a">II部 情報リテラシの体系</h3>
+<div class="outline-text-3" id="text-org122ca7a">
+</div>
+<div id="outline-container-org0d1b344" class="outline-4">
+<h4 id="org0d1b344">4章 情報の収集 / 必要となる情報の入手先を探しだし，利用可能なデータを選別する</h4>
+<div class="outline-text-4" id="text-org0d1b344">
+</div>
+<div id="outline-container-org5f86fac" class="outline-5">
+<h5 id="org5f86fac">極端意見と中間意見を集めて情報収集源の偏りをなくす</h5>
+<div class="outline-text-5" id="text-org5f86fac">
+</div>
+<div id="outline-container-orgfb794a4" class="outline-6">
+<h6 id="orgfb794a4">情報には常に偏りが存在する</h6>
+</div>
+<div id="outline-container-orgec9ee11" class="outline-6">
+<h6 id="orgec9ee11">反対意見がない主流意見は洗練不足</h6>
+</div>
+<div id="outline-container-org3108c59" class="outline-6">
+<h6 id="org3108c59">中間意見が必ずしも適切とは限らない</h6>
+</div>
+<div id="outline-container-orgd2744f5" class="outline-6">
+<h6 id="orgd2744f5">情報の偏りをもたらす素材データの品質</h6>
+</div>
+</div>
+<div id="outline-container-org1618c03" class="outline-5">
+<h5 id="org1618c03">情報の鮮度と品質を見極める</h5>
+<div class="outline-text-5" id="text-org1618c03">
+</div>
+<div id="outline-container-org4217a0a" class="outline-6">
+<h6 id="org4217a0a">新しい情報と古い情報が氾濫するインターネット</h6>
+</div>
+<div id="outline-container-orgf9c1396" class="outline-6">
+<h6 id="orgf9c1396">情報の鮮度を判断する上での日付と版数の重要性</h6>
+</div>
+<div id="outline-container-org932c65c" class="outline-6">
+<h6 id="org932c65c">検査やレビューの有無でわかる情報の品質保証に対する姿勢</h6>
+</div>
+<div id="outline-container-org161f6a1" class="outline-6">
+<h6 id="org161f6a1">匿名とハンドルネームに共通する無責任性</h6>
+</div>
+</div>
+<div id="outline-container-orgb8ad132" class="outline-5">
+<h5 id="orgb8ad132">表記ゆれと関連性を意識したキーワード検索</h5>
+<div class="outline-text-5" id="text-orgb8ad132">
+</div>
+<div id="outline-container-org77953a0" class="outline-6">
+<h6 id="org77953a0">タイトルを省略する電子メール文化への懸念</h6>
+</div>
+<div id="outline-container-orgcbd8409" class="outline-6">
+<h6 id="orgcbd8409">欲しい情報に限って見つからないキーワード情報</h6>
+</div>
+<div id="outline-container-org7c00e88" class="outline-6">
+<h6 id="org7c00e88">略語の乱用がナレッジ蓄積の障害となる</h6>
+</div>
+</div>
+<div id="outline-container-orgf9dd066" class="outline-5">
+<h5 id="orgf9dd066">プッシュ型とプル型，熟読型と速読型の使い分け</h5>
+<div class="outline-text-5" id="text-orgf9dd066">
+</div>
+<div id="outline-container-org679d5c3" class="outline-6">
+<h6 id="org679d5c3">プッシュ型情報サービスによる関連情報の自動収集</h6>
+</div>
+<div id="outline-container-orge24d729" class="outline-6">
+<h6 id="orge24d729">アラート機能を利用したプル型情報収集の拡張</h6>
+</div>
+<div id="outline-container-org488c91e" class="outline-6">
+<h6 id="org488c91e">プッシュ型とプル型の利点を併せ持つ RSS リーダー</h6>
+</div>
+<div id="outline-container-org5cf15ee" class="outline-6">
+<h6 id="org5cf15ee">速読するためには事前知識と準備作業が必要</h6>
+</div>
+<div id="outline-container-org5055872" class="outline-6">
+<h6 id="org5055872">熟読以上に理解が深まる速読+再読による読書術</h6>
+</div>
+</div>
+<div id="outline-container-orgedb363c" class="outline-5">
+<h5 id="orgedb363c">質問と確認を駆使して「バカの壁」を突破する</h5>
+<div class="outline-text-5" id="text-orgedb363c">
+</div>
+<div id="outline-container-org5af45ea" class="outline-6">
+<h6 id="org5af45ea">誰にでも存在する「バカの壁」</h6>
+</div>
+<div id="outline-container-orgc6fcc08" class="outline-6">
+<h6 id="orgc6fcc08">当たり前のことほど内容確認が必要</h6>
+</div>
+<div id="outline-container-orgab671a0" class="outline-6">
+<h6 id="orgab671a0">言い換えとメタファで確認する発言の意図</h6>
+</div>
+<div id="outline-container-orgdea3679" class="outline-6">
+<h6 id="orgdea3679">意見はなくても会議に貢献するとができる</h6>
+</div>
+<div id="outline-container-orga3c703a" class="outline-6">
+<h6 id="orga3c703a">あってはならない人の意見をふさぐ行為</h6>
+</div>
+</div>
+</div>
+<div id="outline-container-org92fcaa2" class="outline-4">
+<h4 id="org92fcaa2">5章 情報の加工 / 情報を加工して意味のある情報に変換する</h4>
+<div class="outline-text-4" id="text-org92fcaa2">
+</div>
+<div id="outline-container-org4118add" class="outline-5">
+<h5 id="org4118add">下準備 客観的事実と主観的事実を区別する</h5>
+<div class="outline-text-5" id="text-org4118add">
+</div>
+<div id="outline-container-org80fe56c" class="outline-6">
+<h6 id="org80fe56c">客観的事実と主観的事実という二つの事実</h6>
+</div>
+
+<div id="outline-container-org934305d" class="outline-6">
+<h6 id="org934305d">飾り付けをはずして客観的事実だけを取り出す</h6>
+</div>
+
+<div id="outline-container-orgf8779b7" class="outline-6">
+<h6 id="orgf8779b7">極端な主観的事実を除去する</h6>
+</div>
+
+<div id="outline-container-org621f678" class="outline-6">
+<h6 id="org621f678">客観的事実にみえる主観的事実も存在する</h6>
+</div>
+
+<div id="outline-container-orgde70c26" class="outline-6">
+<h6 id="orgde70c26">主観的事実の方が客観的事実よりも意義があることも</h6>
+</div>
+</div>
+
+<div id="outline-container-org08ea066" class="outline-5">
+<h5 id="org08ea066">情報の 2S (整理整頓）</h5>
+<div class="outline-text-5" id="text-org08ea066">
+</div>
+<div id="outline-container-org142bb6e" class="outline-6">
+<h6 id="org142bb6e">項目分けは情報整理のための不可欠作業</h6>
+</div>
+
+<div id="outline-container-org0d882ac" class="outline-6">
+<h6 id="org0d882ac">並べ替えるだけで見えてくる全体の傾向</h6>
+</div>
+
+<div id="outline-container-org83a2fb4" class="outline-6">
+<h6 id="org83a2fb4">着眼点で様変わりするランキング情報</h6>
+</div>
+
+<div id="outline-container-org37fabbb" class="outline-6">
+<h6 id="org37fabbb">類似性，関連性をあぶり出す分類キーの切り替え</h6>
+</div>
+
+<div id="outline-container-orgc803e51" class="outline-6">
+<h6 id="orgc803e51">顕著な傾向の背後に隠れた変化に注意する</h6>
+</div>
+
+<div id="outline-container-orge7200cb" class="outline-6">
+<h6 id="orge7200cb">将来を左右する情報の勢いを見逃さない</h6>
+</div>
+</div>
+
+<div id="outline-container-org6e1c707" class="outline-5">
+<h5 id="org6e1c707">情報の切り捨て 不要な情報を見極める</h5>
+<div class="outline-text-5" id="text-org6e1c707">
+</div>
+<div id="outline-container-orgceb91d4" class="outline-6">
+<h6 id="orgceb91d4">情報は多ければ良いというものではない</h6>
+</div>
+
+<div id="outline-container-orgf752cb7" class="outline-6">
+<h6 id="orgf752cb7">論理のすり替えやありえない根拠で煙に巻く「詭弁」</h6>
+</div>
+
+<div id="outline-container-orgf35a388" class="outline-6">
+<h6 id="orgf35a388">正常な思考を妨げる権威というわな</h6>
+</div>
+
+<div id="outline-container-orgb49ef61" class="outline-6">
+<h6 id="orgb49ef61">マインドマップによる情報の抽象化</h6>
+</div>
+</div>
+
+<div id="outline-container-orgb823b30" class="outline-5">
+<h5 id="orgb823b30">情報の埋め合わせ 抜けたピースを探し出す</h5>
+<div class="outline-text-5" id="text-orgb823b30">
+</div>
+<div id="outline-container-org929afff" class="outline-6">
+<h6 id="org929afff">一部分だけを切り出して見せる報道の危険性</h6>
+</div>
+
+<div id="outline-container-org02597f1" class="outline-6">
+<h6 id="org02597f1">人の人生すら破壊しかねない片面情報</h6>
+</div>
+
+<div id="outline-container-org3bae8f2" class="outline-6">
+<h6 id="org3bae8f2">5W1H で考える情報の完全性と中立立場で考える情報の妥当性</h6>
+</div>
+
+<div id="outline-container-org132a958" class="outline-6">
+<h6 id="org132a958">主語と語尾が曖昧な日本語</h6>
+</div>
+
+<div id="outline-container-org31c8592" class="outline-6">
+<h6 id="org31c8592">因果関係による欠損値の推測</h6>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd98ce0a" class="outline-4">
+<h4 id="orgd98ce0a">6章 情報の分析 / 情報がもつ本質を理解し，有用な知識を導出する</h4>
+<div class="outline-text-4" id="text-orgd98ce0a">
+</div>
+<div id="outline-container-org31a8853" class="outline-5">
+<h5 id="org31a8853">見える化テクニックで見えてくる全体像</h5>
+<div class="outline-text-5" id="text-org31a8853">
+</div>
+<div id="outline-container-org5c1a88d" class="outline-6">
+<h6 id="org5c1a88d">ごまかしや詭弁から身を守る見える化の技術</h6>
+</div>
+
+<div id="outline-container-org1587a63" class="outline-6">
+<h6 id="org1587a63">図にして考えるのがモデリングの基本</h6>
+</div>
+
+<div id="outline-container-org39f68f8" class="outline-6">
+<h6 id="org39f68f8">Wikiが証明するコメントの視点追加の意義</h6>
+</div>
+</div>
+
+<div id="outline-container-orgc616a27" class="outline-5">
+<h5 id="orgc616a27">スライス＆ダイス＆ドリルダウンによる視点の切り替えが気づきを与える</h5>
+<div class="outline-text-5" id="text-orgc616a27">
+</div>
+<div id="outline-container-org4bb1fa9" class="outline-6">
+<h6 id="org4bb1fa9">定形帳票だけを見ていても気づかない変化が起きている</h6>
+</div>
+
+<div id="outline-container-orgadf9434" class="outline-6">
+<h6 id="orgadf9434">時間がかかるデータ分析では急速な状況変化についていけない</h6>
+</div>
+
+<div id="outline-container-org199731e" class="outline-6">
+<h6 id="org199731e">ピボットテーブルのクロス集計機能を使いこなす</h6>
+</div>
+
+<div id="outline-container-org2fd7b9f" class="outline-6">
+<h6 id="org2fd7b9f">瞬時に視点を切り替えることができる OLAP の魅力</h6>
+</div>
+
+<div id="outline-container-orgdab140b" class="outline-6">
+<h6 id="orgdab140b">地図グラフも簡単な手間で作成できる</h6>
+</div>
+</div>
+
+<div id="outline-container-org7bc4549" class="outline-5">
+<h5 id="org7bc4549">データマイニングとテキストマイニングで浮かび上がる隠れたトレンド</h5>
+<div class="outline-text-5" id="text-org7bc4549">
+</div>
+<div id="outline-container-org84e274b" class="outline-6">
+<h6 id="org84e274b">傾向のアタリを見で確認できる Excel 散布図</h6>
+</div>
+
+<div id="outline-container-org715cd04" class="outline-6">
+<h6 id="org715cd04">複雑で変化が早い現代社会の助けとなる多変量解析</h6>
+</div>
+
+<div id="outline-container-org434e042" class="outline-6">
+<h6 id="org434e042">アンケートの回答者自身も知らない回答者に共通する人格と嗜好</h6>
+</div>
+
+<div id="outline-container-orge949e62" class="outline-6">
+<h6 id="orge949e62">因子分析で見つける隠れた根本要因</h6>
+</div>
+
+<div id="outline-container-org1294d25" class="outline-6">
+<h6 id="org1294d25">テキストマイニングで浮かび上がる用語間の類似性</h6>
+</div>
+</div>
+
+<div id="outline-container-org53b05fd" class="outline-5">
+<h5 id="org53b05fd">因果関係を追いかけて情報の本質を探りだす</h5>
+<div class="outline-text-5" id="text-org53b05fd">
+</div>
+<div id="outline-container-org55e769b" class="outline-6">
+<h6 id="org55e769b">書き手の意図が原因となって読み手に影響を及ぼす</h6>
+</div>
+
+<div id="outline-container-org058b6e8" class="outline-6">
+<h6 id="org058b6e8">パレート図とフィッシュボーン図で探る主要な因果関係</h6>
+</div>
+
+<div id="outline-container-orgf1d1178" class="outline-6">
+<h6 id="orgf1d1178">見せかけの因果関係，作り上げた因果関係にだまされない</h6>
+</div>
+</div>
+
+<div id="outline-container-org8c0f543" class="outline-5">
+<h5 id="org8c0f543">近視眼的な問題の見落としを防ぐシステム思考</h5>
+<div class="outline-text-5" id="text-org8c0f543">
+</div>
+<div id="outline-container-orgf6515b6" class="outline-6">
+<h6 id="orgf6515b6">窓枠を通して見える風景しか見ていないことに気づかない</h6>
+</div>
+
+<div id="outline-container-org64a00da" class="outline-6">
+<h6 id="org64a00da">やぐら目線が知らせるピンチとチャンス</h6>
+</div>
+
+<div id="outline-container-org6738eb1" class="outline-6">
+<h6 id="org6738eb1">抽象のはしごを使ってやぐらを上り下りする</h6>
+</div>
+
+<div id="outline-container-orgaaacfd6" class="outline-6">
+<h6 id="orgaaacfd6">虫の目，鳥の目，魚の目を使い分ける自在の思考法</h6>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org6cdb50d" class="outline-4">
+<h4 id="org6cdb50d">7章 情報の蓄積 / 学習した知識と既存知識とを結びつけて新たな知識を蓄積する</h4>
+<div class="outline-text-4" id="text-org6cdb50d">
+</div>
+<div id="outline-container-orgac1a64e" class="outline-5">
+<h5 id="orgac1a64e">インターネット依存によって軽視される知識の定着</h5>
+<div class="outline-text-5" id="text-orgac1a64e">
+</div>
+<div id="outline-container-org1da6c21" class="outline-6">
+<h6 id="org1da6c21">知識の断片だけで全体を知ったつもりになる危険性</h6>
+</div>
+
+<div id="outline-container-org43eda00" class="outline-6">
+<h6 id="org43eda00">知識は本の中にもインターネットにもない</h6>
+</div>
+
+<div id="outline-container-org0ebb21d" class="outline-6">
+<h6 id="org0ebb21d">学校で学んだ数学がなぜ役にたたないのか</h6>
+</div>
+
+<div id="outline-container-org68c6429" class="outline-6">
+<h6 id="org68c6429">学歴や資格取得が知識そのものとは違う理由</h6>
+</div>
+
+<div id="outline-container-org2c06d9d" class="outline-6">
+<h6 id="org2c06d9d">既存の知識と組み合わせることで新しい知識を修得する</h6>
+</div>
+</div>
+
+<div id="outline-container-org0ee710a" class="outline-5">
+<h5 id="org0ee710a">「分かる」ためには情報の整理整頓が不可欠</h5>
+<div class="outline-text-5" id="text-org0ee710a">
+</div>
+<div id="outline-container-orgabd05c4" class="outline-6">
+<h6 id="orgabd05c4">知っているのと分かっているのとでは意味が違う</h6>
+</div>
+
+<div id="outline-container-orgb6d9053" class="outline-6">
+<h6 id="orgb6d9053">知識を定着させるために必要となる共感という感情</h6>
+</div>
+
+<div id="outline-container-org5e0563d" class="outline-6">
+<h6 id="org5e0563d">情報の整理整頓の先に知識がある</h6>
+</div>
+</div>
+
+<div id="outline-container-org328b516" class="outline-5">
+<h5 id="org328b516">新たな知識によって既知の知識の意味も変わる</h5>
+<div class="outline-text-5" id="text-org328b516">
+</div>
+<div id="outline-container-org7a004dc" class="outline-6">
+<h6 id="org7a004dc">本を読み返す度に意味が変わってくるのはなぜか</h6>
+</div>
+
+<div id="outline-container-orgd0e78d7" class="outline-6">
+<h6 id="orgd0e78d7">知識の組み合わせが上位の知識を創造する</h6>
+</div>
+
+<div id="outline-container-org27035ee" class="outline-6">
+<h6 id="org27035ee">知識獲得において理系と文系のこだわりは不利になる</h6>
+</div>
+
+<div id="outline-container-org2d530cf" class="outline-6">
+<h6 id="org2d530cf">知識ノートとしての EverNote, OneNote の利用価値</h6>
+</div>
+</div>
+
+<div id="outline-container-orgabe8fcc" class="outline-5">
+<h5 id="orgabe8fcc">関連知識の量で決まる未知の情報に対する推理力</h5>
+<div class="outline-text-5" id="text-orgabe8fcc">
+</div>
+<div id="outline-container-org5048921" class="outline-6">
+<h6 id="org5048921">一つの分野のマスターが他分野の知識習得をしやすくする</h6>
+</div>
+
+<div id="outline-container-org0b3ad17" class="outline-6">
+<h6 id="org0b3ad17">反対意見，異論に対する傾聴が関連知識の量を増やす</h6>
+</div>
+
+<div id="outline-container-org550e68b" class="outline-6">
+<h6 id="org550e68b">旅行や趣味，遊びで得られる知識にも意義がある</h6>
+</div>
+
+<div id="outline-container-org3b067ec" class="outline-6">
+<h6 id="org3b067ec">知識を増やすための多読</h6>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8d0a883" class="outline-4">
+<h4 id="org8d0a883">8章 情報の生成 / 得られた知識を説明するための情報を生成する</h4>
+<div class="outline-text-4" id="text-org8d0a883">
+</div>
+<div id="outline-container-orgfe9171a" class="outline-5">
+<h5 id="orgfe9171a">不要な装飾ばかりで大事な部分がわからない</h5>
+<div class="outline-text-5" id="text-orgfe9171a">
+</div>
+<div id="outline-container-orga1b269e" class="outline-6">
+<h6 id="orga1b269e">読み手の時間を浪費する作文レポート</h6>
+</div>
+
+<div id="outline-container-org991a7d5" class="outline-6">
+<h6 id="org991a7d5">形容詞は情報伝達における諸刃の刃</h6>
+</div>
+
+<div id="outline-container-org8f30ed2" class="outline-6">
+<h6 id="org8f30ed2">ベン図で考える範囲の妥当性</h6>
+</div>
+
+<div id="outline-container-org796a328" class="outline-6">
+<h6 id="org796a328">平安時代の吹き抜け屋台にみる省略の力</h6>
+</div>
+
+<div id="outline-container-org905b930" class="outline-6">
+<h6 id="org905b930">Yahoo!ニュースや Google ニュースにみる15文字制限下での要約</h6>
+</div>
+</div>
+
+<div id="outline-container-org4f8e640" class="outline-5">
+<h5 id="org4f8e640">コピペではすぐにはがれるオリジナルのつなぎ目</h5>
+<div class="outline-text-5" id="text-org4f8e640">
+</div>
+<div id="outline-container-org96c8751" class="outline-6">
+<h6 id="org96c8751">論文の一部を切り出してつないでみても論文にはならない</h6>
+</div>
+
+<div id="outline-container-orgf30ad57" class="outline-6">
+<h6 id="orgf30ad57">提案書に見るコピペの弊害</h6>
+</div>
+
+<div id="outline-container-org27d3451" class="outline-6">
+<h6 id="org27d3451">不当なコピペと正当な引用との違い</h6>
+</div>
+
+<div id="outline-container-org352356e" class="outline-6">
+<h6 id="org352356e">三段論法，起承転結から学ぶ論理の作り方</h6>
+</div>
+</div>
+
+<div id="outline-container-orgd449bc6" class="outline-5">
+<h5 id="orgd449bc6">100枚の論文にも一枚の要旨にまとめることができる論理性がある</h5>
+<div class="outline-text-5" id="text-orgd449bc6">
+</div>
+<div id="outline-container-orga5eb08f" class="outline-6">
+<h6 id="orga5eb08f">なぜ長文をかけない，論文が苦手なのか</h6>
+</div>
+
+<div id="outline-container-org2f71a6d" class="outline-6">
+<h6 id="org2f71a6d">モデル図で設計する長文</h6>
+</div>
+
+<div id="outline-container-org3b31a38" class="outline-6">
+<h6 id="org3b31a38">論文は長文でなければいけないわけではない</h6>
+</div>
+</div>
+
+<div id="outline-container-org09920fb" class="outline-5">
+<h5 id="org09920fb">結論から組み立てるプレゼンテーション</h5>
+<div class="outline-text-5" id="text-org09920fb">
+</div>
+<div id="outline-container-orgb7868e6" class="outline-6">
+<h6 id="orgb7868e6">読み手が迷子になる見えない迷路プレゼン</h6>
+</div>
+
+<div id="outline-container-orgeb1b7c0" class="outline-6">
+<h6 id="orgeb1b7c0">最後のページまで我慢させる忍耐プレゼン</h6>
+</div>
+
+<div id="outline-container-org381e9e2" class="outline-6">
+<h6 id="org381e9e2">話が進むにつれて論理がぶれていく船酔いプレゼン</h6>
+</div>
+
+<div id="outline-container-orgc4f1508" class="outline-6">
+<h6 id="orgc4f1508">プレゼンテーションのデザインは結論ページから</h6>
+</div>
+
+<div id="outline-container-org230ca10" class="outline-6">
+<h6 id="org230ca10">パンくずリストに学ぶ論理構成の見える化</h6>
+</div>
+</div>
+
+<div id="outline-container-orgf9fae35" class="outline-5">
+<h5 id="orgf9fae35">数式に置き換えられない文章構成は論理に欠陥がある</h5>
+<div class="outline-text-5" id="text-orgf9fae35">
+</div>
+<div id="outline-container-org720575c" class="outline-6">
+<h6 id="org720575c">結論に関係のない無意味な情報が論理をあいまいにする</h6>
+</div>
+
+<div id="outline-container-org1deaf89" class="outline-6">
+<h6 id="org1deaf89">多変量回帰式で設計し検証する論理構造</h6>
+</div>
+
+<div id="outline-container-org20de854" class="outline-6">
+<h6 id="org20de854">アウトラインプロセッサによる構造設計</h6>
+</div>
+
+<div id="outline-container-org0d7bad6" class="outline-6">
+<h6 id="org0d7bad6">演繹法と帰納法の違いと相互補完</h6>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org7a4359f" class="outline-4">
+<h4 id="org7a4359f">9章 情報の発信 / 情報を必要とする利用者を探しだし，生成した情報を発信する</h4>
+<div class="outline-text-4" id="text-org7a4359f">
+</div>
+<div id="outline-container-orgbc78177" class="outline-5">
+<h5 id="orgbc78177">タイトルを見ても中身がわからず中身を読んでも結論がない文章の氾濫</h5>
+<div class="outline-text-5" id="text-orgbc78177">
+</div>
+<div id="outline-container-orgac69bba" class="outline-6">
+<h6 id="orgac69bba">キャッチフレーズとしてのタイトルを考える</h6>
+</div>
+
+<div id="outline-container-org4dd7b6d" class="outline-6">
+<h6 id="org4dd7b6d">読み手の論理センスを狂わせる不親切な情報発信</h6>
+</div>
+
+<div id="outline-container-org1b59ce7" class="outline-6">
+<h6 id="org1b59ce7">お友達感覚の携帯電話メールが電子メールマナーをなし崩しにする</h6>
+</div>
+
+<div id="outline-container-org18a2540" class="outline-6">
+<h6 id="org18a2540">話し言葉で発信される電子メールの危険性</h6>
+</div>
+</div>
+
+<div id="outline-container-orga708aae" class="outline-5">
+<h5 id="orga708aae">この情報は誰に対するものなのかを考えることから始まる</h5>
+<div class="outline-text-5" id="text-orga708aae">
+</div>
+<div id="outline-container-org74953dc" class="outline-6">
+<h6 id="org74953dc">口で言うほど簡単ではない顧客志向</h6>
+</div>
+
+<div id="outline-container-orgfe634d0" class="outline-6">
+<h6 id="orgfe634d0">最大限の理解を得ようとするのではなく誤解を最小に防ぐ</h6>
+</div>
+
+<div id="outline-container-org0d207d2" class="outline-6">
+<h6 id="org0d207d2">聞き手読み手のタイプと関係性によって発信の仕方を変える</h6>
+</div>
+
+<div id="outline-container-org36373c6" class="outline-6">
+<h6 id="org36373c6">ドラマのあらすじに学ぶ途中参加者への気配り</h6>
+</div>
+</div>
+
+<div id="outline-container-org72c8879" class="outline-5">
+<h5 id="org72c8879">情報を伝えたい相手が認知してくれなければ意味がない</h5>
+<div class="outline-text-5" id="text-org72c8879">
+</div>
+<div id="outline-container-org029ba51" class="outline-6">
+<h6 id="org029ba51">自分勝手な思い込みで相手の立場まで決め付ける人々</h6>
+</div>
+
+<div id="outline-container-orgff3c475" class="outline-6">
+<h6 id="orgff3c475">主観だけでも客観だけでも伝わらない</h6>
+</div>
+
+<div id="outline-container-org80ac002" class="outline-6">
+<h6 id="org80ac002">論文作成に必要となる論理展開力と課題設定力</h6>
+</div>
+</div>
+
+<div id="outline-container-orgc05dca5" class="outline-5">
+<h5 id="orgc05dca5">モラルとコンプライアンスを無視したコンテンツに発信資格なし</h5>
+<div class="outline-text-5" id="text-orgc05dca5">
+</div>
+<div id="outline-container-org054ea31" class="outline-6">
+<h6 id="org054ea31">質問，反論を許さない独りよがりの無責任発言</h6>
+</div>
+
+<div id="outline-container-orgb74560e" class="outline-6">
+<h6 id="orgb74560e">心の痛みがわからない者に差別用語禁止の理由はわからない</h6>
+</div>
+
+<div id="outline-container-orgb9e99d5" class="outline-6">
+<h6 id="orgb9e99d5">無責任な情報連鎖が起きやすいソーシャルメディアの危険性</h6>
+</div>
+
+<div id="outline-container-org2dabf80" class="outline-6">
+<h6 id="org2dabf80">コピペで飾られたあってはならない論文</h6>
+</div>
+</div>
+
+<div id="outline-container-org4d7aacb" class="outline-5">
+<h5 id="org4d7aacb">ソーシャルメディアのプライバシー保護は自己責任</h5>
+<div class="outline-text-5" id="text-org4d7aacb">
+</div>
+<div id="outline-container-orgc58ee0d" class="outline-6">
+<h6 id="orgc58ee0d">情報共有が前提のソーシャルメディア</h6>
+</div>
+
+<div id="outline-container-org12644ba" class="outline-6">
+<h6 id="org12644ba">デフォルト設定のままではプライバシーは保護されない</h6>
+</div>
+
+<div id="outline-container-orge20d688" class="outline-6">
+<h6 id="orge20d688">画像逆検索で暴露されるプライバシー</h6>
+</div>
+
+<div id="outline-container-org7dbeb4e" class="outline-6">
+<h6 id="org7dbeb4e">安易な友達連鎖が信頼崩壊を生み出す</h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org5304006" class="outline-3">
+<h3 id="org5304006">III部 情報リテラシの今後</h3>
+<div class="outline-text-3" id="text-org5304006">
+</div>
+<div id="outline-container-orgd1b1bb3" class="outline-4">
+<h4 id="orgd1b1bb3">10章 IT 重視の情報リテラシーは何をのこしたのか</h4>
+<div class="outline-text-4" id="text-orgd1b1bb3">
+</div>
+<div id="outline-container-org477fb20" class="outline-5">
+<h5 id="org477fb20">対面，口頭でのコミュニケーションを避ける現代人</h5>
+<div class="outline-text-5" id="text-org477fb20">
+</div>
+<div id="outline-container-orgf41fd9d" class="outline-6">
+<h6 id="orgf41fd9d">IT がなければ仕事ができない社員の急増</h6>
+</div>
+
+<div id="outline-container-orga8ed495" class="outline-6">
+<h6 id="orga8ed495">入力の仕方だけ学んでも仕事はできない</h6>
+</div>
+
+<div id="outline-container-orgac89804" class="outline-6">
+<h6 id="orgac89804">正しい日本語ができないままで外国語を使いこなすことはできない</h6>
+</div>
+
+<div id="outline-container-org34bf107" class="outline-6">
+<h6 id="org34bf107">インターネットとオフィス中心の IT リテラシからの脱却</h6>
+</div>
+</div>
+
+<div id="outline-container-org9f7b0cf" class="outline-5">
+<h5 id="org9f7b0cf">陳腐化する情報技術を後追いするだけの情報リテラシ教育</h5>
+<div class="outline-text-5" id="text-org9f7b0cf">
+</div>
+<div id="outline-container-org77ff8c6" class="outline-6">
+<h6 id="org77ff8c6">バージョンアップのたびに仕事ができなくなる</h6>
+</div>
+
+<div id="outline-container-org5a5a793" class="outline-6">
+<h6 id="org5a5a793">新機能も用途がわからなければ意味がない</h6>
+</div>
+
+<div id="outline-container-org1a9c9aa" class="outline-6">
+<h6 id="org1a9c9aa">10年前, 20年前とさほど変わらないパソコン利用</h6>
+</div>
+
+<div id="outline-container-orgb432617" class="outline-6">
+<h6 id="orgb432617">IT 弱者に必要なのは IT アレルギーの解消と原理教育</h6>
+</div>
+</div>
+
+<div id="outline-container-orgf4c046d" class="outline-5">
+<h5 id="orgf4c046d">教育の IT と IT の教育とが区別できていない教育現場</h5>
+<div class="outline-text-5" id="text-orgf4c046d">
+</div>
+<div id="outline-container-org871477a" class="outline-6">
+<h6 id="org871477a">「教育のIT」で浮かび上がる「ITの教育」の重要性</h6>
+</div>
+
+<div id="outline-container-orgc3eac46" class="outline-6">
+<h6 id="orgc3eac46">教育革命とともにコピペ論文を生み出す「教育のIT」の功罪</h6>
+</div>
+
+<div id="outline-container-org50ae996" class="outline-6">
+<h6 id="org50ae996">「教育のIT」は教える側への「ITの教育」も必要とする</h6>
+</div>
+
+<div id="outline-container-org77fe582" class="outline-6">
+<h6 id="org77fe582">「教育のIT」に必要なのは IT の使い方ではなく IT との付き合い方</h6>
+</div>
+</div>
+
+<div id="outline-container-org1e7ef67" class="outline-5">
+<h5 id="org1e7ef67">「読み書きそろばん」の力を落としかねない IT 教育のジレンマ</h5>
+<div class="outline-text-5" id="text-org1e7ef67">
+</div>
+<div id="outline-container-org0b2e718" class="outline-6">
+<h6 id="org0b2e718">全世代に見られる読み書きそろばん能力の低下</h6>
+</div>
+
+<div id="outline-container-orgdc08896" class="outline-6">
+<h6 id="orgdc08896">手書き機会現象によるボキャブラリの貧弱化</h6>
+</div>
+
+<div id="outline-container-org10a7ca3" class="outline-6">
+<h6 id="org10a7ca3">電子メールに代表される書き言葉の話し言語化</h6>
+</div>
+
+<div id="outline-container-orgff5fff5" class="outline-6">
+<h6 id="orgff5fff5">計算式との交換で失った筆算の計算プロセス</h6>
+</div>
+</div>
+
+<div id="outline-container-orgf030fac" class="outline-5">
+<h5 id="orgf030fac">IT重視の情報リテラシ教育がもたらしたもの</h5>
+<div class="outline-text-5" id="text-orgf030fac">
+</div>
+<div id="outline-container-orgb4c33d2" class="outline-6">
+<h6 id="orgb4c33d2">無から有を生み出す想像力の喪失</h6>
+</div>
+
+<div id="outline-container-org6638428" class="outline-6">
+<h6 id="org6638428">意見衝突を通じて成長しあう対話力の喪失</h6>
+</div>
+
+<div id="outline-container-org3b990cf" class="outline-6">
+<h6 id="org3b990cf">相手の立場になって考える想像力の喪失</h6>
+</div>
+
+<div id="outline-container-org60b9767" class="outline-6">
+<h6 id="org60b9767">季節の変化や人情の機微を感じ取る感性の喪失</h6>
+</div>
+
+<div id="outline-container-org47d6f3e" class="outline-6">
+<h6 id="org47d6f3e">アルファの存在に気づく分析力の喪失</h6>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0ec80d0" class="outline-4">
+<h4 id="org0ec80d0">11章 情報リテラシ教育のあるべき姿</h4>
+<div class="outline-text-4" id="text-org0ec80d0">
+</div>
+<div id="outline-container-orga3c74ac" class="outline-5">
+<h5 id="orga3c74ac">情報のマネジメント・サイクル（インプット，プロセッシング，アウトプット）から学ぶ</h5>
+<div class="outline-text-5" id="text-orga3c74ac">
+</div>
+<div id="outline-container-org347d76f" class="outline-6">
+<h6 id="org347d76f">情報発信は形のないものづくり</h6>
+</div>
+
+<div id="outline-container-orge23199b" class="outline-6">
+<h6 id="orge23199b">新鮮な素材と正しいレシピ，そして情報リテラシ</h6>
+</div>
+
+<div id="outline-container-org5772e5e" class="outline-6">
+<h6 id="org5772e5e">わがままの押し付けか，思いやりのもてなしか</h6>
+</div>
+
+<div id="outline-container-org3621002" class="outline-6">
+<h6 id="org3621002">アウトプットに対するフィードバックというインプット</h6>
+</div>
+
+<div id="outline-container-orgb3559b1" class="outline-6">
+<h6 id="orgb3559b1">気づき合い，学び合いのマネジメント・サイクル</h6>
+</div>
+</div>
+
+<div id="outline-container-org4cd2888" class="outline-5">
+<h5 id="org4cd2888">情報が持つ意味を考える地アタマ力を養う</h5>
+<div class="outline-text-5" id="text-org4cd2888">
+</div>
+<div id="outline-container-org58fe9dd" class="outline-6">
+<h6 id="org58fe9dd">抽象的な言葉には無数の具体的な意味がこめられている</h6>
+</div>
+
+<div id="outline-container-org7d3aa05" class="outline-6">
+<h6 id="org7d3aa05">具体的な言葉には共通する抽象的な意味が横たわっている</h6>
+</div>
+
+<div id="outline-container-org2e7e92c" class="outline-6">
+<h6 id="org2e7e92c">一つ一つの言葉の意味を噛みしめるように確かめる</h6>
+</div>
+
+<div id="outline-container-orge88947a" class="outline-6">
+<h6 id="orge88947a">考えてから話す，聞いた話を咀嚼する</h6>
+</div>
+</div>
+
+<div id="outline-container-org92ec06f" class="outline-5">
+<h5 id="org92ec06f">ITに偏らない多様な情報対応力を身につける</h5>
+<div class="outline-text-5" id="text-org92ec06f">
+</div>
+<div id="outline-container-orgac1a517" class="outline-6">
+<h6 id="orgac1a517">対面だからこそできる真摯に聞くこと</h6>
+</div>
+
+<div id="outline-container-org9bb7a4d" class="outline-6">
+<h6 id="org9bb7a4d">体験してはじめてわかる人の喜びや悲しみ</h6>
+</div>
+
+<div id="outline-container-org47dfcfc" class="outline-6">
+<h6 id="org47dfcfc">人間力にこだわるリッツカールトンとディズニーランドの凄味</h6>
+</div>
+
+<div id="outline-container-orgaff10dc" class="outline-6">
+<h6 id="orgaff10dc">なんの偏見もなく自分の頭で答えを出すという難しさ</h6>
+</div>
+
+<div id="outline-container-org0121801" class="outline-6">
+<h6 id="org0121801">限界を知っているからこそ使いこなせるIT</h6>
+</div>
+</div>
+
+<div id="outline-container-org1179e5e" class="outline-5">
+<h5 id="org1179e5e">情報発信における品質保証と文責意識を形成する</h5>
+<div class="outline-text-5" id="text-org1179e5e">
+</div>
+<div id="outline-container-org598bb25" class="outline-6">
+<h6 id="org598bb25">言いっぱなし，聞き流しがもたらす思考力の喪失</h6>
+</div>
+
+<div id="outline-container-org544505a" class="outline-6">
+<h6 id="org544505a">いい加減な伝聞に振り回される人々</h6>
+</div>
+
+<div id="outline-container-orgff2e31b" class="outline-6">
+<h6 id="orgff2e31b">極大と最大を区別しない予言予測のいい加減さ</h6>
+</div>
+
+<div id="outline-container-orgd942b12" class="outline-6">
+<h6 id="orgd942b12">発生確率を表現する話し方</h6>
+</div>
+
+<div id="outline-container-org3d3deb8" class="outline-6">
+<h6 id="org3d3deb8">自分の発信に責任を持つという意味</h6>
+</div>
+</div>
+
+<div id="outline-container-org72540dc" class="outline-5">
+<h5 id="org72540dc">ハウツーではなく考え方重視による陳腐化しない IT リテラシへ</h5>
+<div class="outline-text-5" id="text-org72540dc">
+</div>
+<div id="outline-container-orgfa1c570" class="outline-6">
+<h6 id="orgfa1c570">ITリテラシ教育がITリテラシを低下させるという矛盾</h6>
+</div>
+
+<div id="outline-container-org3df62b3" class="outline-6">
+<h6 id="org3df62b3">ハウツー重視の教育が抱える限界と問題</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: suzuki@iwate-u.ac.jp</p>
+<p class="date">Created: 2022-12-02 金 19:58</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
