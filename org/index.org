@@ -4,24 +4,31 @@
 
 [[http://masayuki054.hatenablog.com/entry/2019/12/09/102219][放送大学 面接講義 (岩手 2022，2020, 2019, 2018) - masayuki054's diary]]
 
-* 1-序 
+* 0 序 
 
-** 配布資料
-   - USB メモリの ict フォルダに以下のものが入っています：
+** 配布資料 (USBメモリ)
 
-     - この文書 (story.html) 
-     - Maps フォルダにマインドマップ
+- USB メモリの ict フォルダに以下のものが入っています：
 
-     ご自分のUSBメモリをお持ちでしたら，コピーして，ご自分のものをお使
-     いください。
+  - この文書 (story.html)
+  - 利用するサイトへのリンク (links.html)    
+  - 文書やマップのタイトルとリンク (docs.html)
+  - Maps フォルダ, i_maps フォルダ
+    マインドマップが入っています。
+    - 拡張子が .xmind のものは XMind で開けます
+    - 拡張子が .pdf のものはPDF文書です
+    - 拡張子が .html のものはウェブブラウザで開けます
+    - それ以外は，(タブン) 画像です
+  - docs フォルダ
+    解説文書が入っています
 
-   - [[https://drive.google.com/drive/u/0/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]] 
+ご自分のUSBメモリをお持ちでしたら，コピーして，ご自分のものをお使いく
+ださい。
 
 ** 参考サイト
-
    - 2019のこと クラウドと知的情報処理 
      - [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 
-     - [[./Maps/crowdと情報リテラシー.xmind]]
+     - [[./Maps/cloudと情報リテラシー.xmind]]
 
    - 2018のこと 思考技術とメモ
      -  [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] (Webページ)
@@ -33,129 +40,176 @@
 
 ** 講義の概要
 
-   [[./Maps/メモと思考のためのICTの活用.xmind]]
+[[./Maps/メモと思考のためのICTの活用.xmind]]
 
 *** ねらい 
 
-    知的な 情報の 処理の 実践的な 演習 
+知的な 情報の 処理の 実践的な 演習 
 
 *** ICT技術
-    - 人とコンピュータとインターネットが協調するためのデジタル技術
+
+- 人とコンピュータとインターネットが協調するためのデジタル技術
   
 *** 思考技術
 
-    考えるためのフレームワーク(枠組み)
+- 考えるためのフレームワーク(枠組み)
 
-    - 考えるための幾つかの態度がある
+  - 考えるための基本操作がある
 
-    - 考えるための7つのステップがある
+  - 考えるための幾つかの方法や態度がある
 
-    - 考え続けるための方法がある
+  - 考えるための7つのステップがある
+
+  - 考え続けるための方法がある
 
 *** 情報リテラシ
 
-    情報リテラシとは，ICT技術と協調した思考技術のこと
+- 情報リテラシとは，ICT技術と協調した思考技術のこと
 
 ** 聴講のし方
 
-  講義の前半で、メモと思考のためのツールを紹介します。講義内容をメモ
-  し、考えながら受講してください。
+講義の前半で、メモと思考のためのツールを紹介します。講義内容をメモし、
+考えながら受講してください。
 
-  講義を通して，いろいろな考え方を紹介し，私の理解や参考資料をお見せ
-  します。 一緒に考え，自分の理解や考えをメモにまとめてください。
+講義を通して，いろいろな考え方を紹介し，私の理解や参考資料をお見せしま
+す。 一緒に考え，自分の理解や考えをメモにまとめてください。
 
-  - 自分流でかまいません，できれば，章ごとに一枚の紙を使って，
-    マインドマップ形式のメモを描いてほしいです。
+- 手書きのメモでもかまいません，できれば，章ごとに一枚の紙を使って，マ
+  インドマップ形式のメモを描いてほしいです。
 
-    最初は紙と色鉛筆で手描きで，なれてくれば XMind 2020 を使ってみま
-    しょう。
+  最初は紙と色鉛筆で手描きで，なれてくれば XMind 2020 を使ってみましょ
+  う。
 
-    講師のXMindマップをダウンロードして，それに追加や編集を加えるの
-    も推奨します。
+  講師のXMindマップをダウンロードして，それに追加や編集を加えるのも推
+  奨します。
 
-  - アウトライナー を使うのもお勧めです。後で，Web アプリの
-    Dynalistについて紹介します。
+- 2時限目にマインドマップを描くためのアプリ XMind の説明をします。
+  XMindを使ってメモを作成してほしいです。
+  
+- アウトライナーを使うのもお勧めです。XMindのアウトライン機能を使いま
+  しょう。
 
-    参照資料をコピペして，構造化して，自分のメモを作成する方法
-    はお勧めです。
+  参照資料をコピペして，構造化して，自分のメモを作成する方法
+  はお勧めです。
 
-  - マップとアウトラインの変換も可能です。後で説明します。
+講義の最後に，自分の講義メモを振り返り，見直し・修正し，自分の意見・感
+想を書いて，レポートとして提出してください。
 
-  講義の最後に，自分の講義メモを振り返り，見直し・修正し，自分の意見・
-  感想を書いて，レポートとして提出してください。
+
 
 ** 確認事項 インターネット関連
 
-   [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] の受講の準備を参考にしてください：
-
 *** ブラウザ
 
-     [[https://support.google.com/chrome/?hl=ja][Google Chrome ヘルプ]] 
+[[https://support.google.com/chrome/?hl=ja][Google Chrome ヘルプ]] 
 
-     [[https://www.atmarkit.co.jp/ait/articles/1711/20/news029.html][初めてのChrome：インストールと初期設定、基本的な使い方]]
+[[https://www.atmarkit.co.jp/ait/articles/1711/20/news029.html][初めてのChrome：インストールと初期設定、基本的な使い方]]
 
-     - Google Chrome を動かしましょう
-     - Google にログインしましょう: https://google.com 
+- Google Chrome を動かしましょう
+- Google にログインしましょう: https://google.com 
 
 *** Googleアカウントの確認
 
-    学生番号@campus.ouj.ac.jp  があなたの Google ID です。
+学生番号@campus.ouj.ac.jp  があなたの Google ID です。
 
-    Googleにログインし，メールを確認しましょう:
+Googleにログインし，メールを確認しましょう:
 
 *** Google ドライブを使ってみよう
 
-    自分のマイドライブ (https://drive.google.com/drive/my-drive) に
+自分のマイドライブ (https://drive.google.com/drive/my-drive) に
 
-     - 「メモと思考のためICTの活用」という名前のフォルダを新規作成
+- 「メモと思考のためICTの活用」という名前のフォルダを新規作成
 
-     - そのフォルダの共有設定する
-       - フォルダを右クリックして，メニューから，「共有」を選ぶ
-       - 講師 (msyk054@gmail.com) を招待してください
+- そのフォルダの共有設定する
+  - フォルダを右クリックして，メニューから，「共有」を選ぶ
+  - 講師 (msyk054@gmail.com) を招待してください
 
-    このフォルダをレポート提出に使います。
+    * このフォルダをレポート提出に使います *。
 
 *** 講義での共有フォルダ
 
-    - 共有フォルダ2022 [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
+- 共有フォルダ2022 [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
 
-    - 共有フォルダ2020 [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][メモのための思考とICTの活用 - Google ドライブ]]
 
-*** Web アウトライナーへの登録
+* 1. わかるとは
+
+- 「わかる」ことは，心や脳が行なう思考の目的
+   [[./i_maps/理解について考えた_imap.pdf][理解について考えた_imap.pdf]]
+   
+- ある概念が「わかっている」，とは
+  - 自分または他の人に説明するために，
+  - 必要な言葉が思い出され，
+  - その言葉を用いた適切な説明ができる
+  - 用いた言葉についてもわかっている
   
-    https://dynalist.io を開いて，Googleアカウントでログインしましょ
-    う。
+** わかるとは，どういうことか
+[[https://www.chikumashobo.co.jp/product/9784480059390/][筑摩書房 「わかる」とはどういうことか ─認識の脳科学 / 山鳥 重 著]]
 
-    - [[https://316-jp.com/dynalist-signup][クラウドアウトライナー「Dynalist」の新規登録方法│G-NOTE]]
+- [[./Maps/わかるとは.xmind]] (読書ノート，本の章立て)
+  - 思考の方法，メモの取り方，検索方法，の拠り所
+  - 心象と記号と記憶
+  - いろいろな記憶
+  - わかるとは
 
+    - 心象間のつながりができ，記憶と心象の篩の網目ができる
+    - 知覚により，記憶の網の目が，心象として現われる
+    
+  - いろいろなわかり方がある
+    
+* 1.5 放送大学のPCの使い方
 
-* 2-アプリ
+[[./Maps/放送大学のPCの使い方.xmind]]
 
-** ブラウザ
+- Windows
+  - 同時にたくさんのアプリを使うので切り替え方を覚えてください 
+    
+- ウェブ・ブラウザ
+  - タブ・ブラウズ
+- マインドマップ
+  - XMind
+- アウトライナー
+  - XMind
 
+- PCへのログインは，共通アカウントを使っている
+- WAKABAへのログイン，Googleアカウント自分のID
+
+  学生番号@campus.ouj.ac.jp
+
+- Googleの利用
+  - アカウントの確認
+  - ドライブと講師とのファイル共有
    - Google, mail, drive, ...
    - ブラウザ login/sync
    - 情報共有場所 [[https://drive.google.com/drive/folders/0BwUWvGKIXA9POG84VG5tLXBSQ3c][放送大学 - Google ドライブ]] [[https://drive.google.com/drive/folders/1VrANCgTBlWUmCu63tS9SBzPuk8MJKxRd][メモと思考のためのICTの活用2022 - Google ドライブ]]
    - 講義資料配布 [[https://drive.google.com/drive/folders/1IUxFwHI1Do8sTtiSJqqhqrYHShzBc821][00ーせんせい - Google ドライブ]] [[https://drive.google.com/drive/folders/18yM4_F7QwHjAfKLQjcUeOUPYLKeL7U71][00せんせい - Google ドライブ]]
 
-     [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
+* 2-Mindmapアプリ
 
 ** XMind 2020 
 
-   下記の動画を見てXMind 2020 を使ってみましょう：
+XMindを使いながら，XMindの使い方とマインドマップの作り方を学び，
+学んだことをマインドマップにまとめましょう。
+
+- [[https://tcd-theme.com/2018/06/how-to-use-xmind.html?gclid=CjwKCAiAmuKbBhA2EiwAxQnt76oYq7f5RicMOoKOTwxJrQEsd1M8xZlSbjDxhPmzAIjamh58PdYPJxoC7McQAvD_BwE][思い浮かんだアイディアをその場で視覚化するマインドマップツール「XMind」]]
+
+  - まず，上記のページに目を通しましょう。どんなものなのか，使い方を知
+    りましょう。
+  - 次に，自分で読みながら，使い方を Mindmap にまとめましょう
+  - まとめたものを，XMindの使い方.xmind という名前のファイルにし，自分の課題提出フォル
+    ダに提出してください。
+    - 講義終了時に完成をめざし，改良していってください。
 
 - [[https://www.youtube.com/watch?v=ulp8okn7kAQ][【超初心者でも大丈夫】Xmind概要と使い方（2倍速視聴がオススメ） -
   YouTube]]
+  - 動画に従ってマップを作成してみましょう。
+  - XMindの使い方.xmind を改良してください。
 
-- [[https://tcd-theme.com/2018/06/how-to-use-xmind.html?gclid=CjwKCAiAmuKbBhA2EiwAxQnt76oYq7f5RicMOoKOTwxJrQEsd1M8xZlSbjDxhPmzAIjamh58PdYPJxoC7McQAvD_BwE][思い浮かんだアイディアをその場で視覚化するマインドマップツール「XMind」]]  
+下記のサイトを読んで，使い方を確認しましょう：
 
-  下記のサイトを読んで，使い方を確認しましょう：
+- [[https://kousen-hp.jp/xmind-zen-howto/][【使い方まとめ】XMind 2020（エックスマインド2020）は情報整理のアルテマウェポン！マインドマップの作り方から仕事に活かす整理術 | 格安ホームページ制作の広告宣伝HP]]
 
-  - [[https://iiv.ne.jp/xmind-zen-howto/][【使い方まとめ】XMind 2020（エックスマインド2020）は情報整理のアルテマウェポン！マインドマップの作り方から仕事に活かす整理術 - ウェブ仕事術イーブイ]]
 
-  XMindをアウトライナーとして使うことも可能です:
-
-** dynalist
+** dynalist (2022年度は省きます)
 
    ブラウザで Dynalist を動かして，下記サイトを見ながら，Dynalist を
    使ってみましょう。
@@ -165,12 +219,19 @@
 
   使い方をDynalist でまとめましょう:
 
-
-
   下記のサイトも参考にしてください：
   - [[https://316-jp.com/dynalist-manual][【Web版・日本語訳】Dynalistの使い方・機能・ショートカットキー一覧│G-NOTE]]
+    
 
+** XMindをアウトライナーとして使うことも可能です:
 
+*** XMind をアウトライナーとして使う方法
+
+1. アウトライン・モードを選ぶ
+2. マインドマップのテーマやノードが項目になります
+3. テーマやノードからのブランチが字下げになり，
+4. 同じレベルのブランチ・ノードが箇条項目になります。
+   
 * 3-関係を見る・作る
 
 ** 抽象化と詳細化
@@ -178,21 +239,42 @@
 [[https://www.youtube.com/watch?v=0PFHR3lXyQE][(1) 【本要約】「具体⇄抽象」トレーニング 思考力が飛躍的にアップする29問 - YouTube]] (9：36)
 
 [[https://www.youtube.com/watch?v=RROOmvwUZMo][(104) 抽象思考を身に着けるための簡単な2つのトレーニング - YouTube]]
-  - これはだめな説明の例
+- これはだめな説明の例と，講師は考えています。
 
- [[http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1][suzuki@cis.iwate-u.ac.jp  抽象化のための手続き]]
+*** 抽象化とは ((s-:)) の理解
 
+講師 ((s-:)) は，プログラミングで抽象を体得しました。
+
+[[http://wiki.cis.iwate-u.ac.jp/~suzuki/lects/commons/abstraction.html#outline-container-sec-1][suzuki@cis.iwate-u.ac.jp  抽象化のための手続き]]
  - 複合
  - 関係
  - 抽象
 
+抽象化と詳細化は，すべての思考活動の基本操作であり，思考過程のメモであ
+り，思考結果(知)の素片だと，((s-:))は考えています。
+ 
+*** 抽象化とは.xmind (課題)
+
+「抽象化とは」について，マインドマップを作成し，レポート提出してくださ
+い
+   
+
 ** 図的思考
 
-   - [[https://books.google.co.jp/books/about/%E5%9B%B3%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E3%81%AA%E3%82%8B.html?id=DSY6DwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false][図で考える。シンプルになる｡ - 櫻田潤 - Google ブックス]]
-   - [[https://www.youtube.com/watch?v=SWsS_sF3EDw][(105) 【図解思考】思考を整理しまとめる「９つの基本形」 - YouTube]]
+図的思考は，あるテーマについての説明を，登場する物を明示し，それらの間
+の関係を簡潔に明示する (by ((s-:)))
+
+*** 図的思考の例
+- [[https://books.google.co.jp/books/about/%E5%9B%B3%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E3%81%AA%E3%82%8B.html?id=DSY6DwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false][図で考える。シンプルになる｡ - 櫻田潤 - Google ブックス]]
+- [[https://www.youtube.com/watch?v=SWsS_sF3EDw][(105) 【図解思考】思考を整理しまとめる「９つの基本形」 - YouTube]]
 
 ** マインドマップ
+
    - [[https://www.youtube.com/watch?v=RPKuF0g6UTY][(105) 【仕事術】凡人でも「一流の仕事」が出来る魔法のツール - YouTube]]
+
+*** マインドマップとは
+- [[./Maps/MindMapping.xmind]] (読書マップ)
+- [[./i_maps/Mindmap勉強ノート_imap.pdf]]
      
 ** マインドマッの学校
    [[https://www.mindmap-school.jp/][考える力と創造する力を楽しく分かりやすく学ぶ - マインドマップの学校]]
@@ -209,9 +291,7 @@
 
   - [[https://www.youtube.com/watch?v=5IUJ-xXOEsI][(104) 【3分で分かる】アウトライナーを使うメリット #Udemy #無料体験 - YouTube]]
 
-
-
-   [[https://www.youtube.com/watch?v=4G_FVAGZvgI][(1) 【論理学】入門 考える技術・書く技術（学校で教えてくれない論理的思考） - YouTube]]
+  - [[https://www.youtube.com/watch?v=4G_FVAGZvgI][(1) 【論理学】入門 考える技術・書く技術（学校で教えてくれない論理的思考） - YouTube]]
 
 * 4-情報リテラシーと思考とメモ
 
@@ -221,54 +301,73 @@
 
 ** 「わかるとは」について考える
 
-   [[https://www.chikumashobo.co.jp/product/9784480059390/][筑摩書房 「わかる」とはどういうことか ─認識の脳科学 / 山鳥 重 著]]
-   の読書メモです：
+[[https://www.chikumashobo.co.jp/product/9784480059390/][筑摩書房 「わかる」とはどういうことか ─認識の脳科学 / 山鳥 重 著]]の読
+書メモです：
      
-   - [[./Maps/わかるとは.xmind]] 読書ノート
+- [[./Maps/わかるとは.xmind]] 読書ノート
 
-  このマップと読んで，下記のマップに自分の考えをまとめてみてください。
+  - このマップを読んでわかるとはについて考えてください。
+  - マップのシートの中に「本の章立て」があります。全て展開すれば，本の
+    章，節の見出しが現われます。
+  - その見出しについて，理解できるかのアイコンをつけてみてください
+  - 理解したことについて，子供ノードに，その内容を書き込んでください。
 
-   - [[./Maps/わかるとはどういうことか.xmind]] 記入用マップ
-
+  書き込んだマップをレポート提出フォルダに(8時限)までに，提出してくだ
+  さい。
 
 ** メモ
+メモとは何か，どんなメモがいいのか，考えましょう。
 
-   下記のページを dynalist にコピペして，ノートの取り方についてまとめ，
-   自分なりに理解し，自分のノートの取り方としてまとめてみましょう:
+- [[./Maps/メモ.xmind]]
+- [[./i_maps/メモとは_imap.pdf][メモとは_imap.pdf]]
+- [[./i_maps/メモと思考について考えたこと_imap.pdf][メモと思考について考えたこと_imap.pdf]]  
 
-   - [[https://studyhacker.net/how-to-take-notes][わかりやすいノートの取り方・6つのルール - STUDY HACKER｜これからの学びを考える、勉強法のハッキングメディア]]
+** 思考とは
+[[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 参照
+*** 思考法
+[[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 参照
+- [[./docs/thinking-wikipedia.org][思考法 (wikipediaのまとめ)]]
+- [[./docs/abstraction.org][抽象化]]
+- [[./docs/visual_thinking.org][図的思考]]
+  - [[./i_maps/図で考える_imap.pdf][図で考える_imap.pdf]]
+  - [[./i_maps/図で考えるの7つの図.pdf][図で考えるの7つの図.pdf]]    
+- [[./docs/arts_of_thinking_resume.org][知的思考の技術]]
+  - [[./i_maps/理解について考えた_imap.pdf][理解について考えた_imap.pdf]]
+  - [[./i_maps/知的思考の技術勉強_imap.pdf][知的思考の技術勉強_imap.pdf]]
+- [[./docs/水平思考.org][水平思考]]
+- [[./docs/logical-thinking.org][論理的思考]]
+- [[./docs/critical_thinking.org][批判的思考]]
+- [[./docs/computational_thinking.org][計算的思考]]
+- 発想
+  
+*** 思考とは
+- 抽象化と詳細化が基本
 
-   [[./Maps/メモ.xmind]] も参考にしてください。
+- 読み解くための思考
 
+  - 論理的思考
 
-** 思考とは  [[https://masayuki054.github.io/cloud_and_information_literacy/talk.html][クラウドと情報リテラシー]] 参照
+  - 批判的思考    
 
-  - 抽象化と詳細化が基本
+    批判的に考えるとは [[https://yumenavi.info/lecture.aspx?GNKCD=g004227][夢ナビ 大学教授がキミを学問の世界へナビゲート]]
 
-  - 読み解くための思考
+- 生み出すための思考
+  - 発想するとは
+  - 発想法
+  - 放射思考 
 
-    - 論理的思考
-
-    - 批判的思考    
-
-      批判的に考えるとは [[https://yumenavi.info/lecture.aspx?GNKCD=g004227][夢ナビ 大学教授がキミを学問の世界へナビゲート]]
-
-  - 生み出すための思考
-
-    - 発想するとは
-
-    - 発想法
-
-
-** 思考態度
-
+- 思考の方向
   - 垂直思考
   - 水平思考
 
+** 思考技術 (思考過程) 
 
-** 思考技術 (思考過程)  [[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] 参照
+[[https://masayuki054.github.io/tools_for_thinking_and_memo/talk.html][メモと思考とデジタルツール]] 参照
+- [[./docs/arts_of_thinking_resume.org][知的思考の技術]]
+  - [[./i_maps/理解について考えた_imap.pdf][理解について考えた_imap.pdf]]
+  - [[./i_maps/知的思考の技術勉強_imap.pdf][知的思考の技術勉強_imap.pdf]]
 
-   思考の過程は，次の7つののステップからなります：
+思考の過程は，次の7つののステップからなります：
    
   - 目的の探索
     - 抽象化と詳細化
@@ -289,38 +388,66 @@
 
   7つのステップのマップを作成し，自分の理解を書き込んでください。
 
+** 知的情報リテラシー
+溢れる情報を読み解き発信する技術のことです。
 
-* 5-アウトライナと批判的思考演習
+データと情報と知識の違いを知る，知識から情報へ，情報発信など，思考法と
+関連が深いと考えとりあげました。
 
-  下記のサイトを批判的に読んでまとめを作り，批判的思考について自分の理
-  解をつくりましょう：
+講師は，「知的情報リテラシー」は「ICTを用いた知的思考」のことだと考え
+ています。
+
+ [[https://www.amazon.co.jp/%E6%96%B0%E8%AA%AC-%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%86%E3%83%A9%E3%82%B7%E3%83%BC%E2%80%95%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E6%99%82%E4%BB%A3%E3%82%92%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%B9%E3%82%AD%E3%83%AB-%E6%9D%89%E6%B5%A6-%E5%8F%B8/dp/4862831494]["新説 情報リテラシー―ソーシャル時代を生き抜くための情報スキル | 杉浦司"]]
+
+- [[./Maps/新説情報リテラシー.xmind]] 
+- [[./i_maps/情報リテラシ_imap.pdf][情報リテラシ_imap.pdf]] 手書き読書マップ
+- [[./docs/新説情報リテラシー-概要.org][新説情報リテラシー概要]]
+  - [[./docs/新説情報リテラシー-序.org][新説情報リテラシー序]] 
+  - [[./docs/新説情報リテラシー-11.org][新説情報リテラシー(11章)]]
+
+を使って筆者の考える情報リテラシーとは何かを，読み解いていきましょう。
+
+自分の解釈や理解のメモを作成してください。
+
+
+
+* 5-批判的思考とアウトライナ
+
+** 批判的思考とは
+
+下記のサイトを批判的に読んでまとめを作り，批判的思考について自分の理解
+をつくりましょう：
   
-  -  [[https://xn--tcke8gsdh0c7c.com/criticalthinking][４.【具体例で解説】クリティカルシンキングとは？批判的思考の意味と実践方法 | フリーコンサル.com]]
-  - [[https://masayuki054.github.io/cloud_and_information_literacy/docs/critical_thinking.html][クラウドと情報リテラシー 批判的思考]]    
+-  [[https://xn--tcke8gsdh0c7c.com/criticalthinking][４.【具体例で解説】クリティカルシンキングとは？批判的思考の意味と実践方法 | フリーコンサル.com]]
+
+** 良き市民のための批判的思考
+原著を読んでいる時間はないので，下記の要約を読んで理解しましょう。
+
+- [[https://masayuki054.github.io/cloud_and_information_literacy/docs/critical_thinking.html][クラウドと情報リテラシー 批判的思考]]    
 
   読み解く，自分の知識とできるかの批判的思考の実践
 
-* 6-継続のための技術の批判的思考演習
+** xmind のアウトライン機能
+
+* 6-思考を継続するための思考とメモの技術 
 
   継続のための技術について，批判的に読み，自分の知識をアウトライナーか
   マインドマップにまとめましょう。
 
 ** ストレス対処法
 
-   下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
-   う:
+下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょう:
 
-   [[https://www.lifehacker.jp/2013/02/130214overcome_stress.html][成功する人の｢9のストレス対処法｣ | ライフハッカー［日本版］]]
+[[https://www.lifehacker.jp/2013/02/130214overcome_stress.html][成功する人の｢9のストレス対処法｣ | ライフハッカー［日本版］]]
 
 ** ストレスを貯めない
 
-   下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょ
-   う:
+下記サイトを読んで，マップかアウトラインに簡単な理解を作成しましょう:
 
   [[https://www.youtube.com/watch?v=nSlVRjGGpH4][(104) 【５分】はじめてのGTDストレスフリーの整理術を学ぼう！（最も
   優れたタスク管理のひとつ） - YouTube]]
-   
-  [[https://www.youtube.com/watch?v=vrcsQLpCbIE][(104) 【超入門】マインドマップでタスク管理ができる簡単な手順 -
+  
+[[https://www.youtube.com/watch?v=vrcsQLpCbIE][(104) 【超入門】マインドマップでタスク管理ができる簡単な手順 -
   YouTube]]  GTDとマインドマップ
 
 * 7-新情報リテラシー
@@ -337,37 +464,10 @@
 
   - [[https://honto.jp/cp/hybrid/writers-interview/004-fujiharakazuhiro.html][藤原和博 honto+インタビュー - honto+]] のまとめ (dynalist または mindmap)
 
-  - 講義の感想 (dynalist または mindmap)
+  - 講義の感想 (mindmap)
 
-  - 作成した資料一覧
-
-
-* その他の資料
-
-** レポートの書き方
-
-*** 京大 紅
-
-    - [[https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/250143][Kyoto University Research Information Repository: レポートの書き方 --アカデミック・ライティングのポイント--]]
-      - [[https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/250143/1/writing.pdf][writing.pdf]]
-
-*** 2. 「大学生らしいレポートの書き方」のレポート
-
-    - [[https://www.report.gusoku.net/kihon/][大学レポートの書き方：基本編]] 1~5, 7~8を読んで，
-      要約をアウトラインにまとめる。
-
-    - 要約から，「大学生らしいレポートの書き方」のレポートを作成する。
-     
-
-** 思考方法
-
-   - [[https://sugimuratakashi.com/giron/][クリティカルシンキング（批判的思考）とは？具体例とトレーニング方法]]
-
-   - [[http://www.nikkei.com/article/DGXNASFK2602U_W2A221C1000000/][知識にだまされない　「思考の技術」の身に付け方　ちきりんさんインタビュー　：日本経済新聞]]
-
-   - [[https://xn--tcke8gsdh0c7c.com/mece][【MECE完全理解】フレームワーク10選と具体例で徹底解説 | フリーコンサル.com]]
-
-   - [[https://www.kaonavi.jp/dictionary/mece/][【ロジカルシンキング】MECE（ミーシー）とは？ 基本概念とフレームワーク活用法 - カオナビ人事用語集]]
+  - 作成したメモすべて
+    - 手書きのものはコピーを提出してください
+      
 
 
-    

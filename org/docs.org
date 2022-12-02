@@ -3,83 +3,113 @@
 #+AUTHOR: 鈴木正幸，非常勤講師
 
 
-* メモと思考のためのICTの活用's リンク
+* メモと思考のためのICTの活用's 文書
 
-- [[https://dynalist.io/d/CBNzT1M1WuIm5zfY29bJyDLc][2020 suzuki's 面接講義 - Dynalist]]
-- [[https://drive.google.com/drive/folders/1RD4S9U7stZtZcG1aWb72AyQlMKR4Bx6c][思考とメモのためのICTの活用 - Google ドライブ]]
-- [[https://masayuki054.github.io/cloud_and_information_literacy/docs][クラウドと情報リテラシー ドキュメント一覧]]
+** 配布USB内のフォルダ
+- [[./Maps]] Xmind マインドマップ
+- [[./docs]] 用語やテーマについての説明
+- [[./i_maps]] 手書きマップや画像
 
-     
-** わかるとは
-- [[./Maps/わかるとは-テンプレート.xmind]]
-- [[./Maps/わかるとは.xmind]]
-- [[./Maps/わかるとはどういうことか.xmind]]
-
-- [[./Maps/06-メモ.xmind]]
-- [[./Maps/07-ideaを生み出す技術.xmind]]
-- [[./Maps/08-MindMapping.xmind]]
-- [[./Maps/2019-x_maps]]
-- [[./Maps/ICTの目的.xmind]]
-- [[./Maps/Web進化論.xmind]]
-- [[./Maps/crowdとは.xmind]]
-- [[./Maps/crowdと情報リテラシー.xmind]]
-
-- [[./Maps/x_maps2018]]
-- [[./Maps/メモ.xmind]]
+** これまでの面接講義内容
 - [[./Maps/メモと思考とdigital技術ー2018ー講義内容.xmind]]
+  - [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
+
 - [[./Maps/メモと思考のためのICTの活用.xmind]]
 - [[./Maps/思考とメモと情報処理とICT.xmind]]
-- [[./Maps/思考とメモと文書のためのdigital_tools.xmind]]
-- [[./Maps/思考とメモと文書のためのdigital・tool.xmind]]
-- [[./Maps/放送大学のPCの使い方.xmind]]
-    
+  
+     
+** わかるとは
+- [[./Maps/わかるとは.xmind]] (本の章立て含む)
+- [[./Maps/わかるとはどういうことか.xmind]]
 
-** 共有文書
-- [[./docs/gtd-related.org][GTD関連事項]]
-
-- [[./docs/idea.org][アイディア]]
+** メモについて
+- [[./Maps/メモ.xmind]]
+- [[./i_maps/メモとは_imap.pdf][メモとは_imap.pdf]]
+- [[./i_maps/メモと思考について考えたこと_imap.pdf][メモと思考について考えたこと_imap.pdf]]  
+  
+** 発想
+アイディアを生み出す *技術*
+- [[./i_maps/発想法_imap.pdf][発想法_imap.pdf]]
 - [[./Maps/ideaを生み出す技術.xmind]]
+  
+** ICT   
+- [[./Maps/ICTの目的.xmind]]
+- [[./Maps/Web進化論.xmind]]
+- [[./Maps/cloudとは.xmind]]
+- [[./Maps/cloudと情報リテラシー.xmind]]
+  
+- [[./Maps/放送大学のPCの使い方.xmind]]
+- 放送大学の[[./docs/pc.org][パソコンについて]]
 
-** 文書のアウトライン処理
+- [[./docs/web.org][ウェブに関する用語ついて]]
+  - [[./docs/markup.org][マークアップ]]
+  - [[./docs/hyper_link.org][ハイパーリンク]]
+- [[./docs/internet.org][インターネット基盤について]]
+  
+** GTD
+- [[./i_maps/僕にとってのGTD_imap.pdf][僕にとってのGTD_imap.pdf]]
+- [[./docs/gtd-related.org][GTD関連事項]]のまとめ
 
+** 文書のアウトラ
 - [[./docs/outline.org][アウトラインについて]]
 - [[./docs/ict_and_outline.org][アウトラインと情報処理]]
 - [[./docs/writing-by-outliner.org][アウトライナーで書く]]
 
-** アウトライナー  
+*** アウトライナー
 - [[./docs/workflowy.org][workflowy (ウェブ・アウトライナー)]]
 - [[./docs/dynalist.org][ダイナリスト (ウェブ・アウトライナー)]]
-- [[./docs/xmind.org][Xmindについて]]
-- [[./docs/mindmup.org][mindmup (ウェブ・アウトライナー)]]
 - [[./docs/org-mode.org][org-mode (Emacs のアウトライン機能)]]
   
+** Mindmap
+- [[./docs/xmind.org][Xmindについて]]
+- [[./Maps/MindMapping.xmind]]
+- [[./i_maps/Mindmap勉強ノート_imap.pdf][Mindmap勉強ノート_imap.pdf]]  
 
- 
-- [[./docs/self-introduction.org][自己紹介]]
-
-** 用語
-- [[./docs/pc.org][パソコンについて]]
-- [[./docs/web.org][ウェブについて]]
-- [[./docs/internet.org][インターネット]]
-- [[./docs/markup.org][マークアップ]]
-- [[./docs/hyper_link.org][ハイパーリンク]]
-      
+- [[./docs/mindmup.org][mindmup (ウェブ・アウトライナー)]]
+  
 ** 思考法
 - [[./docs/thinking-wikipedia.org][思考法 (wikipediaのまとめ)]]
 - [[./docs/abstraction.org][抽象化]]
 - [[./docs/visual_thinking.org][図的思考]]
+  - [[./i_maps/図で考える_imap.pdf][図で考える_imap.pdf]]
+  - [[./i_maps/図で考えるの7つの図.pdf][図で考えるの7つの図.pdf]]    
 - [[./docs/arts_of_thinking_resume.org][知的思考の技術]]
-  
+  - [[./i_maps/理解について考えた_imap.pdf][理解について考えた_imap.pdf]]
+  - [[./i_maps/知的思考の技術勉強_imap.pdf][知的思考の技術勉強_imap.pdf]]
 - [[./docs/水平思考.org][水平思考]]
 - [[./docs/logical-thinking.org][論理的思考]]
 - [[./docs/critical_thinking.org][批判的思考]]
 - [[./docs/computational_thinking.org][計算的思考]]
-- 発想
+- [[発想]]
       
 ** 情報リテラシーについて
-- [[./docs/新説情報リテラシー-11.org][新説情報リテラシー(11章)]]
-- [[./docs/新説情報リテラシー-序.org][新説情報リテラシー序]]
-- [[./docs/新説情報リテラシー-概要.org][新説情報リテラシー概要]]
-- [[./docs/information-literacy.org][情報リテラシ]]
 - [[./Maps/新説情報リテラシー.xmind]]
+- [[./i_maps/情報リテラシ_imap.pdf][情報リテラシ_imap.pdf]]
+- [[./docs/information-literacy.org][情報リテラシ]] 新説 情報リテラシ(章建て)
+- [[./docs/新説情報リテラシー-概要.org][新説情報リテラシー概要]]
+  - [[./docs/新説情報リテラシー-11.org][新説情報リテラシー(11章)]]
+  - [[./docs/新説情報リテラシー-序.org][新説情報リテラシー序]]
   
+
+
+* [[./docs/self-introduction.org][自己紹介]]
+- [[./Maps/自己紹介.xmind]]
+
+* 手書きマインドマップ一覧
+(メモと思考とデジタルツールの講義の時の手書きマインドマップ)
+- [[./i_maps/Mindmap勉強ノート_imap.pdf][Mindmap勉強ノート_imap.pdf]]
+- [[./i_maps/ideaの作り方_imap.pdf][ideaの作り方_imap.pdf]]
+- [[./i_maps/発想法_imap.pdf][発想法_imap.pdf]]
+- [[./i_maps/メモとは_imap.pdf][メモとは_imap.pdf]]
+- [[./i_maps/僕にとってのGTD_imap.pdf][僕にとってのGTD_imap.pdf]]
+- [[./i_maps/図で考える_imap.pdf][図で考える_imap.pdf]]
+- [[./i_maps/情報リテラシ_imap.pdf][情報リテラシ_imap.pdf]]
+- [[./i_maps/図で考えるの7つの図.pdf][図で考えるの7つの図.pdf]]
+- [[./i_maps/理解について考えた_imap.pdf][理解について考えた_imap.pdf]]
+- [[./i_maps/知的思考の技術勉強_imap.pdf][知的思考の技術勉強_imap.pdf]]
+[[./i_maps/メモと思考の演習問題_imap.pdf][メモと思考の演習問題_imap.pdf]]
+[[./i_maps/講義内容検討のための_imap.pdf][講義内容検討のための_imap.pdf]]
+- [[./i_maps/メモと思考について考えたこと_imap.pdf][メモと思考について考えたこと_imap.pdf]]
+[[./i_maps/関連するかもしれない事を検討_imap.pdf][関連するかもしれない事を検討_imap.pdf]]
+
+[[./i_maps/all.pdf][all.pdf]] 

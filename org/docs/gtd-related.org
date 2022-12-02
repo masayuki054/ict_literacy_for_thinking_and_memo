@@ -4,6 +4,10 @@
 
 * GTD
 ** 情報元
+
+- GTD®とは - 日本唯一のGTD公式サイト。GTD Japan
+  http://gtd-japan.jp/about
+
 - Getting Things Done - Wikipedia
   https://ja.wikipedia.org/wiki/Getting_Things_Done
 
@@ -13,10 +17,6 @@
 
   GTD処理の流れ図 ーー 分りやすいかも
   https://cdn-atjinji.freetls.fastly.net/wp/wp-content/uploads/2017/10/0f6d84c32f5da39987d6923a9aed1c24.jpg
-
-- GTD®とは - 日本唯一のGTD公式サイト。GTD Japan
-  http://gtd-japan.jp/about
-
 
 ** 生産性アップの金字塔｢GTD｣の理念をおさらい
 
